@@ -89,7 +89,7 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-6xl md:text-8xl lg:text-9xl font-bold text-custom-dark mb-8 md:mb-12 relative z-20 bg-white/80 inline-block px-4 py-2"
           >
-            Jane Noh.
+            Aliyyulman J.
           </motion.h1>
 
           <motion.p
@@ -778,10 +778,10 @@ export default function Home() {
             className="custom-card inline-block px-8 py-6 rounded-lg"
           >
             <a
-              href="mailto:hello@janenoh.com"
+              href="mailto:aliyyulmanj@gmail.com"
               className="text-3xl md:text-4xl font-bold text-custom-dark hover:text-black hover:underline transition-colors"
             >
-              hello@janenoh.com
+              aliyyulmanj@gmail.com
             </a>
           </motion.div>
         </div>
@@ -792,7 +792,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <p className="text-lg">
-              © {new Date().getFullYear()} Jane Noh. {t("All rights reserved.")}
+              © {new Date().getFullYear()} Aliyyulman J. {t("All rights reserved.")}
             </p>
           </div>
 
