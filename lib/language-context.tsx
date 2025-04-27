@@ -50,9 +50,18 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }
 
   // Fungsi untuk mendapatkan terjemahan berdasarkan key
-  const t = (key: string) => {
-    return translations[language][key] || translations["en"][key] || key
+  type TranslationKey = keyof typeof translations["en"];
+
+  function t(key: TranslationKey): string;
+  function t(key: string): string;
+  function t(key: string): string {
+    const lang = translations[language] ? language : "en";
+    const langTranslations = translations[lang] as Record<string, string>;
+    const enTranslations = translations["en"] as Record<string, string>;
+
+    return langTranslations[key] || enTranslations[key] || key;
   }
+
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, t }}>
