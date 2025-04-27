@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
+import { useEffect } from "react"
 
 export default function MoveMoreCaseStudy() {
   const fadeIn = {
@@ -14,6 +15,11 @@ export default function MoveMoreCaseStudy() {
       transition: { duration: 0.6 },
     },
   }
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <main className="bg-custom-cream min-h-screen text-custom-dark">

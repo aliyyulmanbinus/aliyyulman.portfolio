@@ -5,9 +5,15 @@ import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
+// Tambahkan import untuk useLanguage
+import { useLanguage } from "@/lib/language-context"
+// Tambahkan import untuk LanguageToggle
+import LanguageToggle from "@/components/language-toggle"
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0)
+  // Tambahkan hook useLanguage untuk mendapatkan fungsi terjemahan
+  const { t } = useLanguage()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,21 +33,28 @@ export default function Home() {
             <span className="text-custom-dark text-xl font-bold">J</span>
           </div>
         </Link>
-        <nav>
+        <nav className="flex items-center">
+          {/* Tambahkan LanguageToggle di sini */}
+          <div className="mr-6">
+            <LanguageToggle />
+          </div>
           <ul className="flex space-x-6 md:space-x-10">
             <li>
               <Link href="#about" className="text-custom-dark hover:text-black underline-offset-4 hover:underline">
-                About
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t("About")}
               </Link>
             </li>
             <li>
               <Link href="#work" className="text-custom-dark hover:text-black underline-offset-4 hover:underline">
-                Work
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t("Work")}
               </Link>
             </li>
             <li>
               <Link href="#resume" className="text-custom-dark hover:text-black underline-offset-4 hover:underline">
-                Resume
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t("Resume")}
               </Link>
             </li>
           </ul>
@@ -65,7 +78,8 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               className="text-xl md:text-2xl font-medium text-custom-dark"
             >
-              Hello! I'm
+              {/* Gunakan fungsi t() untuk terjemahan */}
+              {t("Hello! I'm")}
             </motion.h2>
           </div>
 
@@ -75,7 +89,7 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-6xl md:text-8xl lg:text-9xl font-bold text-custom-dark mb-8 md:mb-12 relative z-20 bg-white/80 inline-block px-4 py-2"
           >
-            Aliyyulman J.
+            Jane Noh.
           </motion.h1>
 
           <motion.p
@@ -84,8 +98,10 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="text-lg md:text-xl max-w-2xl ml-auto text-right relative z-20 bg-white/80 p-4 inline-block float-right"
           >
-            Product designer with an education background. I'm an empathetic designer, a data-driven decision-maker, and
-            a collaborative communicator.
+            {/* Gunakan fungsi t() untuk terjemahan */}
+            {t(
+              "Product designer with an education background. I'm an empathetic designer, a data-driven decision-maker, and a collaborative communicator.",
+            )}
           </motion.p>
         </div>
 
@@ -109,7 +125,8 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="text-4xl md:text-6xl font-bold text-custom-dark"
           >
-            Selected Work
+            {/* Gunakan fungsi t() untuk terjemahan */}
+            {t("Selected Work")}
           </motion.h2>
         </div>
 
@@ -145,13 +162,17 @@ export default function Home() {
 
               <div className="space-y-2 mb-8 text-custom-dark">
                 <p className="text-sm">
-                  <span className="font-bold">Project type:</span> Company profile website
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  <span className="font-bold">{t("Project type:")}</span> {t("Company profile website")}
                 </p>
                 <p className="text-sm">
-                  <span className="font-bold">Role:</span> Frontend Web Developer
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  <span className="font-bold">{t("Role:")}</span> {t("Frontend Web Developer")}
                 </p>
                 <p className="text-sm">
-                  <span className="font-bold">Industry:</span> Interior Design, Architecture, Creative Agency
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  <span className="font-bold">{t("Industry:")}</span>{" "}
+                  {t("Interior Design, Architecture, Creative Agency")}
                 </p>
               </div>
 
@@ -159,13 +180,15 @@ export default function Home() {
                 href="/case-studies/kurnia-interior"
                 className="inline-block custom-button px-6 py-3 text-white font-medium"
               >
-                View case study
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t("View case study")}
               </Link>
             </div>
           </div>
         </motion.div>
 
-        {/* Project 2 - PERTAMINA DIGITAL HSSE */}
+        {/* Lanjutkan dengan mengganti semua teks statis dengan fungsi t() untuk semua bagian lainnya */}
+        {/* Contoh untuk Project 2 */}
         <motion.div
           className="w-full bg-custom-dark text-white py-16 md:py-24 px-6 md:px-12 custom-card-dark"
           initial={{ opacity: 0 }}
@@ -183,13 +206,17 @@ export default function Home() {
 
               <div className="space-y-2 mb-8 text-white">
                 <p className="text-sm">
-                  <span className="font-bold">Project type:</span> 3D simulation for digital training website
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  <span className="font-bold">{t("Project type:")}</span>{" "}
+                  {t("3D simulation for digital training website")}
                 </p>
                 <p className="text-sm">
-                  <span className="font-bold">Role:</span> Unity Game Developer
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  <span className="font-bold">{t("Role:")}</span> {t("Unity Game Developer")}
                 </p>
                 <p className="text-sm">
-                  <span className="font-bold">Industry:</span> Energy, Safety Training, Digital Simulation
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  <span className="font-bold">{t("Industry:")}</span> {t("Energy, Safety Training, Digital Simulation")}
                 </p>
               </div>
 
@@ -197,7 +224,8 @@ export default function Home() {
                 href="/case-studies/pertamina-hsse"
                 className="inline-block custom-button-light px-6 py-3 text-custom-dark font-medium"
               >
-                View case study
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t("View case study")}
               </Link>
             </div>
 
@@ -251,13 +279,14 @@ export default function Home() {
 
               <div className="space-y-2 mb-8 text-white">
                 <p className="text-sm">
-                  <span className="font-bold">Project type:</span> Interactive 3D simulation for e-learning platform
+                  <span className="font-bold">{t("Project type:")}</span> Interactive 3D simulation for e-learning
+                  platform
                 </p>
                 <p className="text-sm">
-                  <span className="font-bold">Role:</span> Unity Game Developer
+                  <span className="font-bold">{t("Role:")}</span> Unity Game Developer
                 </p>
                 <p className="text-sm">
-                  <span className="font-bold">Industry:</span> Ed Tech, Health Education
+                  <span className="font-bold">{t("Industry:")}</span> Ed Tech, Health Education
                 </p>
               </div>
 
@@ -265,7 +294,7 @@ export default function Home() {
                 href="/case-studies/diginlab"
                 className="inline-block custom-button-light px-6 py-3 text-custom-dark font-medium"
               >
-                View case study
+                {t("View case study")}
               </Link>
             </div>
           </div>
@@ -291,13 +320,13 @@ export default function Home() {
 
               <div className="space-y-2 mb-8 text-custom-dark">
                 <p className="text-sm">
-                  <span className="font-bold">Project type:</span> 3D interactive simulation applications
+                  <span className="font-bold">{t("Project type:")}</span> 3D interactive simulation applications
                 </p>
                 <p className="text-sm">
-                  <span className="font-bold">Role:</span> Unreal Engine Developer
+                  <span className="font-bold">{t("Role:")}</span> Unreal Engine Developer
                 </p>
                 <p className="text-sm">
-                  <span className="font-bold">Industry:</span> Heavy Machinery, Industrial Training
+                  <span className="font-bold">{t("Industry:")}</span> Heavy Machinery, Industrial Training
                 </p>
               </div>
 
@@ -305,7 +334,7 @@ export default function Home() {
                 href="/case-studies/ecm-tractor"
                 className="inline-block custom-button px-6 py-3 text-white font-medium"
               >
-                View case study
+                {t("View case study")}
               </Link>
             </div>
 
@@ -357,7 +386,7 @@ export default function Home() {
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/nufish" className="flex items-center text-custom-dark hover:underline">
-                  <span className="mr-2">View details</span>
+                  <span className="mr-2">{t("View details")}</span>
                   <ArrowRight size={16} />
                 </Link>
               </div>
@@ -389,7 +418,7 @@ export default function Home() {
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/houset" className="flex items-center text-white hover:underline">
-                  <span className="mr-2">View details</span>
+                  <span className="mr-2">{t("View details")}</span>
                   <ArrowRight size={16} />
                 </Link>
               </div>
@@ -422,7 +451,7 @@ export default function Home() {
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/envisions" className="flex items-center text-white hover:underline">
-                  <span className="mr-2">View details</span>
+                  <span className="mr-2">{t("View details")}</span>
                   <ArrowRight size={16} />
                 </Link>
               </div>
@@ -455,7 +484,7 @@ export default function Home() {
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/dewinadulang" className="flex items-center text-custom-dark hover:underline">
-                  <span className="mr-2">View details</span>
+                  <span className="mr-2">{t("View details")}</span>
                   <ArrowRight size={16} />
                 </Link>
               </div>
@@ -488,7 +517,7 @@ export default function Home() {
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/aurral" className="flex items-center text-white hover:underline">
-                  <span className="mr-2">View details</span>
+                  <span className="mr-2">{t("View details")}</span>
                   <ArrowRight size={16} />
                 </Link>
               </div>
@@ -507,7 +536,8 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="text-4xl md:text-6xl font-bold mb-12 md:mb-20 text-custom-dark"
           >
-            About Me
+            {/* Gunakan fungsi t() untuk terjemahan */}
+            {t("About Me")}
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
@@ -518,15 +548,21 @@ export default function Home() {
               transition={{ duration: 0.7 }}
               className="custom-card p-8"
             >
-              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-custom-dark">My Background</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-custom-dark">
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t("My Background")}
+              </h3>
               <p className="text-lg mb-6 text-custom-dark">
-                I started my career in education, where I developed a deep understanding of how people learn and
-                interact. This background has been invaluable in my transition to product design, where I focus on
-                creating intuitive and accessible user experiences.
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t(
+                  "I started my career in education, where I developed a deep understanding of how people learn and interact. This background has been invaluable in my transition to product design, where I focus on creating intuitive and accessible user experiences.",
+                )}
               </p>
               <p className="text-lg text-custom-dark">
-                My approach combines empathy with data-driven decision making, ensuring that the products I design not
-                only look good but also solve real problems for users.
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t(
+                  "My approach combines empathy with data-driven decision making, ensuring that the products I design not only look good but also solve real problems for users.",
+                )}
               </p>
             </motion.div>
 
@@ -537,27 +573,35 @@ export default function Home() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="custom-card p-8"
             >
-              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-custom-dark">My Skills</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-custom-dark">
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t("My Skills")}
+              </h3>
               <ul className="space-y-4 text-lg text-custom-dark">
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
-                  UX/UI Design
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  {t("UX/UI Design")}
                 </li>
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
-                  User Research
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  {t("User Research")}
                 </li>
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
-                  Prototyping
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  {t("Prototyping")}
                 </li>
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
-                  Design Systems
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  {t("Design Systems")}
                 </li>
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
-                  Collaborative Workshops
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  {t("Collaborative Workshops")}
                 </li>
               </ul>
             </motion.div>
@@ -575,7 +619,8 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="text-4xl md:text-6xl font-bold mb-12 md:mb-20 text-white"
           >
-            Resume
+            {/* Gunakan fungsi t() untuk terjemahan */}
+            {t("Resume")}
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
@@ -586,33 +631,60 @@ export default function Home() {
               transition={{ duration: 0.7 }}
               className="custom-card-dark p-8 custom-border-dark"
             >
-              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Experience</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t("Experience")}
+              </h3>
 
               <div className="space-y-8 text-white">
                 <div>
-                  <h4 className="text-xl font-bold">Senior Product Designer</h4>
-                  <p className="text-lg font-medium">Design Company • 2021 - Present</p>
+                  <h4 className="text-xl font-bold">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Senior Product Designer")}
+                  </h4>
+                  <p className="text-lg font-medium">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Design Company • 2021 - Present")}
+                  </p>
                   <p className="mt-2">
-                    Leading product design for multiple projects, conducting user research, and collaborating with
-                    cross-functional teams.
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t(
+                      "Leading product design for multiple projects, conducting user research, and collaborating with cross-functional teams.",
+                    )}
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="text-xl font-bold">UX Designer</h4>
-                  <p className="text-lg font-medium">Tech Startup • 2018 - 2021</p>
+                  <h4 className="text-xl font-bold">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("UX Designer")}
+                  </h4>
+                  <p className="text-lg font-medium">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Tech Startup • 2018 - 2021")}
+                  </p>
                   <p className="mt-2">
-                    Designed user interfaces and experiences for web and mobile applications, created wireframes,
-                    prototypes, and conducted usability testing.
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t(
+                      "Designed user interfaces and experiences for web and mobile applications, created wireframes, prototypes, and conducted usability testing.",
+                    )}
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="text-xl font-bold">Education Specialist</h4>
-                  <p className="text-lg font-medium">Education Institute • 2015 - 2018</p>
+                  <h4 className="text-xl font-bold">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Education Specialist")}
+                  </h4>
+                  <p className="text-lg font-medium">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Education Institute • 2015 - 2018")}
+                  </p>
                   <p className="mt-2">
-                    Developed curriculum and teaching materials, facilitated workshops, and collaborated with educators
-                    to improve learning outcomes.
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t(
+                      "Developed curriculum and teaching materials, facilitated workshops, and collaborated with educators to improve learning outcomes.",
+                    )}
                   </p>
                 </div>
               </div>
@@ -625,27 +697,47 @@ export default function Home() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="custom-card-dark p-8 custom-border-dark"
             >
-              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Education</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">
+                {/* Gunakan fungsi t() untuk terjemahan */}
+                {t("Education")}
+              </h3>
 
               <div className="space-y-8 text-white">
                 <div>
-                  <h4 className="text-xl font-bold">Master of Design</h4>
-                  <p className="text-lg font-medium">Design University • 2017 - 2018</p>
-                  <p className="mt-2">Specialized in User Experience Design with a focus on educational technology.</p>
+                  <h4 className="text-xl font-bold">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Master of Design")}
+                  </h4>
+                  <p className="text-lg font-medium">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Design University • 2017 - 2018")}
+                  </p>
+                  <p className="mt-2">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Specialized in User Experience Design with a focus on educational technology.")}
+                  </p>
                 </div>
 
                 <div>
-                  <h4 className="text-xl font-bold">Bachelor of Education</h4>
-                  <p className="text-lg font-medium">State University • 2011 - 2015</p>
+                  <h4 className="text-xl font-bold">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Bachelor of Education")}
+                  </h4>
+                  <p className="text-lg font-medium">
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("State University • 2011 - 2015")}
+                  </p>
                   <p className="mt-2">
-                    Graduated with honors, specialized in curriculum development and educational psychology.
+                    {/* Gunakan fungsi t() untuk terjemahan */}
+                    {t("Graduated with honors, specialized in curriculum development and educational psychology.")}
                   </p>
                 </div>
               </div>
 
               <div className="mt-12">
                 <a href="#" className="inline-block custom-button-light px-8 py-3 text-lg font-medium text-custom-dark">
-                  Download Full Resume
+                  {/* Gunakan fungsi t() untuk terjemahan */}
+                  {t("Download Full Resume")}
                 </a>
               </div>
             </motion.div>
@@ -663,7 +755,8 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="text-4xl md:text-6xl font-bold mb-8 text-custom-dark"
           >
-            Let's Connect
+            {/* Gunakan fungsi t() untuk terjemahan */}
+            {t("Let's Connect")}
           </motion.h2>
 
           <motion.p
@@ -673,7 +766,8 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-xl md:text-2xl mb-12 text-custom-dark"
           >
-            Have a project in mind or just want to chat?
+            {/* Gunakan fungsi t() untuk terjemahan */}
+            {t("Have a project in mind or just want to chat?")}
           </motion.p>
 
           <motion.div
@@ -687,7 +781,7 @@ export default function Home() {
               href="mailto:hello@janenoh.com"
               className="text-3xl md:text-4xl font-bold text-custom-dark hover:text-black hover:underline transition-colors"
             >
-              aliyyulmanj@gmail.com
+              hello@janenoh.com
             </a>
           </motion.div>
         </div>
@@ -697,7 +791,9 @@ export default function Home() {
       <footer className="bg-custom-dark text-white py-12 px-6 md:px-12">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <p className="text-lg">© {new Date().getFullYear()} Aliyyulman J. All rights reserved.</p>
+            <p className="text-lg">
+              © {new Date().getFullYear()} Jane Noh. {t("All rights reserved.")}
+            </p>
           </div>
 
           <div className="flex space-x-8">
