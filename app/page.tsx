@@ -132,7 +132,7 @@ export default function Home() {
 
         {/* Project 1 - Kurnia Interior Studio */}
         <motion.div
-          className="w-full bg-white py-16 md:py-24 px-6 md:px-12 mb-8 custom-card"
+          className="w-full bg-custom-dark py-16 md:py-24 px-6 md:px-12 mb-8 custom-card-dark"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="relative">
               <div className="absolute -top-8 -left-8 w-48 h-48 bg-black/10 -z-10 transform rotate-12 rounded-lg"></div>
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/assets/kurniainterior/kurniainteriorstudiodashboard.png"
                 alt="Kurnia Interior Studio Website"
                 width={800}
                 height={600}
@@ -154,13 +154,13 @@ export default function Home() {
             </div>
 
             <div>
-              <h3 className="text-4xl md:text-5xl font-bold text-custom-dark mb-4">Kurnia Interior Studio Website</h3>
-              <p className="text-lg mb-6 text-custom-dark">
+              <h3 className="text-4xl md:text-5xl font-bold text-white mb-4">Kurnia Interior Studio Website</h3>
+              <p className="text-lg mb-6 text-white">
                 Pembuatan website company profile untuk Kurnia Interior Studio, sebuah studio desain interior yang
                 menampilkan portofolio proyek, layanan desain, serta profil perusahaan.
               </p>
 
-              <div className="space-y-2 mb-8 text-custom-dark">
+              <div className="space-y-2 mb-8 text-white">
                 <p className="text-sm">
                   {/* Gunakan fungsi t() untuk terjemahan */}
                   <span className="font-bold">{t("Project type:")}</span> {t("Company profile website")}
@@ -178,7 +178,7 @@ export default function Home() {
 
               <Link
                 href="/case-studies/kurnia-interior"
-                className="inline-block custom-button px-6 py-3 text-white font-medium"
+                className="inline-block custom-button-light px-6 py-3 text-custom-dark font-medium"
               >
                 {/* Gunakan fungsi t() untuk terjemahan */}
                 {t("View case study")}
@@ -190,7 +190,7 @@ export default function Home() {
         {/* Lanjutkan dengan mengganti semua teks statis dengan fungsi t() untuk semua bagian lainnya */}
         {/* Contoh untuk Project 2 */}
         <motion.div
-          className="w-full bg-custom-dark text-white py-16 md:py-24 px-6 md:px-12 custom-card-dark"
+          className="w-full bg-white py-16 md:py-24 px-6 md:px-12 mb-8 custom-card"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -198,13 +198,13 @@ export default function Home() {
         >
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="order-2 md:order-1">
-              <h3 className="text-4xl md:text-5xl font-bold text-white mb-4">PERTAMINA DIGITAL HSSE DEMO ROOM</h3>
-              <p className="text-lg mb-6 text-white">
+              <h3 className="text-4xl md:text-5xl font-bold text-custom-dark mb-4">PERTAMINA DIGITAL HSSE DEMO ROOM</h3>
+              <p className="text-lg mb-6 text-custom-dark">
                 Pengembangan lebih dari 10 fitur gameplay simulasi 3D untuk website Pertamina Digital HSSE Demo Room
                 menggunakan Unity dan C#.
               </p>
 
-              <div className="space-y-2 mb-8 text-white">
+              <div className="space-y-2 mb-8 text-custom-dark">
                 <p className="text-sm">
                   {/* Gunakan fungsi t() untuk terjemahan */}
                   <span className="font-bold">{t("Project type:")}</span>{" "}
@@ -222,7 +222,7 @@ export default function Home() {
 
               <Link
                 href="/case-studies/pertamina-hsse"
-                className="inline-block custom-button-light px-6 py-3 text-custom-dark font-medium"
+                className="inline-block custom-button px-6 py-3 text-white font-medium"
               >
                 {/* Gunakan fungsi t() untuk terjemahan */}
                 {t("View case study")}
@@ -233,7 +233,7 @@ export default function Home() {
               <div className="absolute -top-8 -right-8 w-48 h-48 bg-black/10 -z-10 rounded-full"></div>
               <div className="relative z-10 flex justify-center">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/assets/pertamina/ptc-pertamina.png"
                   alt="Pertamina Digital HSSE Demo Room"
                   width={600}
                   height={400}
@@ -259,7 +259,7 @@ export default function Home() {
             <div className="relative">
               <div className="absolute -top-8 -left-8 w-48 h-48 bg-black/20 -z-10 transform rotate-12 rounded-lg"></div>
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/assets/vnurse/vnurse.png"
                 alt="DIGINLab Online Nursing Laboratory"
                 width={800}
                 height={600}
@@ -342,7 +342,7 @@ export default function Home() {
               <div className="absolute -top-8 -right-8 w-48 h-48 bg-black/10 -z-10 rounded-full"></div>
               <div className="relative z-10 flex justify-center">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/assets/ck/ck.png"
                   alt="Electric ECM Tractor & Tractor Oil Flow"
                   width={600}
                   height={400}
@@ -369,7 +369,7 @@ export default function Home() {
             >
               <div className="mb-4 relative">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/assets/minakita/minakita.png"
                   alt="NuFish Android Application"
                   width={500}
                   height={300}
@@ -402,7 +402,7 @@ export default function Home() {
             >
               <div className="mb-4 relative">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/assets/houset/houset.png"
                   alt="Houset Website 2D & 3D Canvas"
                   width={500}
                   height={300}
@@ -434,7 +434,7 @@ export default function Home() {
             >
               <div className="mb-4 relative">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/assets/envisions/envisions.png"
                   alt="Envisions.id"
                   width={500}
                   height={300}
@@ -500,7 +500,7 @@ export default function Home() {
             >
               <div className="mb-4 relative">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/assets/aurral/aurral.png"
                   alt="AuRRaL (Augmented Reality Rangkaian Listrik)"
                   width={500}
                   height={300}

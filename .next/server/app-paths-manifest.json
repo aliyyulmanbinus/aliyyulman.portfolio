@@ -1,3 +1,5 @@
 {
+  "/case-studies/kurnia-interior/page": "app/case-studies/kurnia-interior/page.js",
+  "/case-studies/diginlab/page": "app/case-studies/diginlab/page.js",
   "/page": "app/page.js"
 }
