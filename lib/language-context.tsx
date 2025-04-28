@@ -80,8 +80,8 @@ const translations = {
 
     // Hero Section
     "Hello! I'm": "Hello! I'm",
-    "Product designer with an education background. I'm an empathetic designer, a data-driven decision-maker, and a collaborative communicator.":
-      "Product designer with an education background. I'm an empathetic designer, a data-driven decision-maker, and a collaborative communicator.",
+    "Programmer dan Data Analyst. Pemecah masalah, pengambil keputusan berbasis data, komunikator kolaboratif, dan pecinta data.":
+      "Programmer dan Data Analyst. Pemecah masalah, pengambil keputusan berbasis data, komunikator kolaboratif, dan pecinta data.",
 
     // Work Section
     "Selected Work": "Selected Work",
@@ -176,8 +176,8 @@ const translations = {
 
     // Hero Section
     "Hello! I'm": "Halo! Saya",
-    "Product designer with an education background. I'm an empathetic designer, a data-driven decision-maker, and a collaborative communicator.":
-      "Desainer produk dengan latar belakang pendidikan. Saya adalah desainer yang empatik, pengambil keputusan berbasis data, dan komunikator kolaboratif.",
+    "Programmer and Data Analyst. Problem solver, data-driven decision-maker, collaborative communicator, and passionate data enthusiast.":
+      "Programmer dan Data Analyst. Pemecah masalah, pengambil keputusan berbasis data, komunikator kolaboratif, dan pecinta data.",
 
     // Work Section
     "Selected Work": "Karya Pilihan",

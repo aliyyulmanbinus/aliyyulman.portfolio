@@ -100,7 +100,7 @@ export default function Home() {
           >
             {/* Gunakan fungsi t() untuk terjemahan */}
             {t(
-              "Product designer with an education background. I'm an empathetic designer, a data-driven decision-maker, and a collaborative communicator.",
+              "Programmer and Data Analyst. Problem solver, data-driven decision-maker, collaborative communicator, and passionate data enthusiast.",
             )}
           </motion.p>
         </div>
@@ -792,7 +792,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <p className="text-lg">
-              © {new Date().getFullYear()} Aliyyulman J. {t("All rights reserved.")}
+              © {new Date().getFullYear()} Aliyyulman Jihan {t("All rights reserved.")}
             </p>
           </div>
 
