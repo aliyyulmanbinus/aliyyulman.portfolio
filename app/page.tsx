@@ -581,27 +581,27 @@ export default function Home() {
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
                   {/* Gunakan fungsi t() untuk terjemahan */}
-                  {t("UX/UI Design")}
+                  {t("Phyton")}
                 </li>
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
                   {/* Gunakan fungsi t() untuk terjemahan */}
-                  {t("User Research")}
+                  {t("SQL")}
                 </li>
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
                   {/* Gunakan fungsi t() untuk terjemahan */}
-                  {t("Prototyping")}
+                  {t("C# Unity")}
                 </li>
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
                   {/* Gunakan fungsi t() untuk terjemahan */}
-                  {t("Design Systems")}
+                  {t("Spreedsheet/Excel")}
                 </li>
                 <li className="flex items-center">
                   <span className="w-3 h-3 bg-custom-dark rounded-full mr-3"></span>
                   {/* Gunakan fungsi t() untuk terjemahan */}
-                  {t("Collaborative Workshops")}
+                  {t("Looker")}
                 </li>
               </ul>
             </motion.div>
@@ -632,64 +632,59 @@ export default function Home() {
               className="custom-card-dark p-8 custom-border-dark"
             >
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">
-                {/* Gunakan fungsi t() untuk terjemahan */}
                 {t("Experience")}
               </h3>
 
               <div className="space-y-8 text-white">
                 <div>
                   <h4 className="text-xl font-bold">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Senior Product Designer")}
+                    {t("Programmer Staff")}
                   </h4>
                   <p className="text-lg font-medium">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Design Company • 2021 - Present")}
+                    {t("PT. Kreasi Kode Biner • Sep 2021 - Present")}
                   </p>
                   <p className="mt-2">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t(
-                      "Leading product design for multiple projects, conducting user research, and collaborating with cross-functional teams.",
-                    )}
+                    {t("Developed 3D simulations, gameplay modules, and warehouse handling systems using C# and C++.")}
                   </p>
                 </div>
 
                 <div>
                   <h4 className="text-xl font-bold">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("UX Designer")}
+                    {t("Programmer")}
                   </h4>
                   <p className="text-lg font-medium">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Tech Startup • 2018 - 2021")}
+                    {t("PT. Mina Nusantara Ahingani • Oct 2020 - Sep 2021")}
                   </p>
                   <p className="mt-2">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t(
-                      "Designed user interfaces and experiences for web and mobile applications, created wireframes, prototypes, and conducted usability testing.",
-                    )}
+                    {t("Built NuFish Android app, designed UI/UX, and migrated parts to Flutter.")}
                   </p>
                 </div>
 
                 <div>
                   <h4 className="text-xl font-bold">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Education Specialist")}
+                    {t("Programmer (Intern)")}
                   </h4>
                   <p className="text-lg font-medium">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Education Institute • 2015 - 2018")}
+                    {t("JAGAD CREATIVE • Jan 2021 - Jul 2021")}
                   </p>
                   <p className="mt-2">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t(
-                      "Developed curriculum and teaching materials, facilitated workshops, and collaborated with educators to improve learning outcomes.",
-                    )}
+                    {t("Developed 'AR Melody' Android app and expanded client base with AR/VR projects.")}
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-xl font-bold">
+                    {t("Fresh Graduate Academy - Data Analytics")}
+                  </h4>
+                  <p className="text-lg font-medium">
+                    {t("Digital Talent Scholarship • Apr 2024 - Aug 2024")}
+                  </p>
+                  <p className="mt-2">
+                    {t("Completed Google Data Analytics training, specializing in real-world data cleaning and visualization.")}
                   </p>
                 </div>
               </div>
             </motion.div>
-
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -705,37 +700,31 @@ export default function Home() {
               <div className="space-y-8 text-white">
                 <div>
                   <h4 className="text-xl font-bold">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Master of Design")}
+                    {t("Bachelor of Computer Science")}
                   </h4>
                   <p className="text-lg font-medium">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Design University • 2017 - 2018")}
+                    {t("Bina Nusantara University • Feb 2023 - Feb 2025")}
                   </p>
                   <p className="mt-2">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Specialized in User Experience Design with a focus on educational technology.")}
+                    {t("Developed a web-based dashboard and graduated with Magna Cum Laude honors.")}
                   </p>
                 </div>
 
                 <div>
                   <h4 className="text-xl font-bold">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Bachelor of Education")}
+                    {t("Diploma in Application Software Engineering")}
                   </h4>
                   <p className="text-lg font-medium">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("State University • 2011 - 2015")}
+                    {t("Telkom University • Aug 2018 - Aug 2021")}
                   </p>
                   <p className="mt-2">
-                    {/* Gunakan fungsi t() untuk terjemahan */}
-                    {t("Graduated with honors, specialized in curriculum development and educational psychology.")}
+                    {t("Received GenBI Scholarship and became finalist in national technology competitions.")}
                   </p>
                 </div>
               </div>
 
               <div className="mt-12">
-                <a href="#" className="inline-block custom-button-light px-8 py-3 text-lg font-medium text-custom-dark">
+                <a href="https://drive.google.com/file/d/1Ng1Euuf4m3BZ5YsP06JD2N2GXmAUXpTV/view?usp=sharing" className="inline-block custom-button-light px-8 py-3 text-lg font-medium text-custom-dark">
                   {/* Gunakan fungsi t() untuk terjemahan */}
                   {t("Download Full Resume")}
                 </a>
@@ -797,16 +786,32 @@ export default function Home() {
           </div>
 
           <div className="flex space-x-8">
-            <a href="#" className="text-white hover:text-gray-300 transition-colors">
+            <a
+              href="https://www.linkedin.com/in/aliyyulmanjihan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-gray-300 transition-colors"
+            >
               LinkedIn
             </a>
-            <a href="#" className="text-white hover:text-gray-300 transition-colors">
-              Dribbble
+            <a
+              href="https://github.com/aliyyulmanbinus"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-gray-300 transition-colors"
+            >
+              GitHub
             </a>
-            <a href="#" className="text-white hover:text-gray-300 transition-colors">
-              Twitter
+            <a
+              href="https://g.dev/gdev-aliyyulmanj"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-gray-300 transition-colors"
+            >
+              Google Developer
             </a>
           </div>
+
         </div>
       </footer>
     </main>

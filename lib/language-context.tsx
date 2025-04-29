@@ -123,28 +123,34 @@ const translations = {
 
     // Resume Section
     Experience: "Experience",
-    "Senior Product Designer": "Senior Product Designer",
-    "Design Company • 2021 - Present": "Design Company • 2021 - Present",
-    "Leading product design for multiple projects, conducting user research, and collaborating with cross-functional teams.":
-      "Leading product design for multiple projects, conducting user research, and collaborating with cross-functional teams.",
-    "UX Designer": "UX Designer",
-    "Tech Startup • 2018 - 2021": "Tech Startup • 2018 - 2021",
-    "Designed user interfaces and experiences for web and mobile applications, created wireframes, prototypes, and conducted usability testing.":
-      "Designed user interfaces and experiences for web and mobile applications, created wireframes, prototypes, and conducted usability testing.",
-    "Education Specialist": "Education Specialist",
-    "Education Institute • 2015 - 2018": "Education Institute • 2015 - 2018",
-    "Developed curriculum and teaching materials, facilitated workshops, and collaborated with educators to improve learning outcomes.":
-      "Developed curriculum and teaching materials, facilitated workshops, and collaborated with educators to improve learning outcomes.",
+    "Programmer Staff": "Programmer Staff",
+    "PT. Kreasi Kode Biner • Sep 2021 - Present": "PT. Kreasi Kode Biner • Sep 2021 - Present",
+    "Developed 3D simulations, gameplay modules, and warehouse handling systems using C# and C++.":
+      "Developed 3D simulations, gameplay modules, and warehouse handling systems using C# and C++.",
+    "Programmer": "Programmer",
+    "PT. Mina Nusantara Ahingani • Oct 2020 - Sep 2021": "PT. Mina Nusantara Ahingani • Oct 2020 - Sep 2021",
+    "Built NuFish Android app, designed UI/UX, and migrated parts to Flutter.":
+      "Built NuFish Android app, designed UI/UX, and migrated parts to Flutter.",
+    "Programmer (Intern)": "Programmer (Intern)",
+    "JAGAD CREATIVE • Jan 2021 - Jul 2021": "JAGAD CREATIVE • Jan 2021 - Jul 2021",
+    "Developed 'AR Melody' Android app and expanded client base with AR/VR projects.":
+      "Developed 'AR Melody' Android app and expanded client base with AR/VR projects.",
+    "Fresh Graduate Academy - Data Analytics": "Fresh Graduate Academy - Data Analytics",
+    "Digital Talent Scholarship • Apr 2024 - Aug 2024": "Digital Talent Scholarship • Apr 2024 - Aug 2024",
+    "Completed Google Data Analytics training, specializing in real-world data cleaning and visualization.":
+      "Completed Google Data Analytics training, specializing in real-world data cleaning and visualization.",
+    // Education Section (English)
     Education: "Education",
-    "Master of Design": "Master of Design",
-    "Design University • 2017 - 2018": "Design University • 2017 - 2018",
-    "Specialized in User Experience Design with a focus on educational technology.":
-      "Specialized in User Experience Design with a focus on educational technology.",
-    "Bachelor of Education": "Bachelor of Education",
-    "State University • 2011 - 2015": "State University • 2011 - 2015",
-    "Graduated with honors, specialized in curriculum development and educational psychology.":
-      "Graduated with honors, specialized in curriculum development and educational psychology.",
+    "Bachelor of Computer Science": "Bachelor of Computer Science",
+    "Bina Nusantara University • Feb 2023 - Feb 2025": "Bina Nusantara University • Feb 2023 - Feb 2025",
+    "Developed a web-based dashboard and graduated with Magna Cum Laude honors.":
+      "Developed a web-based dashboard and graduated with Magna Cum Laude honors.",
+    "Diploma in Application Software Engineering": "Diploma in Application Software Engineering",
+    "Telkom University • Aug 2018 - Aug 2021": "Telkom University • Aug 2018 - Aug 2021",
+    "Received GenBI Scholarship and became finalist in national technology competitions.":
+      "Received GenBI Scholarship and became finalist in national technology competitions.",
     "Download Full Resume": "Download Full Resume",
+
 
     // Contact Section
     "Let's Connect": "Let's Connect",
@@ -217,30 +223,35 @@ const translations = {
     "Design Systems": "Sistem Desain",
     "Collaborative Workshops": "Workshop Kolaboratif",
 
-    // Resume Section
+    // Resume Section (Bahasa Indonesia)
     Experience: "Pengalaman",
-    "Senior Product Designer": "Desainer Produk Senior",
-    "Design Company • 2021 - Present": "Perusahaan Desain • 2021 - Sekarang",
-    "Leading product design for multiple projects, conducting user research, and collaborating with cross-functional teams.":
-      "Memimpin desain produk untuk berbagai proyek, melakukan riset pengguna, dan berkolaborasi dengan tim lintas fungsi.",
-    "UX Designer": "Desainer UX",
-    "Tech Startup • 2018 - 2021": "Startup Teknologi • 2018 - 2021",
-    "Designed user interfaces and experiences for web and mobile applications, created wireframes, prototypes, and conducted usability testing.":
-      "Mendesain antarmuka dan pengalaman pengguna untuk aplikasi web dan mobile, membuat wireframe, prototipe, dan melakukan pengujian kegunaan.",
-    "Education Specialist": "Spesialis Pendidikan",
-    "Education Institute • 2015 - 2018": "Institut Pendidikan • 2015 - 2018",
-    "Developed curriculum and teaching materials, facilitated workshops, and collaborated with educators to improve learning outcomes.":
-      "Mengembangkan kurikulum dan materi pengajaran, memfasilitasi workshop, dan berkolaborasi dengan pendidik untuk meningkatkan hasil pembelajaran.",
+    "Programmer Staff": "Staf Programmer",
+    "PT. Kreasi Kode Biner • Sep 2021 - Present": "PT. Kreasi Kode Biner • Sep 2021 - Sekarang",
+    "Developed 3D simulations, gameplay modules, and warehouse handling systems using C# and C++.":
+      "Mengembangkan simulasi 3D, modul gameplay, dan sistem penanganan gudang dengan C# dan C++.",
+    "Programmer": "Programmer",
+    "PT. Mina Nusantara Ahingani • Oct 2020 - Sep 2021": "PT. Mina Nusantara Ahingani • Okt 2020 - Sep 2021",
+    "Built NuFish Android app, designed UI/UX, and migrated parts to Flutter.":
+      "Membangun aplikasi Android NuFish, mendesain UI/UX, dan migrasi sebagian ke Flutter.",
+    "Programmer (Intern)": "Programmer (Magang)",
+    "JAGAD CREATIVE • Jan 2021 - Jul 2021": "JAGAD CREATIVE • Jan 2021 - Jul 2021",
+    "Developed 'AR Melody' Android app and expanded client base with AR/VR projects.":
+      "Mengembangkan aplikasi Android 'AR Melody' dan memperluas basis klien dengan proyek AR/VR.",
+    "Fresh Graduate Academy - Data Analytics": "Akademi Lulusan Baru - Analisis Data",
+    "Digital Talent Scholarship • Apr 2024 - Aug 2024": "Beasiswa Talenta Digital • Apr 2024 - Agu 2024",
+    "Completed Google Data Analytics training, specializing in real-world data cleaning and visualization.":
+      "Menyelesaikan pelatihan Google Data Analytics, fokus pada pembersihan dan visualisasi data nyata.",
+    // Education Section (Bahasa Indonesia)
     Education: "Pendidikan",
-    "Master of Design": "Master Desain",
-    "Design University • 2017 - 2018": "Universitas Desain • 2017 - 2018",
-    "Specialized in User Experience Design with a focus on educational technology.":
-      "Spesialisasi dalam Desain Pengalaman Pengguna dengan fokus pada teknologi pendidikan.",
-    "Bachelor of Education": "Sarjana Pendidikan",
-    "State University • 2011 - 2015": "Universitas Negeri • 2011 - 2015",
-    "Graduated with honors, specialized in curriculum development and educational psychology.":
-      "Lulus dengan predikat kehormatan, spesialisasi dalam pengembangan kurikulum dan psikologi pendidikan.",
-    "Download Full Resume": "Unduh Resume Lengkap",
+    "Bachelor of Computer Science": "Sarjana Ilmu Komputer",
+    "Bina Nusantara University • Feb 2023 - Feb 2025": "Universitas Bina Nusantara • Feb 2023 - Feb 2025",
+    "Developed a web-based dashboard and graduated with Magna Cum Laude honors.":
+      "Mengembangkan dashboard berbasis web dan lulus dengan predikat Magna Cum Laude.",
+    "Diploma in Application Software Engineering": "Diploma Rekayasa Perangkat Lunak Aplikasi",
+    "Telkom University • Aug 2018 - Aug 2021": "Universitas Telkom • Agu 2018 - Agu 2021",
+    "Received GenBI Scholarship and became finalist in national technology competitions.":
+      "Menerima Beasiswa GenBI dan menjadi finalis kompetisi teknologi nasional.",
+    "Download Full Resume": "Unduh CV Lengkap",
 
     // Contact Section
     "Let's Connect": "Mari Terhubung",
