@@ -724,7 +724,7 @@ export default function Home() {
               </div>
 
               <div className="mt-12">
-                <a href="https://drive.google.com/file/d/1Ng1Euuf4m3BZ5YsP06JD2N2GXmAUXpTV/view?usp=sharing" className="inline-block custom-button-light px-8 py-3 text-lg font-medium text-custom-dark">
+                <a href="https://drive.google.com/file/d/1MVy8EFc1ikps8PtQyp8X8Ro_YvuGKwtI/view?usp=sharing" className="inline-block custom-button-light px-8 py-3 text-lg font-medium text-custom-dark">
                   {/* Gunakan fungsi t() untuk terjemahan */}
                   {t("Download Full Resume")}
                 </a>
