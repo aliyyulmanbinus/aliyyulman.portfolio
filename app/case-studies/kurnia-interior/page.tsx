@@ -31,7 +31,7 @@ export default function KurniaInteriorCaseStudy() {
   return (
     <main className="bg-white min-h-screen text-custom-dark">
       {/* Back button */}
-      <div className="fixed top-8 left-8 z-50">
+      <div className="fixed top-8 left-8 z-50 bg-white px-3 py-2 rounded shadow">
         <Link href="/#work" className="flex items-center text-custom-dark hover:text-black transition-colors">
           <ArrowLeft className="mr-2" size={20} />
           <span>{t("Back to Work")}</span>
@@ -39,7 +39,7 @@ export default function KurniaInteriorCaseStudy() {
       </div>
 
       {/* Tambahkan Language Toggle di pojok kanan atas */}
-      <div className="fixed top-8 right-8 z-50">
+      <div className="fixed top-8 right-8 z-50 bg-white px-3 py-2 rounded shadow">
         <LanguageToggle />
       </div>
 

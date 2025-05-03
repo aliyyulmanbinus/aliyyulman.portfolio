@@ -5,8 +5,15 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { useEffect } from "react"
+// Tambahkan import untuk useLanguage
+import { useLanguage } from "@/lib/language-context"
+// Tambahkan import untuk LanguageToggle
+import LanguageToggle from "@/components/language-toggle"
 
 export default function DiginlabCaseStudy() {
+  // Tambahkan hook useLanguage untuk mendapatkan fungsi terjemahan
+  const { t } = useLanguage()
+  
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -24,11 +31,16 @@ export default function DiginlabCaseStudy() {
   return (
     <main className="bg-white min-h-screen text-custom-dark">
       {/* Back button */}
-      <div className="fixed top-8 left-8 z-50">
+      <div className="fixed top-8 left-8 z-50 bg-white px-3 py-2 rounded shadow">
         <Link href="/#work" className="flex items-center text-custom-dark hover:text-black transition-colors">
           <ArrowLeft className="mr-2" size={20} />
-          <span>Back to Work</span>
+          <span>{t("Back to Work")}</span>
         </Link>
+      </div>
+
+      {/* Tambahkan Language Toggle di pojok kanan atas */}
+      <div className="fixed top-8 right-8 z-50 bg-white px-3 py-2 rounded shadow">
+        <LanguageToggle />
       </div>
 
       {/* Header */}

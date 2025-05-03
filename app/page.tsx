@@ -116,14 +116,14 @@ export default function Home() {
       </section>
 
       {/* Work Section */}
-      <section id="work" className="py-24 md:py-32">
+      <section id="work" className="py-24 md:py-32 bg-custom-dark">
         <div className="max-w-6xl mx-auto px-6 md:px-12 mb-16">
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="text-4xl md:text-6xl font-bold text-custom-dark"
+            className="text-4xl md:text-6xl font-bold text-white"
           >
             {/* Gunakan fungsi t() untuk terjemahan */}
             {t("Selected Work")}
@@ -359,6 +359,7 @@ export default function Home() {
         {/* Project Grid for remaining projects */}
         <div className="max-w-6xl mx-auto px-6 md:px-12 mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
             {/* Project 5 - NuFish */}
             <motion.div
               className="custom-card p-6 flex flex-col h-full"
@@ -394,7 +395,7 @@ export default function Home() {
 
             {/* Project 6 - Houset */}
             <motion.div
-              className="custom-card-dark p-6 flex flex-col h-full"
+              className="custom-card p-6 flex flex-col h-full"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -408,16 +409,16 @@ export default function Home() {
                   height={300}
                   className="w-full h-48 object-cover rounded-lg"
                 />
-                <div className="absolute top-2 right-2 bg-white text-custom-dark px-3 py-1 text-xs rounded-full">
+                <div className="absolute top-2 right-2 bg-custom-dark text-white px-3 py-1 text-xs rounded-full">
                   Web 3D
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-white">Houset Website 2D & 3D Canvas</h3>
-              <p className="text-sm mb-4 text-white flex-grow">
+              <h3 className="text-xl font-bold mb-2 text-custom-dark">Houset Website 2D & 3D Canvas</h3>
+              <p className="text-sm mb-4 text-custom-dark flex-grow">
                 Desain dan implementasi fitur 2D dan 3D canvas pada website Houset menggunakan C# dan JavaScript.
               </p>
               <div className="mt-auto">
-                <Link href="/case-studies/houset" className="flex items-center text-white hover:underline">
+                <Link href="/case-studies/houset" className="flex items-center text-custom-dark hover:underline">
                   <span className="mr-2">{t("View details")}</span>
                   <ArrowRight size={16} />
                 </Link>
@@ -426,7 +427,7 @@ export default function Home() {
 
             {/* Project 7 - Envisions.id */}
             <motion.div
-              className="custom-card-dark p-6 flex flex-col h-full"
+              className="custom-card p-6 flex flex-col h-full"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -440,17 +441,17 @@ export default function Home() {
                   height={300}
                   className="w-full h-48 object-cover rounded-lg"
                 />
-                <div className="absolute top-2 right-2 bg-white text-custom-dark px-3 py-1 text-xs rounded-full">
+                <div className="absolute top-2 right-2 bg-custom-dark text-white px-3 py-1 text-xs rounded-full">
                   WordPress
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-white">Envisions.id</h3>
-              <p className="text-sm mb-4 text-white flex-grow">
+              <h3 className="text-xl font-bold mb-2 text-custom-dark">Envisions.id</h3>
+              <p className="text-sm mb-4 text-custom-dark flex-grow">
                 Company profile website untuk Envisions, platform automation dan data analytics untuk manajemen gedung
                 dan bisnis.
               </p>
               <div className="mt-auto">
-                <Link href="/case-studies/envisions" className="flex items-center text-white hover:underline">
+                <Link href="/case-studies/envisions" className="flex items-center text-custom-dark hover:underline">
                   <span className="mr-2">{t("View details")}</span>
                   <ArrowRight size={16} />
                 </Link>
@@ -492,7 +493,7 @@ export default function Home() {
 
             {/* Project 9 - AuRRaL */}
             <motion.div
-              className="custom-card-dark p-6 flex flex-col h-full"
+              className="custom-card p-6 flex flex-col h-full"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -506,17 +507,17 @@ export default function Home() {
                   height={300}
                   className="w-full h-48 object-cover rounded-lg"
                 />
-                <div className="absolute top-2 right-2 bg-white text-custom-dark px-3 py-1 text-xs rounded-full">
+                <div className="absolute top-2 right-2 bg-custom-dark text-white px-3 py-1 text-xs rounded-full">
                   AR App
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-white">AuRRaL (AR Rangkaian Listrik)</h3>
-              <p className="text-sm mb-4 text-white flex-grow">
+              <h3 className="text-xl font-bold mb-2 text-custom-dark">AuRRaL (AR Rangkaian Listrik)</h3>
+              <p className="text-sm mb-4 text-custom-dark flex-grow">
                 Implementasi Augmented Reality untuk membantu visualisasi nilai komponen dan simulasi rangkaian listrik
                 dalam pembelajaran.
               </p>
               <div className="mt-auto">
-                <Link href="/case-studies/aurral" className="flex items-center text-white hover:underline">
+                <Link href="/case-studies/aurral" className="flex items-center text-custom-dark hover:underline">
                   <span className="mr-2">{t("View details")}</span>
                   <ArrowRight size={16} />
                 </Link>
@@ -764,11 +765,11 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.4 }}
-            className="custom-card inline-block px-8 py-6 rounded-lg"
+            className="custom-card px-4 py-6 rounded-lg flex justify-center w-full"
           >
             <a
               href="mailto:aliyyulmanj@gmail.com"
-              className="text-3xl md:text-4xl font-bold text-custom-dark hover:text-black hover:underline transition-colors"
+              className="text-lg sm:text-2xl md:text-4xl font-bold text-custom-dark hover:text-black hover:underline transition-colors text-center break-words"
             >
               aliyyulmanj@gmail.com
             </a>
