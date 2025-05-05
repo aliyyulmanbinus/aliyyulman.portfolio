@@ -10,21 +10,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
-    ],
-    "/case-studies/kurnia-interior/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/kurnia-interior/page.js"
-    ],
-    "/case-studies/diginlab/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/diginlab/page.js"
-    ],
-    "/case-studies/pertamina-hsse/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/pertamina-hsse/page.js"
     ]
   }
 }

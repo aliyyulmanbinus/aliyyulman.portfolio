@@ -128,3 +128,15 @@ body {
 .custom-border-dark {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* Tambahkan style khusus untuk toggle bahasa di akhir file */
+
+/* Custom styling untuk language toggle */
+.language-toggle-switch[data-state="checked"] {
+  background-color: #000000 !important;
+}
+
+.language-toggle-switch[data-state="checked"] .language-toggle-thumb {
+  transform: translateX(100%);
+  background-color: #ffffff !important;
+}
