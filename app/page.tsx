@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white overflow-x-hidden">
       {/* Header */}
-      <header className="fixed top-0 left-0 w-full z-50 px-6 py-4 md:px-12 md:py-6 flex justify-between items-center bg-white/80 backdrop-blur-sm">
+      <header className="fixed top-0 left-0 w-full z-50 px-4 py-4 md:px-12 md:py-6 flex justify-between items-center bg-white/80 backdrop-blur-sm">
         <Link href="/" className="block">
           <div className="w-12 h-12 custom-circle flex items-center justify-center">
             <span className="text-custom-dark text-xl font-bold">J</span>
@@ -35,10 +35,10 @@ export default function Home() {
         </Link>
         <nav className="flex items-center">
           {/* Tambahkan LanguageToggle di sini */}
-          <div className="mr-6">
+          <div className="mr-4 md:mr-6">
             <LanguageToggle />
           </div>
-          <ul className="flex space-x-6 md:space-x-10">
+          <ul className="flex space-x-3 md:space-x-10 text-sm md:text-base">
             <li>
               <Link href="#about" className="text-custom-dark hover:text-black underline-offset-4 hover:underline">
                 {/* Gunakan fungsi t() untuk terjemahan */}
