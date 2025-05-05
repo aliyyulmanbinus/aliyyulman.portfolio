@@ -91,7 +91,7 @@ export default function Home() {
           >
             Aliyyulman J.
           </motion.h1>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -556,13 +556,13 @@ export default function Home() {
               <p className="text-lg mb-6 text-custom-dark">
                 {/* Gunakan fungsi t() untuk terjemahan */}
                 {t(
-                  "I started my career in education, where I developed a deep understanding of how people learn and interact. This background has been invaluable in my transition to product design, where I focus on creating intuitive and accessible user experiences.",
+                  "I hold a degree in Computer Science and have over three years of professional experience in software development, both as a full-time employee in the private sector and as a freelance programmer. Throughout my career, I have worked on various projects ranging from simulation-based applications to web-based interactive dashboards.",
                 )}
               </p>
               <p className="text-lg text-custom-dark">
                 {/* Gunakan fungsi t() untuk terjemahan */}
                 {t(
-                  "My approach combines empathy with data-driven decision making, ensuring that the products I design not only look good but also solve real problems for users.",
+                  "This technical background has given me a strong foundation in problem-solving, system logic, and clean coding practices. It also fuels my passion for creating software that is not only functional but also user-centric. I approach each project by balancing technical efficiency with thoughtful design, ensuring that the solutions I build meet real user needs while maintaining scalability and maintainability.",
                 )}
               </p>
             </motion.div>

@@ -110,10 +110,10 @@ const translations = {
     // About Section
     "About Me": "About Me",
     "My Background": "My Background",
-    "I started my career in education, where I developed a deep understanding of how people learn and interact. This background has been invaluable in my transition to product design, where I focus on creating intuitive and accessible user experiences.":
-      "I started my career in education, where I developed a deep understanding of how people learn and interact. This background has been invaluable in my transition to product design, where I focus on creating intuitive and accessible user experiences.",
-    "My approach combines empathy with data-driven decision making, ensuring that the products I design not only look good but also solve real problems for users.":
-      "My approach combines empathy with data-driven decision making, ensuring that the products I design not only look good but also solve real problems for users.",
+    "I hold a degree in Computer Science and have over three years of professional experience in software development, both as a full-time employee in the private sector and as a freelance programmer. Throughout my career, I have worked on various projects ranging from simulation-based applications to web-based interactive dashboards.":
+      "I hold a degree in Computer Science and have over three years of professional experience in software development, both as a full-time employee in the private sector and as a freelance programmer. Throughout my career, I have worked on various projects ranging from simulation-based applications to web-based interactive dashboards.",
+    "This technical background has given me a strong foundation in problem-solving, system logic, and clean coding practices. It also fuels my passion for creating software that is not only functional but also user-centric. I approach each project by balancing technical efficiency with thoughtful design, ensuring that the solutions I build meet real user needs while maintaining scalability and maintainability.":
+      "This technical background has given me a strong foundation in problem-solving, system logic, and clean coding practices. It also fuels my passion for creating software that is not only functional but also user-centric. I approach each project by balancing technical efficiency with thoughtful design, ensuring that the solutions I build meet real user needs while maintaining scalability and maintainability.",
     "My Skills": "My Skills",
     "UX/UI Design": "UX/UI Design",
     "User Research": "User Research",
@@ -212,10 +212,10 @@ const translations = {
     // About Section
     "About Me": "Tentang Saya",
     "My Background": "Latar Belakang Saya",
-    "I started my career in education, where I developed a deep understanding of how people learn and interact. This background has been invaluable in my transition to product design, where I focus on creating intuitive and accessible user experiences.":
-      "Saya memulai karir di bidang pendidikan, di mana saya mengembangkan pemahaman mendalam tentang bagaimana orang belajar dan berinteraksi. Latar belakang ini sangat berharga dalam transisi saya ke desain produk, di mana saya fokus pada pembuatan pengalaman pengguna yang intuitif dan mudah diakses.",
-    "My approach combines empathy with data-driven decision making, ensuring that the products I design not only look good but also solve real problems for users.":
-      "Pendekatan saya menggabungkan empati dengan pengambilan keputusan berbasis data, memastikan bahwa produk yang saya desain tidak hanya terlihat bagus tetapi juga memecahkan masalah nyata bagi pengguna.",
+    "I hold a degree in Computer Science and have over three years of professional experience in software development, both as a full-time employee in the private sector and as a freelance programmer. Throughout my career, I have worked on various projects ranging from simulation-based applications to web-based interactive dashboards.":
+      "Saya memiliki gelar di bidang Ilmu Komputer dan memiliki lebih dari tiga tahun pengalaman profesional dalam pengembangan perangkat lunak, baik sebagai karyawan tetap di sektor swasta maupun sebagai programmer lepas. Sepanjang karier saya, saya telah mengerjakan berbagai proyek mulai dari aplikasi berbasis simulasi hingga dasbor interaktif berbasis web.",
+    "This technical background has given me a strong foundation in problem-solving, system logic, and clean coding practices. It also fuels my passion for creating software that is not only functional but also user-centric. I approach each project by balancing technical efficiency with thoughtful design, ensuring that the solutions I build meet real user needs while maintaining scalability and maintainability.":
+      "Latar belakang teknis ini telah memberi saya dasar yang kuat dalam pemecahan masalah, logika sistem, dan praktik pengkodean yang bersih. Hal ini juga mendorong semangat saya untuk menciptakan perangkat lunak yang tidak hanya fungsional tetapi juga berpusat pada pengguna. Saya mendekati setiap proyek dengan menyeimbangkan efisiensi teknis dengan desain yang bijaksana, memastikan bahwa solusi yang saya bangun memenuhi kebutuhan pengguna dengan tetap menjaga skalabilitas dan pemeliharaan.",
     "My Skills": "Keahlian Saya",
     "UX/UI Design": "Desain UX/UI",
     "User Research": "Riset Pengguna",
