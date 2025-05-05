@@ -87,11 +87,11 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-6xl md:text-8xl lg:text-9xl font-bold text-custom-dark mb-8 md:mb-12 relative z-20 bg-white/80 inline-block px-4 py-2"
+            className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold text-custom-dark mb-8 md:mb-12 relative z-20 bg-white/80 inline-block px-6 sm:px-12 py-2 text-center"
           >
             Aliyyulman J.
           </motion.h1>
-
+          
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
