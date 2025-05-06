@@ -809,7 +809,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-white hover:text-gray-300 transition-colors"
             >
-              Google Developer
+              GoogleDev
             </a>
           </div>
 
