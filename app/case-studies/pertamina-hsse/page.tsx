@@ -30,17 +30,20 @@ export default function PertaminaHsseCaseStudy() {
 
   return (
     <main className="bg-white min-h-screen text-custom-dark">
-      {/* Back button */}
-      <div className="fixed top-8 left-8 z-50 bg-white px-3 py-2 rounded shadow">
-        <Link href="/#work" className="flex items-center text-custom-dark hover:text-black transition-colors">
-          <ArrowLeft className="mr-2" size={20} />
-          <span>{t("Back to Work")}</span>
-        </Link>
-      </div>
+      {/* Responsive Header */}
+      <div className="fixed top-4 left-0 right-0 z-50 flex justify-between items-center px-4 sm:px-8">
+        {/* Back button */}
+        <div className="bg-white px-3 py-2 rounded shadow">
+          <Link href="/#work" className="flex items-center text-custom-dark hover:text-black transition-colors">
+            <ArrowLeft className="mr-2" size={20} />
+            <span className="text-sm sm:text-base">{t("Back to Work")}</span>
+          </Link>
+        </div>
 
-      {/* Tambahkan Language Toggle di pojok kanan atas */}
-      <div className="fixed top-8 right-8 z-50 bg-white px-3 py-2 rounded shadow">
-        <LanguageToggle />
+        {/* Language Toggle */}
+        <div className="bg-white px-3 py-2 rounded shadow">
+          <LanguageToggle />
+        </div>
       </div>
 
       {/* Header */}
