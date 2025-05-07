@@ -90,7 +90,7 @@ export default function KurniaInteriorCaseStudy() {
           className="w-full"
         >
           <Image
-            src="/placeholder.svg?height=800&width=1600"
+            src="/assets/kurniainterior/kurniainteriorstudio-01.svg?height=800&width=1600"
             alt="Kurnia Interior Studio Website Hero"
             width={1600}
             height={800}
@@ -233,7 +233,7 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/assets/kurniainterior/prototype.png"
                 alt="Wireframing Process"
                 width={800}
                 height={600}
@@ -250,7 +250,7 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/assets/kurniainterior/frontend.svg?height=600&width=800"
                 alt="Development Session"
                 width={800}
                 height={600}
@@ -315,7 +315,7 @@ export default function KurniaInteriorCaseStudy() {
             className="mb-16 custom-card p-4"
           >
             <Image
-              src="/placeholder.svg?height=900&width=1600"
+              src="/assets/kurniainterior/service.svg?height=900&width=1600"
               alt="Kurnia Interior Studio Website Screens"
               width={1600}
               height={900}
@@ -333,7 +333,7 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=800&width=400"
+                src="/assets/kurniainterior/frontend.svg?height=800&width=400"
                 alt="Homepage Design"
                 width={400}
                 height={800}
@@ -350,7 +350,7 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=800&width=400"
+                src="/assets/kurniainterior/galeri.svg?height=800&width=400"
                 alt="Portfolio Gallery"
                 width={400}
                 height={800}
@@ -367,7 +367,7 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=800&width=400"
+                src="/assets/kurniainterior/detail.svg?height=800&width=400"
                 alt="Project Detail"
                 width={400}
                 height={800}

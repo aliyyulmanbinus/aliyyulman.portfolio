@@ -1216,9 +1216,6 @@ video {
 .left-4 {
   left: 1rem;
 }
-.left-8 {
-  left: 2rem;
-}
 .left-\[50\%\] {
   left: 50%;
 }
@@ -1237,9 +1234,6 @@ video {
 .right-4 {
   right: 1rem;
 }
-.right-8 {
-  right: 2rem;
-}
 .top-0 {
   top: 0px;
 }
@@ -1257,9 +1251,6 @@ video {
 }
 .top-4 {
   top: 1rem;
-}
-.top-8 {
-  top: 2rem;
 }
 .top-\[1px\] {
   top: 1px;

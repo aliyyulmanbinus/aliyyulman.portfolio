@@ -1,6 +1,4 @@
 {
   "/page": "app/page.js",
-  "/case-studies/ecm-tractor/page": "app/case-studies/ecm-tractor/page.js",
-  "/case-studies/kurnia-interior/page": "app/case-studies/kurnia-interior/page.js",
-  "/case-studies/pertamina-hsse/page": "app/case-studies/pertamina-hsse/page.js"
+  "/case-studies/kurnia-interior/page": "app/case-studies/kurnia-interior/page.js"
 }
