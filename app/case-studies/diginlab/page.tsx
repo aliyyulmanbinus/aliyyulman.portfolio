@@ -90,7 +90,7 @@ export default function DiginlabCaseStudy() {
           className="w-full"
         >
           <Image
-            src="/placeholder.svg?height=800&width=1600"
+            src="/assets/vnurse/digikes_page.svg?height=800&width=1600"
             alt="DIGINLab Online Nursing Laboratory Hero"
             width={1600}
             height={800}

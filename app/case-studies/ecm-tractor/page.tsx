@@ -90,7 +90,7 @@ export default function EcmTractorCaseStudy() {
           className="w-full"
         >
           <Image
-            src="/placeholder.svg?height=800&width=1600"
+            src="/assets/ck/ck_page.svg?height=800&width=1600"
             alt="Electric ECM Tractor Simulation Hero"
             width={1600}
             height={800}

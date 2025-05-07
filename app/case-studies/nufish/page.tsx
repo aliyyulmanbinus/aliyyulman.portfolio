@@ -90,7 +90,7 @@ export default function KurniaInteriorCaseStudy() {
           className="w-full"
         >
           <Image
-            src="/placeholder.svg?height=800&width=1600"
+            src="/assets/minakita/DSCF0741.JPG"
             alt="NuFish Android Application Hero"
             width={1600}
             height={800}
@@ -249,7 +249,7 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/assets/minakita/nelayan.svg?height=600&width=800"
                 alt="Wireframing Process"
                 width={800}
                 height={600}
@@ -266,7 +266,7 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/assets/minakita/proses.svg?height=600&width=800"
                 alt="Development Session"
                 width={800}
                 height={600}
@@ -346,7 +346,7 @@ export default function KurniaInteriorCaseStudy() {
             className="mb-16 custom-card p-4"
           >
             <Image
-              src="/placeholder.svg?height=900&width=1600"
+              src="/assets/minakita/minakita.svg?height=900&width=1600"
               alt="Kurnia Interior Studio Website Screens"
               width={1600}
               height={900}
@@ -365,13 +365,13 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=800&width=400"
+                src="/assets/minakita/android.svg?height=800&width=400"
                 alt="Catch Recording Feature"
                 width={400}
                 height={800}
                 className="w-full h-auto rounded-lg"
               />
-              <p className="text-sm text-custom-dark mt-2">Fitur pencatatan hasil tangkapan</p>
+              <p className="text-sm text-custom-dark mt-2">Android Mobile</p>
             </motion.div>
 
             <motion.div
@@ -382,13 +382,13 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=800&width=400"
+                src="/assets/minakita/website.svg?height=800&width=400"
                 alt="Weather and Tide Information"
                 width={400}
                 height={800}
                 className="w-full h-auto rounded-lg"
               />
-              <p className="text-sm text-custom-dark mt-2">Informasi cuaca dan pasang surut</p>
+              <p className="text-sm text-custom-dark mt-2">Website</p>
             </motion.div>
 
             <motion.div
@@ -399,7 +399,7 @@ export default function KurniaInteriorCaseStudy() {
               className="custom-card p-4"
             >
               <Image
-                src="/placeholder.svg?height=800&width=400"
+                src="/assets/minakita/minakita.png"
                 alt="Fishery Marketplace"
                 width={400}
                 height={800}

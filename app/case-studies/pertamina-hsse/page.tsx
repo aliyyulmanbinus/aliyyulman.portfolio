@@ -90,7 +90,7 @@ export default function PertaminaHsseCaseStudy() {
           className="w-full"
         >
           <Image
-            src="/placeholder.svg?height=800&width=1600"
+            src="/assets/pertamina/pertamina_page.svg?height=800&width=1600"
             alt="Pertamina Digital HSSE Demo Room Hero"
             width={1600}
             height={800}
