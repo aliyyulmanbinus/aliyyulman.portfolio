@@ -437,7 +437,7 @@ export default function KurniaInteriorCaseStudy() {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-4xl font-bold mb-8 text-white"
           >
-            {t("Next Project")}
+            {t("Link Project")}
           </motion.h2>
 
           <motion.div
@@ -448,10 +448,10 @@ export default function KurniaInteriorCaseStudy() {
             className="custom-card inline-block px-8 py-4"
           >
             <Link
-              href="/case-studies/pertamina-hsse"
+              href="https://kurniainteriorstudio.vercel.app/"
               className="text-4xl md:text-5xl font-bold text-custom-dark hover:underline"
             >
-              PERTAMINA DIGITAL HSSE
+              https://kurniainteriorstudio.vercel.app/
             </Link>
           </motion.div>
         </div>
@@ -459,9 +459,9 @@ export default function KurniaInteriorCaseStudy() {
 
       {/* Footer with back to work button */}
       <footer className="px-6 md:px-12 lg:px-24 py-16 bg-white text-center">
-        <Link href="/#work" className="inline-block custom-button px-8 py-3 text-white font-medium">
+        <Link href="/case-studies/pertamina-hsse" className="inline-block custom-button px-8 py-3 text-white font-medium">
           {/* Gunakan fungsi t() untuk terjemahan */}
-          {t("Back to Work")}
+          {t("NEXT PROJECT : PERTAMINA DIGITAL HSSE >>")}
         </Link>
       </footer>
     </main>
