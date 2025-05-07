@@ -468,7 +468,7 @@ export default function Home() {
             >
               <div className="mb-4 relative">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/assets/dewinadulang/curug.png"
                   alt="Dewinadulang.com"
                   width={500}
                   height={300}
