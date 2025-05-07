@@ -1,8 +1,3 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/case-studies/pertamina-hsse/page": "app/case-studies/pertamina-hsse/page.js",
-  "/page": "app/page.js",
-  "/case-studies/diginlab/page": "app/case-studies/diginlab/page.js",
-  "/case-studies/ecm-tractor/page": "app/case-studies/ecm-tractor/page.js",
-  "/case-studies/nufish/page": "app/case-studies/nufish/page.js"
+  "/page": "app/page.js"
 }
