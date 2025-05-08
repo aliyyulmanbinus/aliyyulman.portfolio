@@ -5,9 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { useEffect } from "react"
-// Tambahkan import untuk useLanguage
 import { useLanguage } from "@/lib/language-context"
-// Tambahkan import untuk LanguageToggle
 import LanguageToggle from "@/components/language-toggle"
 
 export default function KurniaInteriorCaseStudy() {
