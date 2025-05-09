@@ -635,6 +635,18 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">
                 {t("Experience")}
               </h3>
+              
+              <div>
+                  <h4 className="text-xl font-bold">
+                    {t("Fresh Graduate Academy - Data Analytics")}
+                  </h4>
+                  <p className="text-lg font-medium">
+                    {t("Digital Talent Scholarship • Apr 2024 - Aug 2024")}
+                  </p>
+                  <p className="mt-2">
+                    {t("Completed Google Data Analytics training, specializing in real-world data cleaning and visualization.")}
+                  </p>
+                </div>
 
               <div className="space-y-8 text-white">
                 <div>
@@ -670,18 +682,6 @@ export default function Home() {
                   </p>
                   <p className="mt-2">
                     {t("Developed 'AR Melody' Android app and expanded client base with AR/VR projects.")}
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="text-xl font-bold">
-                    {t("Fresh Graduate Academy - Data Analytics")}
-                  </h4>
-                  <p className="text-lg font-medium">
-                    {t("Digital Talent Scholarship • Apr 2024 - Aug 2024")}
-                  </p>
-                  <p className="mt-2">
-                    {t("Completed Google Data Analytics training, specializing in real-world data cleaning and visualization.")}
                   </p>
                 </div>
               </div>
