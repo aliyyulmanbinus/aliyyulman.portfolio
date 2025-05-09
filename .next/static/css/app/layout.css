@@ -1264,15 +1264,6 @@ video {
 .top-full {
   top: 100%;
 }
-.left-8 {
-  left: 2rem;
-}
-.right-8 {
-  right: 2rem;
-}
-.top-8 {
-  top: 2rem;
-}
 .-z-10 {
   z-index: -10;
 }
@@ -1845,6 +1836,9 @@ video {
 }
 .break-words {
   overflow-wrap: break-word;
+}
+.break-all {
+  word-break: break-all;
 }
 .rounded {
   border-radius: 0.25rem;
@@ -3637,6 +3631,11 @@ body {
     padding-right: 3rem;
   }
 
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -3651,6 +3650,11 @@ body {
     line-height: 2rem;
   }
 
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -3659,6 +3663,11 @@ body {
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .data-\[state\=open\]\:sm\:slide-in-from-bottom-full[data-state="open"] {

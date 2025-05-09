@@ -725,8 +725,10 @@ export default function Home() {
               </div>
 
               <div className="mt-12">
-                <a href="https://drive.google.com/file/d/1MVy8EFc1ikps8PtQyp8X8Ro_YvuGKwtI/view?usp=sharing" className="inline-block custom-button-light px-8 py-3 text-lg font-medium text-custom-dark">
-                  {/* Gunakan fungsi t() untuk terjemahan */}
+                <a
+                  href={`mailto:aliyyulmanj@gmail.com?subject=Saya ingin lihat resume anda&body=Nama:%20%5BNama%20Anda%5D%0ATujuan:%20%5BTujuan%20Anda%5D`}
+                  className="inline-block custom-button-light px-8 py-3 text-lg font-medium text-custom-dark"
+                >
                   {t("Download Full Resume")}
                 </a>
               </div>

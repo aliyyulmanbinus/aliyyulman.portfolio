@@ -11,40 +11,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/case-studies/pertamina-hsse/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/pertamina-hsse/page.js"
-    ],
-    "/case-studies/dewinadulang/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/dewinadulang/page.js"
-    ],
-    "/case-studies/houset/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/houset/page.js"
-    ],
-    "/case-studies/envisions/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/envisions/page.js"
-    ],
-    "/case-studies/aurral/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/aurral/page.js"
-    ],
     "/case-studies/kurnia-interior/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/case-studies/kurnia-interior/page.js"
     ],
-    "/case-studies/diginlab/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/diginlab/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

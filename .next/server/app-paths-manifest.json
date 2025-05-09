@@ -1,8 +1,5 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/case-studies/pertamina-hsse/page": "app/case-studies/pertamina-hsse/page.js",
-  "/case-studies/envisions/page": "app/case-studies/envisions/page.js",
-  "/case-studies/aurral/page": "app/case-studies/aurral/page.js",
-  "/case-studies/kurnia-interior/page": "app/case-studies/kurnia-interior/page.js",
-  "/case-studies/houset/page": "app/case-studies/houset/page.js"
+  "/case-studies/kurnia-interior/page": "app/case-studies/kurnia-interior/page.js"
 }
