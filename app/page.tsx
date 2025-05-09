@@ -635,7 +635,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">
                 {t("Experience")}
               </h3>
-              
+
               <div className="space-y-8 text-white">
                 <div>
                   <h4 className="text-xl font-bold">
@@ -654,7 +654,7 @@ export default function Home() {
                     {t("Programmer Staff")}
                   </h4>
                   <p className="text-lg font-medium">
-                    {t("PT. Kreasi Kode Biner • Sep 2021 - Present")}
+                    {t("PT. Kreasi Kode Biner • Sep 2021 - March 2025")}
                   </p>
                   <p className="mt-2">
                     {t("Developed 3D simulations, gameplay modules, and warehouse handling systems using C# and C++.")}
