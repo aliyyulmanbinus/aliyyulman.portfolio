@@ -636,7 +636,8 @@ export default function Home() {
                 {t("Experience")}
               </h3>
               
-              <div>
+              <div className="space-y-8 text-white">
+                <div>
                   <h4 className="text-xl font-bold">
                     {t("Fresh Graduate Academy - Data Analytics")}
                   </h4>
@@ -648,7 +649,6 @@ export default function Home() {
                   </p>
                 </div>
 
-              <div className="space-y-8 text-white">
                 <div>
                   <h4 className="text-xl font-bold">
                     {t("Programmer Staff")}
@@ -684,6 +684,7 @@ export default function Home() {
                     {t("Developed 'AR Melody' Android app and expanded client base with AR/VR projects.")}
                   </p>
                 </div>
+
               </div>
             </motion.div>
             <motion.div
