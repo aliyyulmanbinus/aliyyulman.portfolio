@@ -67,8 +67,7 @@ export default function PertaminaHsseCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              Pengembangan lebih dari 10 fitur gameplay simulasi 3D untuk website Pertamina Digital HSSE Demo Room
-              menggunakan Unity dan C#.
+              {t("Developed 4 modules with over 100 gameplay flows for the Electric ECM Tractor and Tractor Oil Flow 3D interactive simulation applications using Unreal Engine and C++.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>

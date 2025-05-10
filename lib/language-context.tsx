@@ -302,5 +302,109 @@ const translations = {
     Results: "Hasil",
     "Next Project": "Proyek Berikutnya",
     Conclusion: "Kesimpulan",
+
+    // Overview
+    "Kurnia Interior Studio is an interior design company focused on residential and commercial projects with a minimalist and modern approach. They needed a company profile website to showcase their project portfolio in an elegant and professional manner.":
+      "Kurnia Interior Studio adalah perusahaan desain interior yang fokus pada proyek residensial dan komersial dengan pendekatan minimalis dan modern. Mereka membutuhkan website company profile yang dapat menampilkan portofolio proyek mereka dengan cara yang elegan dan profesional.",
+
+    "As a frontend web developer, I was responsible for implementing the website design created by the design team, ensuring responsiveness across various devices, and optimizing the website's performance.":
+      "Sebagai frontend web developer, saya bertanggung jawab untuk mengimplementasikan desain website yang telah dibuat oleh tim desain, memastikan responsivitas pada berbagai perangkat, dan mengoptimalkan performa website.",
+
+    // The Challenge
+    "This project presented several key challenges:":
+      "Proyek ini menghadirkan beberapa tantangan utama:",
+
+    "Showcasing project portfolios with high-quality images without compromising loading speed":
+      "Menampilkan portofolio proyek dengan gambar berkualitas tinggi tanpa mengorbankan kecepatan loading",
+
+    "Creating a smooth and intuitive browsing experience for visitors":
+      "Menciptakan pengalaman browsing yang mulus dan intuitif untuk pengunjung",
+
+    "Ensuring visual consistency with Kurnia Interior Studio’s brand identity":
+      "Memastikan konsistensi visual dengan brand identity Kurnia Interior Studio",
+
+    "Implementing a user-friendly CMS for content updates":
+      "Mengimplementasikan sistem CMS yang mudah digunakan untuk pembaruan konten",
+
+    "Optimizing the website for SEO to increase visibility to potential clients":
+      "Mengoptimalkan website untuk SEO agar mudah ditemukan oleh calon klien",
+
+    "In addition, the client required a gallery feature that could showcase project images in detail, as well as a contact form integrated with their email system.":
+      "Selain itu, klien membutuhkan fitur galeri yang dapat menampilkan gambar proyek dengan detail yang baik, serta formulir kontak yang terintegrasi dengan sistem email mereka.",
+
+    // Development Process
+    "The development process for Kurnia Interior Studio’s website followed a structured approach:":
+      "Proses pengembangan website Kurnia Interior Studio dilakukan dengan pendekatan yang terstruktur:",
+
+    "Requirements analysis and client expectation meetings":
+      "Analisis kebutuhan dan ekspektasi klien melalui serangkaian meeting",
+
+    "Wireframe and prototype creation for concept validation":
+      "Pembuatan wireframe dan prototype untuk validasi konsep",
+
+    "Frontend development using HTML5, CSS3, and JavaScript":
+      "Pengembangan frontend dengan HTML5, CSS3, dan JavaScript",
+
+    "CMS implementation using a custom WordPress theme":
+      "Implementasi CMS WordPress dengan custom theme",
+
+    "Image and asset optimization for better performance":
+      "Optimasi gambar dan aset untuk performa yang lebih baik",
+
+    "Cross-device and cross-browser testing":
+      "Testing pada berbagai perangkat dan browser",
+
+    "Deployment and server configuration":
+      "Deployment dan konfigurasi server",
+
+    // The Solution
+    "The website developed for Kurnia Interior Studio includes several key features:":
+      "Website yang dikembangkan untuk Kurnia Interior Studio memiliki beberapa fitur utama:",
+
+    "Homepage with a hero section highlighting featured projects":
+      "Homepage dengan hero section yang menampilkan proyek unggulan",
+
+    "Portfolio gallery with category-based filters":
+      "Galeri portofolio dengan filter berdasarkan kategori proyek",
+
+    "Project detail pages with image galleries and descriptions":
+      "Halaman detail proyek dengan galeri gambar dan deskripsi",
+
+    "Services page with detailed service explanations":
+      "Halaman layanan dengan penjelasan detail setiap layanan",
+
+    "About us page showcasing team profiles and company history":
+      "Halaman tentang kami yang menampilkan profil tim dan sejarah perusahaan",
+
+    "Contact form with validation and email integration":
+      "Formulir kontak dengan validasi dan integrasi email",
+
+    "Blog for interior design-related articles":
+      "Blog untuk artikel terkait desain interior",
+
+    "To enhance performance, I implemented lazy loading for images, minified CSS and JavaScript, and effective caching. The website was also optimized for SEO with a well-structured layout, relevant meta tags, and a sitemap.":
+      "Untuk mengoptimalkan performa, saya mengimplementasikan lazy loading untuk gambar, minifikasi CSS dan JavaScript, serta caching yang efektif. Website juga dioptimalkan untuk SEO dengan struktur yang baik, meta tags yang relevan, dan sitemap.",
+
+    // Results
+    "After launching the Kurnia Interior Studio website, the client experienced several positive outcomes:":
+      "Setelah peluncuran website Kurnia Interior Studio, klien mendapatkan beberapa hasil positif:",
+
+    "A 45% increase in website visitors within the first 3 months":
+      "Peningkatan 45% dalam jumlah pengunjung website dalam 3 bulan pertama",
+
+    "A 60% increase in quotation requests via the contact form":
+      "Peningkatan 60% dalam jumlah permintaan penawaran melalui formulir kontak",
+
+    "Improved search engine visibility with first-page ranking for several target keywords":
+      "Peningkatan visibilitas di mesin pencari dengan posisi halaman pertama untuk beberapa kata kunci target",
+
+    "Positive client feedback on the CMS's ease of use for content updates":
+      "Feedback positif dari klien mengenai kemudahan penggunaan CMS untuk pembaruan konten",
+
+    "A 40% reduction in page loading time compared to the previous website":
+      "Pengurangan waktu loading halaman sebesar 40% dibandingkan website sebelumnya",
+
+    "The website also became an effective marketing tool for Kurnia Interior Studio, helping them expand market reach and attract new potential clients.":
+      "Website ini juga menjadi alat pemasaran yang efektif bagi Kurnia Interior Studio, membantu mereka memperluas jangkauan pasar dan menarik klien potensial baru.",
   },
 }

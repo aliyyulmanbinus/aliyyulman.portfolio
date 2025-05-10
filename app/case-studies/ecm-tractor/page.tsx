@@ -67,8 +67,7 @@ export default function EcmTractorCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              Pengembangan 4 modul dengan lebih dari 100 gameplay flow untuk aplikasi simulasi 3D interaktif Electric
-              ECM Tractor dan Tractor Oil Flow menggunakan Unreal Engine dan C++.
+              {t("Developed 4 modules with over 100 gameplay flows for the Electric ECM Tractor and Tractor Oil Flow 3D interactive simulation applications using Unreal Engine and C++.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>

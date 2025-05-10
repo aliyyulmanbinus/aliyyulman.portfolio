@@ -64,8 +64,7 @@ export default function EnvisionsCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              Company profile website untuk Envisions, platform automation dan data analytics untuk manajemen gedung dan
-              bisnis.
+              {t("Built a company profile website for Envisions, a platform for automation and data analytics in building and business management.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>

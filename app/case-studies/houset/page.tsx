@@ -64,7 +64,7 @@ export default function HousetCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              Desain dan implementasi fitur 2D dan 3D canvas pada website Houset menggunakan C# dan JavaScript.
+              {t("Designed and implemented 2D and 3D canvas features for the Houset website using C# and JavaScript.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>

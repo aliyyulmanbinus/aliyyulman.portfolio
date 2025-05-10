@@ -6,15 +6,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/case-studies/kurnia-interior/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/case-studies/pertamina-hsse/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-studies/pertamina-hsse/page.js"
+      "static/chunks/app/case-studies/kurnia-interior/page.js"
     ]
   }
 }

@@ -64,7 +64,7 @@ export default function DewinadulangCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              Virtual reality tour untuk memperkenalkan destinasi wisata Dewi Nadulang menggunakan platform theasys.io.
+              {t("Created a virtual reality tour to promote Dewi Nadulang tourist destination using the theasys.io platform.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>

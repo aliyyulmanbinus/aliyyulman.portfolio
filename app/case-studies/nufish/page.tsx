@@ -67,8 +67,7 @@ export default function KurniaInteriorCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              Pengembangan 60% fitur inti aplikasi NuFish untuk Android sebagai full-stack developer menggunakan
-              Kotlin.
+              {t("Contributed to 60% of the core features of the NuFish Android application as a full-stack developer using Kotlin.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>

@@ -64,8 +64,7 @@ export default function AurralCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              Implementasi Augmented Reality untuk membantu visualisasi nilai komponen dan simulasi rangkaian listrik
-              dalam pembelajaran.
+              {t("Implemented Augmented Reality features to support component value visualization and electrical circuit simulation in educational settings.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>

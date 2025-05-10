@@ -65,8 +65,7 @@ export default function KurniaInteriorCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              Pembuatan website company profile untuk Kurnia Interior Studio, sebuah studio desain interior yang
-              menampilkan portofolio proyek, layanan desain, serta profil perusahaan.
+              {t("Developed a company profile website for Kurnia Interior Studio, an interior design studio showcasing project portfolios, design services, and company profile.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>
@@ -121,15 +120,11 @@ export default function KurniaInteriorCaseStudy() {
 
             <motion.div className="prose prose-lg max-w-none custom-card p-8" variants={fadeIn}>
               <p className="text-custom-dark">
-                Kurnia Interior Studio adalah perusahaan desain interior yang fokus pada proyek residensial dan
-                komersial dengan pendekatan minimalis dan modern. Mereka membutuhkan website company profile yang dapat
-                menampilkan portofolio proyek mereka dengan cara yang elegan dan profesional.
+                {t("Kurnia Interior Studio is an interior design company focused on residential and commercial projects with a minimalist and modern approach. They needed a company profile website to showcase their project portfolio in an elegant and professional manner.")}
               </p>
 
               <p className="text-custom-dark">
-                Sebagai frontend web developer, saya bertanggung jawab untuk mengimplementasikan desain website yang
-                telah dibuat oleh tim desain, memastikan responsivitas pada berbagai perangkat, dan mengoptimalkan
-                performa website.
+                {t("As a frontend web developer, I was responsible for implementing the website design created by the design team, ensuring responsiveness across various devices, and optimizing the website's performance.")}
               </p>
             </motion.div>
           </motion.div>
