@@ -156,8 +156,7 @@ export default function Home() {
             <div>
               <h3 className="text-4xl md:text-5xl font-bold text-white mb-4">Kurnia Interior Studio Website</h3>
               <p className="text-lg mb-6 text-white">
-                Pembuatan website company profile untuk Kurnia Interior Studio, sebuah studio desain interior yang
-                menampilkan portofolio proyek, layanan desain, serta profil perusahaan.
+                {t("Developed a company profile website for Kurnia Interior Studio, an interior design studio showcasing project portfolios, design services, and company profile.")}
               </p>
 
               <div className="space-y-2 mb-8 text-white">
@@ -200,8 +199,7 @@ export default function Home() {
             <div className="order-2 md:order-1">
               <h3 className="text-4xl md:text-5xl font-bold text-custom-dark mb-4">PERTAMINA DIGITAL HSSE DEMO ROOM</h3>
               <p className="text-lg mb-6 text-custom-dark">
-                Pengembangan lebih dari 10 fitur gameplay simulasi 3D untuk website Pertamina Digital HSSE Demo Room
-                menggunakan Unity dan C#.
+                {t("Built over 10 simulation gameplay features for the Pertamina Digital HSSE Demo Room website using Unity and C#.")}
               </p>
 
               <div className="space-y-2 mb-8 text-custom-dark">
@@ -273,8 +271,7 @@ export default function Home() {
             <div>
               <h3 className="text-4xl md:text-5xl font-bold text-white mb-4">DIGINLab Online Nursing Laboratory</h3>
               <p className="text-lg mb-6 text-white">
-                Pembuatan 5 dari 20 gameplay simulasi interaktif untuk website DIGINLab, laboratorium keperawatan
-                berbasis online, menggunakan Unity dan C#.
+                {t("Created 5 out of 20 interactive simulation gameplay modules for DIGINLab, an online nursing laboratory platform, using Unity and C#.")}
               </p>
 
               <div className="space-y-2 mb-8 text-white">
@@ -314,8 +311,7 @@ export default function Home() {
                 Electric ECM Tractor & Tractor Oil Flow
               </h3>
               <p className="text-lg mb-6 text-custom-dark">
-                Pengembangan 4 modul dengan lebih dari 100 gameplay flow untuk aplikasi simulasi 3D interaktif Electric
-                ECM Tractor dan Tractor Oil Flow menggunakan Unreal Engine dan C++.
+                {t("Developed 4 modules with over 100 gameplay flows for the Electric ECM Tractor and Tractor Oil Flow 3D interactive simulation applications using Unreal Engine and C++.")}
               </p>
 
               <div className="space-y-2 mb-8 text-custom-dark">
@@ -382,8 +378,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-custom-dark">NuFish Android Application</h3>
               <p className="text-sm mb-4 text-custom-dark flex-grow">
-                Pengembangan 60% fitur inti aplikasi NuFish untuk Android sebagai full-stack developer menggunakan
-                Kotlin.
+                {t("Contributed to 60% of the core features of the NuFish Android application as a full-stack developer using Kotlin.")}
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/nufish" className="flex items-center text-custom-dark hover:underline">
@@ -415,7 +410,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-custom-dark">Houset Website 2D & 3D Canvas</h3>
               <p className="text-sm mb-4 text-custom-dark flex-grow">
-                Desain dan implementasi fitur 2D dan 3D canvas pada website Houset menggunakan C# dan JavaScript.
+                {t("Designed and implemented 2D and 3D canvas features for the Houset website using C# and JavaScript.")}
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/houset" className="flex items-center text-custom-dark hover:underline">
@@ -447,8 +442,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-custom-dark">Envisions.id</h3>
               <p className="text-sm mb-4 text-custom-dark flex-grow">
-                Company profile website untuk Envisions, platform automation dan data analytics untuk manajemen gedung
-                dan bisnis.
+                {t("Built a company profile website for Envisions, a platform for automation and data analytics in building and business management.")}
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/envisions" className="flex items-center text-custom-dark hover:underline">
@@ -480,8 +474,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-custom-dark">Dewinadulang.com</h3>
               <p className="text-sm mb-4 text-custom-dark flex-grow">
-                Virtual reality tour untuk memperkenalkan destinasi wisata Dewi Nadulang menggunakan platform
-                theasys.io.
+                {t("Created a virtual reality tour to promote Dewi Nadulang tourist destination using the theasys.io platform.")}
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/dewinadulang" className="flex items-center text-custom-dark hover:underline">
@@ -513,8 +506,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-custom-dark">AuRRaL (AR Rangkaian Listrik)</h3>
               <p className="text-sm mb-4 text-custom-dark flex-grow">
-                Implementasi Augmented Reality untuk membantu visualisasi nilai komponen dan simulasi rangkaian listrik
-                dalam pembelajaran.
+                {t("Implemented Augmented Reality features to support component value visualization and electrical circuit simulation in educational settings.")}
               </p>
               <div className="mt-auto">
                 <Link href="/case-studies/aurral" className="flex items-center text-custom-dark hover:underline">

@@ -209,6 +209,34 @@ const translations = {
     "VR Tour": "Tur VR",
     "AR App": "Aplikasi AR",
 
+    // Projects Section
+    "Developed a company profile website for Kurnia Interior Studio, an interior design studio showcasing project portfolios, design services, and company profile.":
+      "Pembuatan website company profile untuk Kurnia Interior Studio, sebuah studio desain interior yang menampilkan portofolio proyek, layanan desain, serta profil perusahaan.",
+
+    "Built over 10 simulation gameplay features for the Pertamina Digital HSSE Demo Room website using Unity and C#.":
+      "Pengembangan lebih dari 10 fitur gameplay simulasi 3D untuk website Pertamina Digital HSSE Demo Room menggunakan Unity dan C#.",
+
+    "Created 5 out of 20 interactive simulation gameplay modules for DIGINLab, an online nursing laboratory platform, using Unity and C#.":
+      "Pembuatan 5 dari 20 gameplay simulasi interaktif untuk website DIGINLab, laboratorium keperawatan berbasis online, menggunakan Unity dan C#.",
+
+    "Developed 4 modules with over 100 gameplay flows for the Electric ECM Tractor and Tractor Oil Flow 3D interactive simulation applications using Unreal Engine and C++.":
+      "Pengembangan 4 modul dengan lebih dari 100 gameplay flow untuk aplikasi simulasi 3D interaktif Electric ECM Tractor dan Tractor Oil Flow menggunakan Unreal Engine dan C++.",
+
+    "Contributed to 60% of the core features of the NuFish Android application as a full-stack developer using Kotlin.":
+      "Pengembangan 60% fitur inti aplikasi NuFish untuk Android sebagai full-stack developer menggunakan Kotlin.",
+
+    "Designed and implemented 2D and 3D canvas features for the Houset website using C# and JavaScript.":
+      "Desain dan implementasi fitur 2D dan 3D canvas pada website Houset menggunakan C# dan JavaScript.",
+
+    "Built a company profile website for Envisions, a platform for automation and data analytics in building and business management.":
+      "Company profile website untuk Envisions, platform automation dan data analytics untuk manajemen gedung dan bisnis.",
+
+    "Created a virtual reality tour to promote Dewi Nadulang tourist destination using the theasys.io platform.":
+      "Virtual reality tour untuk memperkenalkan destinasi wisata Dewi Nadulang menggunakan platform theasys.io.",
+
+    "Implemented Augmented Reality features to support component value visualization and electrical circuit simulation in educational settings.":
+      "Implementasi Augmented Reality untuk membantu visualisasi nilai komponen dan simulasi rangkaian listrik dalam pembelajaran.",
+
     // About Section
     "About Me": "Tentang Saya",
     "My Background": "Latar Belakang Saya",
