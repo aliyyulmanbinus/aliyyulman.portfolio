@@ -1,0 +1,363 @@
+"use client"
+
+import { motion } from "framer-motion"
+import Image from "next/image"
+import Link from "next/link"
+import { ArrowLeft } from "lucide-react"
+import { useEffect, useState, useRef } from "react"
+import { useLanguage } from "@/lib/language-context"
+import LanguageToggle from "@/components/language-toggle"
+
+export default function BicimiciGameCaseStudy() {
+  const { t } = useLanguage()
+  const [showGame, setShowGame] = useState(false)
+  const [isFullscreen, setIsFullscreen] = useState(false)
+  const gameContainerRef = useRef<HTMLDivElement>(null)
+
+  const handleToggleFullscreen = () => {
+    if (!gameContainerRef.current) return
+
+    if (document.fullscreenElement) {
+      // Keluar dari fullscreen
+      document.exitFullscreen().catch(console.error)
+      setIsFullscreen(false)
+    } else {
+      // Masuk fullscreen
+      gameContainerRef.current.requestFullscreen().catch(console.error)
+      setIsFullscreen(true)
+    }
+  }
+
+  const fadeIn = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6 },
+    },
+  }
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement)
+    }
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange)
+    return () => document.removeEventListener('fullscreenchange', handleFullscreenChange)
+  }, [])
+
+  return (
+    <main className="bg-white min-h-screen text-custom-dark">
+      <div className="fixed top-4 left-0 right-0 z-50 flex justify-between items-center px-4 sm:px-8">
+        <div className="bg-white px-3 py-2 rounded shadow">
+          <Link href="/#work" className="flex items-center text-custom-dark hover:text-black transition-colors">
+            <ArrowLeft className="mr-2" size={20} />
+            <span className="text-sm sm:text-base">{t("Back to Work")}</span>
+          </Link>
+        </div>
+
+        <div className="bg-white px-3 py-2 rounded shadow">
+          <LanguageToggle />
+        </div>
+      </div>
+
+      <header className="pt-32 pb-16 px-6 md:px-12 lg:px-24">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.2,
+                },
+              },
+            }}
+          >
+            <motion.h1 className="text-5xl md:text-7xl font-bold text-custom-dark mb-6" variants={fadeIn}>
+              Bicimici Game
+            </motion.h1>
+
+            <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
+              {t("Developed a 2D cybersecurity educational game for elementary students using C# Unity 6, focusing on interactive and scenario-based learning.")}
+            </motion.p>
+
+            <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>
+              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Unity</span>
+              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Game Dev</span>
+              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Cybersecurity</span>
+              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Education</span>
+            </motion.div>
+          </motion.div>
+        </div>
+      </header>
+
+      <section className="w-full mb-24">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="w-full"
+        >
+          <Image
+            src="/assets/bicimici/bibimici-game-pages.png"
+            alt="Bicimici Game Hero"
+            width={1600}
+            height={800}
+            className="w-full h-auto object-cover custom-card"
+          />
+        </motion.div>
+      </section>
+
+      <section className="px-6 md:px-12 lg:px-24 mb-24">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.2,
+                },
+              },
+            }}
+          >
+            <motion.h2 className="text-3xl md:text-4xl font-bold mb-8 text-custom-dark" variants={fadeIn}>
+              {t("Overview")}
+            </motion.h2>
+
+            <motion.div className="prose prose-lg max-w-none custom-card p-8" variants={fadeIn}>
+              <p className="text-custom-dark">
+                {t("Bicimici Game is a 2D educational experience designed for elementary students to explore cybersecurity through interactive story-based gameplay.")}
+              </p>
+              <p className="text-custom-dark">
+                {t("The project was developed using Unity 6 and C# to deliver a friendly and accessible learning journey that supports young learners in understanding online safety topics.")}
+              </p>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="px-6 md:px-12 lg:px-24 mb-24 bg-custom-dark py-16">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.2,
+                },
+              },
+            }}
+          >
+            <motion.h2 className="text-3xl md:text-4xl font-bold mb-8 text-white" variants={fadeIn}>
+              {t("The Challenge")}
+            </motion.h2>
+
+            <motion.div className="prose prose-lg max-w-none custom-card-dark p-8 text-white" variants={fadeIn}>
+              <p className="text-white">{t("The main challenge was creating an engaging learning experience that is appropriate for elementary students while maintaining clear cybersecurity lessons.")}</p>
+              <ul className="text-white">
+                <li>{t("Designing scenario-based gameplay that simplifies complex digital safety topics")}</li>
+                <li>{t("Balancing educational content with fun, age-appropriate mechanics")}</li>
+                <li>{t("Ensuring usability and comprehension for young learners across all levels")}</li>
+                <li>{t("Building a stable Unity 6 experience with consistent performance")}</li>
+              </ul>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="px-6 md:px-12 lg:px-24 mb-24">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.2,
+                },
+              },
+            }}
+          >
+            <motion.h2 className="text-3xl md:text-4xl font-bold mb-8 text-custom-dark" variants={fadeIn}>
+              {t("Development Process")}
+            </motion.h2>
+
+            <motion.div className="prose prose-lg max-w-none mb-12 custom-card p-8" variants={fadeIn}>
+              <p className="text-custom-dark">{t("Development followed an iterative process to ensure the game matched educational goals while remaining fun and easy to play.")}</p>
+              <ol className="text-custom-dark">
+                <li>{t("Concept design and educational topic mapping for elementary students")}</li>
+                <li>{t("Level planning with 10 structured stages aligned to child-friendly standards")}</li>
+                <li>{t("Unity 6 implementation using C# for gameplay, UI, and interaction logic")}</li>
+                <li>{t("Story-driven scenarios that introduce key cybersecurity topics")}</li>
+                <li>{t("Testing with target users and refining controls for simplicity and clarity")}</li>
+                <li>{t("Final polish and performance optimization for classroom-friendly use")}</li>
+              </ol>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="px-6 md:px-12 lg:px-24 mb-24">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.2,
+                },
+              },
+            }}
+          >
+            <motion.h2 className="text-3xl md:text-4xl font-bold mb-8 text-custom-dark" variants={fadeIn}>
+              {t("Key Features")}
+            </motion.h2>
+
+            <motion.div className="prose prose-lg max-w-none custom-card p-8" variants={fadeIn}>
+              <ul className="text-custom-dark">
+                <li>{t("4 story topics covering Online Predators, Cyberbullying, Digital Footprint, and Pornography Awareness")}</li>
+                <li>{t("10 interactive game levels designed to reinforce learning with clear progression")}</li>
+                <li>{t("Scenario-based tasks that teach decision-making and safe internet habits")}</li>
+                <li>{t("Friendly visuals and simple controls suitable for young elementary students")}</li>
+                <li>{t("A supportive educational flow that encourages learning through play")}</li>
+              </ul>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="px-6 md:px-12 lg:px-24 mb-24">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.2,
+                },
+              },
+            }}
+          >
+            <motion.h2 className="text-3xl md:text-4xl font-bold mb-8 text-custom-dark" variants={fadeIn}>
+              {t("Try the Game")}
+            </motion.h2>
+
+            <motion.div className="custom-card p-8" variants={fadeIn}>
+              <p className="text-custom-dark mb-4">
+                {t("Experience the Bicimici Game directly in your browser. Click the button to start the game in fullscreen mode.")}
+              </p>
+              {!showGame ? (
+                <div className="relative w-full aspect-video border rounded-lg overflow-hidden bg-gray-200">
+                  <Image
+                    src="/assets/bicimici/bicimicigameplay.gif"
+                    alt="Bicimici Game Preview"
+                    fill
+                    unoptimized
+                    className="w-full h-full object-contain"
+                  />
+                  <button
+                    onClick={() => {
+                      setShowGame(true)
+                      setTimeout(() => {
+                        if (gameContainerRef.current) {
+                          gameContainerRef.current.requestFullscreen().catch(console.error)
+                          setIsFullscreen(true)
+                        }
+                      }, 100)
+                    }}
+                    className="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/60 transition-colors group"
+                  >
+                    <span className="bg-black text-white px-8 py-4 rounded-lg font-bold text-lg group-hover:bg-gray-800 transition-colors">
+                      {t("Mari Bermain")}
+                    </span>
+                  </button>
+                </div>
+              ) : (
+                <div ref={gameContainerRef} className="relative w-full aspect-video border rounded-lg overflow-hidden bg-gray-900">
+                  <iframe
+                    src="/unity/_bicimicigame/index.html"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allowFullScreen
+                    title="Bicimici Game WebGL"
+                  ></iframe>
+                  <button
+                    onClick={handleToggleFullscreen}
+                    className="absolute top-4 right-4 bg-black/70 text-white px-4 py-2 rounded-lg font-medium hover:bg-black/90 transition-colors z-10"
+                    title={isFullscreen ? "Exit Fullscreen" : "Fullscreen"}
+                  >
+                    {isFullscreen ? "✕" : "⛶"}
+                  </button>
+                </div>
+              )}
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="px-6 md:px-12 lg:px-24 mb-24 bg-custom-dark py-16">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.2,
+                },
+              },
+            }}
+          >
+            <motion.h2 className="text-3xl md:text-4xl font-bold mb-8 text-white" variants={fadeIn}>
+              {t("Results")}
+            </motion.h2>
+
+            <motion.div className="prose prose-lg max-w-none custom-card-dark p-8 text-white" variants={fadeIn}>
+              <p className="text-white">{t("The game was completed as an educational tool for elementary students and designed to support safe digital habits.")}</p>
+              <ul className="text-white">
+                <li>{t("Implemented 10 structured game levels aligned with child-friendly educational standards")}</li>
+                <li>{t("Integrated 4 key cybersecurity topics into a narrative game format")}</li>
+                <li>{t("Created interactive experiences that improved comprehension for young learners")}</li>
+                <li>{t("Delivered a user-friendly Unity game with stable performance and clear learning outcomes")}</li>
+              </ul>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      <footer className="px-6 md:px-12 lg:px-24 py-16 bg-white text-center">
+        <Link href="/case-studies/ecochat" className="inline-block custom-button px-8 py-3 text-white font-medium">
+          {t("NEXT PROJECT : ECOCHAT.ID")}
+        </Link> 
+      </footer>
+    </main>
+  )
+}

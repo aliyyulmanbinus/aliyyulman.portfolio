@@ -1,0 +1,784 @@
+module.exports = [
+"[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js"));
+
+module.exports = mod;
+}),
+"[project]/components/theme-provider.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ThemeProvider",
+    ()=>ThemeProvider
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-themes/dist/index.mjs [app-ssr] (ecmascript)");
+'use client';
+;
+;
+function ThemeProvider({ children, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ThemeProvider"], {
+        ...props,
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/components/theme-provider.tsx",
+        lineNumber: 10,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/lib/language-context.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "LanguageProvider",
+    ()=>LanguageProvider,
+    "useLanguage",
+    ()=>useLanguage
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+// File baru: Context untuk menyimpan dan mengelola state bahasa
+"use client";
+;
+;
+// Nilai default untuk context
+const defaultContext = {
+    language: "id",
+    setLanguage: ()=>{},
+    t: (key)=>key
+};
+// Membuat context
+const LanguageContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"])(defaultContext);
+const useLanguage = ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(LanguageContext);
+function LanguageProvider({ children }) {
+    // State untuk menyimpan bahasa saat ini
+    const [language, setLanguage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("id");
+    // Efek untuk memuat preferensi bahasa dari localStorage saat aplikasi dimuat
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const savedLanguage = localStorage.getItem("language");
+        if (savedLanguage && (savedLanguage === "en" || savedLanguage === "id")) {
+            setLanguage(savedLanguage);
+        }
+    }, []);
+    // Efek untuk menyimpan preferensi bahasa ke localStorage saat berubah
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        localStorage.setItem("language", language);
+    }, [
+        language
+    ]);
+    // Fungsi untuk mengubah bahasa
+    const handleSetLanguage = (newLanguage)=>{
+        setLanguage(newLanguage);
+    };
+    function t(key) {
+        const lang = translations[language] ? language : "en";
+        const langTranslations = translations[lang];
+        const enTranslations = translations["en"];
+        return langTranslations[key] || enTranslations[key] || key;
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LanguageContext.Provider, {
+        value: {
+            language,
+            setLanguage: handleSetLanguage,
+            t
+        },
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/lib/language-context.tsx",
+        lineNumber: 67,
+        columnNumber: 5
+    }, this);
+}
+// Objek terjemahan untuk semua teks dalam aplikasi
+const translations = {
+    en: {
+        // Header
+        About: "About",
+        Work: "Work",
+        Resume: "Resume",
+        // Hero Section
+        "Hello! I'm": "Hello! I'm",
+        "A collection of my projects in software engineering, game development, web, Unity, Unreal, and AI. Feel free to explore.": "A collection of my projects in software engineering, game development, web, Unity, Unreal, and AI. Feel free to explore.",
+        // Work Section
+        "Selected Work": "Selected Work",
+        "Project type:": "Project type:",
+        "Role:": "Role:",
+        "Industry:": "Industry:",
+        "View case study": "View case study",
+        "View details": "View details",
+        "Company profile website": "Company profile website",
+        "Frontend Web Developer": "Frontend Web Developer",
+        "Interior Design, Architecture, Creative Agency": "Interior Design, Architecture, Creative Agency",
+        "3D simulation for digital training website": "3D simulation for digital training website",
+        "Unity Game Developer": "Unity Game Developer",
+        "Energy, Safety Training, Digital Simulation": "Energy, Safety Training, Digital Simulation",
+        "Interactive 3D simulation for e-learning platform": "Interactive 3D simulation for e-learning platform",
+        "Ed Tech, Health Education": "Ed Tech, Health Education",
+        "3D interactive simulation applications": "3D interactive simulation applications",
+        "Unreal Engine Developer": "Unreal Engine Developer",
+        "Heavy Machinery, Industrial Training": "Heavy Machinery, Industrial Training",
+        "Mobile App": "Mobile App",
+        "Web 3D": "Web 3D",
+        WordPress: "WordPress",
+        "VR Tour": "VR Tour",
+        "AR App": "AR App",
+        // About Section
+        "About Me": "About Me",
+        "My Background": "My Background",
+        "I hold a degree in Computer Science and have over three years of professional experience in software development, both as a full-time employee in the private sector and as a freelance programmer. Throughout my career, I have worked on various projects ranging from simulation-based applications to web-based interactive dashboards.": "I hold a degree in Computer Science and have over three years of professional experience in software development, both as a full-time employee in the private sector and as a freelance programmer. Throughout my career, I have worked on various projects ranging from simulation-based applications to web-based interactive dashboards.",
+        "This technical background has given me a strong foundation in problem-solving, system logic, and clean coding practices. It also fuels my passion for creating software that is not only functional but also user-centric. I approach each project by balancing technical efficiency with thoughtful design, ensuring that the solutions I build meet real user needs while maintaining scalability and maintainability.": "This technical background has given me a strong foundation in problem-solving, system logic, and clean coding practices. It also fuels my passion for creating software that is not only functional but also user-centric. I approach each project by balancing technical efficiency with thoughtful design, ensuring that the solutions I build meet real user needs while maintaining scalability and maintainability.",
+        "My Skills": "My Skills",
+        "UX/UI Design": "UX/UI Design",
+        "User Research": "User Research",
+        Prototyping: "Prototyping",
+        "Design Systems": "Design Systems",
+        "Collaborative Workshops": "Collaborative Workshops",
+        // Resume Section
+        Experience: "Experience",
+        "Programmer Staff": "Programmer Staff",
+        "PT. Kreasi Kode Biner • Sep 2021 - Present": "PT. Kreasi Kode Biner • Sep 2021 - Present",
+        "Developed 3D simulations, gameplay modules, and warehouse handling systems using C# and C++.": "Developed 3D simulations, gameplay modules, and warehouse handling systems using C# and C++.",
+        "Programmer": "Programmer",
+        "PT. Mina Nusantara Ahingani • Oct 2020 - Sep 2021": "PT. Mina Nusantara Ahingani • Oct 2020 - Sep 2021",
+        "Built NuFish Android app, designed UI/UX, and migrated parts to Flutter.": "Built NuFish Android app, designed UI/UX, and migrated parts to Flutter.",
+        "Programmer (Intern)": "Programmer (Intern)",
+        "JAGAD CREATIVE • Jan 2021 - Jul 2021": "JAGAD CREATIVE • Jan 2021 - Jul 2021",
+        "Developed 'AR Melody' Android app and expanded client base with AR/VR projects.": "Developed 'AR Melody' Android app and expanded client base with AR/VR projects.",
+        "Fresh Graduate Academy - Data Analytics": "Fresh Graduate Academy - Data Analytics",
+        "Digital Talent Scholarship • Apr 2024 - Aug 2024": "Digital Talent Scholarship • Apr 2024 - Aug 2024",
+        "Developed an LMS and cybersecurity educational games for elementary to high school students.": "Developed an LMS and cybersecurity educational games for elementary to high school students.",
+        // Education Section (English)
+        Education: "Education",
+        "Bachelor of Computer Science": "Bachelor of Computer Science",
+        "Bina Nusantara University • Feb 2023 - Feb 2025": "Bina Nusantara University • Feb 2023 - Feb 2025",
+        "Developed a web-based dashboard and graduated with Magna Cum Laude honors.": "Developed a web-based dashboard and graduated with Magna Cum Laude honors.",
+        "Diploma in Application Software Engineering": "Diploma in Application Software Engineering",
+        "Telkom University • Aug 2018 - Aug 2021": "Telkom University • Aug 2018 - Aug 2021",
+        "Received GenBI Scholarship and became finalist in national technology competitions.": "Received GenBI Scholarship and became finalist in national technology competitions.",
+        "Download Full Resume": "Download Full Resume",
+        // Contact Section
+        "Let's Connect": "Let's Connect",
+        "Have a project in mind or just want to chat?": "Have a project in mind or just want to chat?",
+        // Footer
+        "All rights reserved.": "All rights reserved.",
+        // Language Toggle
+        English: "English",
+        Indonesian: "Indonesian",
+        // Case Studies
+        "Back to Work": "Back to Work",
+        Overview: "Overview",
+        "The Challenge": "The Challenge",
+        "Development Process": "Development Process",
+        "Design Process": "Design Process",
+        "The Solution": "The Solution",
+        Results: "Results",
+        "Next Project": "Next Project",
+        Conclusion: "Conclusion",
+        // Home Page Case Study Short Descriptions
+        "A web-based Learning Management System designed for cybersecurity education. Integrated with interactive Unity WebGL games to enhance engagement and learning experience.": "A web-based Learning Management System designed for cybersecurity education. Integrated with interactive Unity WebGL games to enhance engagement and learning experience.",
+        "An interactive 2D educational game focused on cybersecurity awareness for children. Covers real-life digital risks through engaging storytelling and scenario-based gameplay.": "An interactive 2D educational game focused on cybersecurity awareness for children. Covers real-life digital risks through engaging storytelling and scenario-based gameplay.",
+        "Development of a responsive website with integrated AI chat assistant to enhance user interaction and provide instant support. Designed with a focus on sustainability and smart communication.": "Development of a responsive website with integrated AI chat assistant to enhance user interaction and provide instant support. Designed with a focus on sustainability and smart communication.",
+        "A web-based dashboard designed to monitor and analyze parking issues across multiple locations. The system provides real-time reporting, automatic notifications, and performance insights for each site.": "A web-based dashboard designed to monitor and analyze parking issues across multiple locations. The system provides real-time reporting, automatic notifications, and performance insights for each site.",
+        // Additional missing translations
+        "Fullstack Developer": "Fullstack Developer",
+        "Learning Management System": "Learning Management System",
+        "Tech Stack:": "Tech Stack:",
+        "Laravel, React, PostgreSQL, JWT, Unity WebGL": "Laravel, React, PostgreSQL, JWT, Unity WebGL",
+        "2D Educational Game": "2D Educational Game",
+        "Game Developer": "Game Developer",
+        "Unity, C#, WebGL": "Unity, C#, WebGL",
+        "AI Chat Website": "AI Chat Website",
+        "Fullstack Web Developer": "Fullstack Web Developer",
+        "Technology Convai, Chat AI, Unity": "Technology Convai, Chat AI, Unity",
+        "Data Analytics Dashboard": "Data Analytics Dashboard",
+        "Frontend Developer": "Frontend Developer",
+        "Smart Parking, IoT": "Smart Parking, IoT",
+        "Platform Demo": "Platform Demo",
+        "Watch a demonstration of the Bicimici LMS platform in action. This video showcases the platform features and user interface.": "Watch a demonstration of the Bicimici LMS platform in action. This video showcases the platform features and user interface.",
+        "Your browser does not support the video tag.": "Your browser does not support the video tag.",
+        "Try the Game": "Try the Game",
+        "Experience the Bicimici Game directly in your browser. Click the button to start the game in fullscreen mode.": "Experience the Bicimici Game directly in your browser. Click the button to start the game in fullscreen mode.",
+        "Mari Bermain": "Play Game",
+        "Play Game": "Play Game",
+        "AI Chat": "AI Chat",
+        "Web Development": "Web Development",
+        "Sustainability": "Sustainability",
+        "Data Analytics": "Data Analytics",
+        "Web Dashboard": "Web Dashboard",
+        "IoT System": "IoT System",
+        "Ecochat Website": "Ecochat Website",
+        "Soul Parking Problem Report Dashboard": "Soul Parking Problem Report Dashboard"
+    },
+    id: {
+        // Header
+        About: "Tentang",
+        Work: "Karya",
+        Resume: "Resume",
+        // Hero Section
+        "Hello! I'm": "Halo! Saya",
+        "A collection of my projects in software engineering, game development, web, Unity, Unreal, and AI. Feel free to explore.": "Kumpulan project saya pada software engineering, game development, web, Unity, Unreal, dan AI. Silakan lihat hasilnya.",
+        // Work Section
+        "Selected Work": "Karya Pilihan",
+        "Project type:": "Jenis proyek:",
+        "Role:": "Peran:",
+        "Industry:": "Industri:",
+        "View case study": "Lihat studi kasus",
+        "View details": "Lihat detail",
+        "Company profile website": "Website profil perusahaan",
+        "Frontend Web Developer": "Pengembang Web Frontend",
+        "Interior Design, Architecture, Creative Agency": "Desain Interior, Arsitektur, Agensi Kreatif",
+        "3D simulation for digital training website": "Simulasi 3D untuk website pelatihan digital",
+        "Unity Game Developer": "Pengembang Game Unity",
+        "Energy, Safety Training, Digital Simulation": "Energi, Pelatihan Keselamatan, Simulasi Digital",
+        "Interactive 3D simulation for e-learning platform": "Simulasi 3D interaktif untuk platform e-learning",
+        "Ed Tech, Health Education": "Teknologi Pendidikan, Pendidikan Kesehatan",
+        "3D interactive simulation applications": "Aplikasi simulasi interaktif 3D",
+        "Unreal Engine Developer": "Pengembang Unreal Engine",
+        "Heavy Machinery, Industrial Training": "Alat Berat, Pelatihan Industri",
+        "Mobile App": "Aplikasi Mobile",
+        "Web 3D": "Web 3D",
+        WordPress: "WordPress",
+        "VR Tour": "Tur VR",
+        "AR App": "Aplikasi AR",
+        // Projects Section
+        "Developed a company profile website for Kurnia Interior Studio, an interior design studio showcasing project portfolios, design services, and company profile.": "Pembuatan website company profile untuk Kurnia Interior Studio, sebuah studio desain interior yang menampilkan portofolio proyek, layanan desain, serta profil perusahaan.",
+        "Built over 10 simulation gameplay features for the Pertamina Digital HSSE Demo Room website using Unity and C#.": "Pengembangan lebih dari 10 fitur gameplay simulasi 3D untuk website Pertamina Digital HSSE Demo Room menggunakan Unity dan C#.",
+        "Created 5 out of 20 interactive simulation gameplay modules for DIGINLab, an online nursing laboratory platform, using Unity and C#.": "Pembuatan 5 dari 20 gameplay simulasi interaktif untuk website DIGINLab, laboratorium keperawatan berbasis online, menggunakan Unity dan C#.",
+        "Developed 4 modules with over 100 gameplay flows for the Electric ECM Tractor and Tractor Oil Flow 3D interactive simulation applications using Unreal Engine and C++.": "Pengembangan 4 modul dengan lebih dari 100 gameplay flow untuk aplikasi simulasi 3D interaktif Electric ECM Tractor dan Tractor Oil Flow menggunakan Unreal Engine dan C++.",
+        "Contributed to 60% of the core features of the NuFish Android application as a full-stack developer using Kotlin.": "Pengembangan 60% fitur inti aplikasi NuFish untuk Android sebagai full-stack developer menggunakan Kotlin.",
+        "Designed and implemented 2D and 3D canvas features for the Houset website using C# and JavaScript.": "Desain dan implementasi fitur 2D dan 3D canvas pada website Houset menggunakan C# dan JavaScript.",
+        "Built a company profile website for Envisions, a platform for automation and data analytics in building and business management.": "Company profile website untuk Envisions, platform automation dan data analytics untuk manajemen gedung dan bisnis.",
+        "Created a virtual reality tour to promote Dewi Nadulang tourist destination using the theasys.io platform.": "Virtual reality tour untuk memperkenalkan destinasi wisata Dewi Nadulang menggunakan platform theasys.io.",
+        "Implemented Augmented Reality features to support component value visualization and electrical circuit simulation in educational settings.": "Implementasi Augmented Reality untuk membantu visualisasi nilai komponen dan simulasi rangkaian listrik dalam pembelajaran.",
+        // About Section
+        "About Me": "Tentang Saya",
+        "My Background": "Latar Belakang Saya",
+        "I hold a degree in Computer Science and have over three years of professional experience in software development, both as a full-time employee in the private sector and as a freelance programmer. Throughout my career, I have worked on various projects ranging from simulation-based applications to web-based interactive dashboards.": "Saya memiliki gelar di bidang Teknik Informatika dan memiliki lebih dari tiga tahun pengalaman profesional dalam pengembangan perangkat lunak, baik sebagai karyawan tetap di perusahaan swasta maupun sebagai programmer freelance. Sepanjang karier saya, saya telah mengerjakan berbagai proyek mulai dari aplikasi berbasis simulasi hingga dasbor interaktif berbasis web.",
+        "This technical background has given me a strong foundation in problem-solving, system logic, and clean coding practices. It also fuels my passion for creating software that is not only functional but also user-centric. I approach each project by balancing technical efficiency with thoughtful design, ensuring that the solutions I build meet real user needs while maintaining scalability and maintainability.": "Latar belakang teknis ini telah memberi saya dasar yang kuat dalam pemecahan masalah, logika sistem, dan praktik pengkodean yang bersih. Hal ini juga mendorong semangat saya untuk menciptakan perangkat lunak yang tidak hanya fungsional tetapi juga berpusat pada pengguna. Saya mendekati setiap proyek dengan menyeimbangkan efisiensi teknis dengan desain yang bijaksana, memastikan bahwa solusi yang saya bangun memenuhi kebutuhan pengguna dengan tetap menjaga skalabilitas dan pemeliharaan.",
+        "My Skills": "Keahlian Saya",
+        "UX/UI Design": "Desain UX/UI",
+        "User Research": "Riset Pengguna",
+        Prototyping: "Pembuatan Prototipe",
+        "Design Systems": "Sistem Desain",
+        "Collaborative Workshops": "Workshop Kolaboratif",
+        // Resume Section (Bahasa Indonesia)
+        Experience: "Pengalaman",
+        "Programmer Staff": "Staf Programmer",
+        "PT. Kreasi Kode Biner • Sep 2021 - Present": "PT. Kreasi Kode Biner • Sep 2021 - Sekarang",
+        "Developed 3D simulations, gameplay modules, and warehouse handling systems using C# and C++.": "Mengembangkan simulasi 3D, modul gameplay, dan sistem penanganan gudang dengan C# dan C++.",
+        "Programmer": "Programmer",
+        "PT. Mina Nusantara Ahingani • Oct 2020 - Sep 2021": "PT. Mina Nusantara Ahingani • Okt 2020 - Sep 2021",
+        "Built NuFish Android app, designed UI/UX, and migrated parts to Flutter.": "Membangun aplikasi Android NuFish, mendesain UI/UX, dan migrasi sebagian ke Flutter.",
+        "Programmer (Intern)": "Programmer (Magang)",
+        "JAGAD CREATIVE • Jan 2021 - Jul 2021": "JAGAD CREATIVE • Jan 2021 - Jul 2021",
+        "Developed 'AR Melody' Android app and expanded client base with AR/VR projects.": "Mengembangkan aplikasi Android 'AR Melody' dan memperluas basis klien dengan proyek AR/VR.",
+        "Fresh Graduate Academy - Data Analytics": "Akademi Lulusan Baru - Analisis Data",
+        "Digital Talent Scholarship • Apr 2024 - Aug 2024": "Beasiswa Talenta Digital • Apr 2024 - Agu 2024",
+        "Developed an LMS and cybersecurity educational games for elementary to high school students.": "Mengembangkan LMS dan game edukasi keamanan siber untuk siswa SD, SMP, dan SMA.",
+        // Education Section (Bahasa Indonesia)
+        Education: "Pendidikan",
+        "Bachelor of Computer Science": "Sarjana Teknik Informatika",
+        "Bina Nusantara University • Feb 2023 - Feb 2025": "Universitas Bina Nusantara • Feb 2023 - Feb 2025",
+        "Developed a web-based dashboard and graduated with Magna Cum Laude honors.": "Mengembangkan dashboard berbasis web dan lulus dengan predikat Magna Cum Laude.",
+        "Diploma in Application Software Engineering": "Diploma Rekayasa Perangkat Lunak Aplikasi",
+        "Telkom University • Aug 2018 - Aug 2021": "Universitas Telkom • Agu 2018 - Agu 2021",
+        "Received GenBI Scholarship and became finalist in national technology competitions.": "Menerima Beasiswa GenBI dan menjadi finalis kompetisi teknologi nasional.",
+        "Download Full Resume": "Unduh CV Lengkap",
+        // Contact Section
+        "Let's Connect": "Mari Terhubung",
+        "Have a project in mind or just want to chat?": "Punya proyek dalam pikiran atau hanya ingin mengobrol?",
+        // Footer
+        "All rights reserved.": "Hak cipta dilindungi.",
+        // Language Toggle
+        English: "Bahasa Inggris",
+        Indonesian: "Bahasa Indonesia",
+        // Case Studies
+        "Back to Work": "Kembali ke Karya",
+        Overview: "Ikhtisar",
+        "The Challenge": "Tantangan",
+        "Development Process": "Proses Pengembangan",
+        "Design Process": "Proses Desain",
+        "The Solution": "Solusi",
+        Results: "Hasil",
+        "Next Project": "Proyek Berikutnya",
+        Conclusion: "Kesimpulan",
+        // Bicimici LMS
+        "Built a web-based Learning Management System with Laravel backend and React frontend, complete with authentication, role-based access control, JWT security, and Unity WebGL integration for a more engaging learning experience.": "Membangun Learning Management System berbasis web dengan backend Laravel dan frontend React, lengkap dengan otentikasi, kontrol akses berbasis peran, keamanan JWT, dan integrasi Unity WebGL untuk pengalaman belajar yang lebih menarik.",
+        "LMS Bicimici is designed as a digital learning platform for students and teachers, combining course content, quizzes, and an educational game experience in one system.": "LMS Bicimici dirancang sebagai platform pembelajaran digital untuk siswa dan guru, menggabungkan materi ajar, kuis, dan pengalaman game edukatif dalam satu sistem.",
+        "Its architecture combines a Laravel backend with PostgreSQL, a React frontend, and secure JWT APIs so users can access content by role.": "Arsitekturnya menggabungkan backend Laravel dengan PostgreSQL, frontend React, dan API yang aman menggunakan JWT agar pengguna dapat mengakses konten sesuai peran masing-masing.",
+        "The main challenge in this project included:": "Tantangan utama dalam proyek ini meliputi:",
+        "Building reliable and secure RESTful APIs using Laravel and PostgreSQL.": "Membangun API RESTful yang aman dan andal menggunakan Laravel dan PostgreSQL.",
+        "Implementing JWT authentication and role-based access control for admin, teachers, and students.": "Mengimplementasikan otentikasi JWT dan kontrol akses berbasis peran untuk admin, guru, dan siswa.",
+        "Keeping the frontend data flow efficient with Context API to manage user sessions and navigation.": "Menjaga alur data frontend dengan Context API agar sesi pengguna dan navigasi tetap efisien.",
+        "Integrating Unity WebGL content into the LMS without disrupting the user experience.": "Mengintegrasikan konten Unity WebGL ke dalam platform LMS tanpa mengganggu pengalaman pengguna.",
+        "Meeting functional requirements and a 6-month timeline aligned with user needs.": "Memenuhi persyaratan fungsional dan timeline 6 bulan dengan pengembangan yang selaras dengan kebutuhan pengguna.",
+        "The solution included:": "Solusi yang diterapkan meliputi:",
+        "Laravel backend with PostgreSQL, RESTful APIs, and JWT authentication for data security.": "Backend Laravel dengan PostgreSQL, RESTful API, dan otentikasi JWT untuk keamanan data.",
+        "React frontend using Context API for efficient user state and session management.": "Frontend React menggunakan Context API untuk manajemen state pengguna dan sesi secara efisien.",
+        "Role-based access control to separate admin, teacher, and student functionality.": "Kontrol akses berbasis peran untuk memisahkan fungsi admin, guru, dan siswa.",
+        "Unity WebGL integration into the LMS with API communication between frontend and backend.": "Integrasi Unity WebGL ke dalam LMS dengan komunikasi API antara frontend dan backend.",
+        "Using Git for version control, Postman for API testing, Docker for dev environments, and Agile practices for team collaboration.": "Penggunaan Git untuk version control, Postman untuk pengujian API, Docker untuk lingkungan pengembangan, serta metode Agile untuk kolaborasi tim.",
+        "80% of system development completed within 6 months aligned with user requirements and functional specifications.": "80% pengembangan sistem selesai dalam 6 bulan sesuai dengan kebutuhan pengguna dan spesifikasi fungsional.",
+        "The platform provides clear role access, content management, and a secure learning experience.": "Platform menyediakan akses peran yang jelas, manajemen materi, dan sesi belajar yang aman.",
+        "Unity WebGL integration improved user engagement and made learning more interactive.": "Integrasi Unity WebGL berhasil meningkatkan keterlibatan pengguna dan membuat proses belajar lebih interaktif.",
+        "Docker setup and Postman API testing ensured more stable deployment.": "Pengaturan lingkungan dengan Docker dan pengujian API Postman memastikan deployment yang lebih stabil.",
+        "NEXT PROJECT : GAME BICIMICI >>": "PROYEK BERIKUTNYA : GAME BICIMICI >>",
+        "NEXT PROJECT : BICIMICI LMS >>": "PROYEK BERIKUTNYA : LMS BICIMICI >>",
+        // Bicimici Game
+        "Bicimici Game is a 2D educational experience designed for elementary students to explore cybersecurity through interactive story-based gameplay.": "Bicimici Game adalah pengalaman edukasi 2D yang dirancang untuk siswa SD agar dapat mengeksplorasi keamanan siber melalui gameplay berbasis cerita interaktif.",
+        "The project was developed using Unity 6 and C# to deliver a friendly and accessible learning journey that supports young learners in understanding online safety topics.": "Proyek ini dikembangkan menggunakan Unity 6 dan C# untuk memberikan pengalaman belajar yang ramah dan mudah diakses yang mendukung siswa kecil dalam memahami topik keamanan online.",
+        "The main challenge was creating an engaging learning experience that is appropriate for elementary students while maintaining clear cybersecurity lessons.": "Tantangan utama adalah menciptakan pengalaman belajar yang menarik dan sesuai untuk siswa SD sambil tetap menyampaikan pelajaran keamanan siber yang jelas.",
+        "Designing scenario-based gameplay that simplifies complex digital safety topics": "Merancang gameplay berbasis skenario yang menyederhanakan topik keamanan digital yang kompleks.",
+        "Balancing educational content with fun, age-appropriate mechanics": "Menyeimbangkan konten edukatif dengan mekanik yang menyenangkan dan sesuai usia.",
+        "Ensuring usability and comprehension for young learners across all levels": "Menjamin kegunaan dan pemahaman bagi siswa muda pada semua tingkat.",
+        "Building a stable Unity 6 experience with consistent performance": "Membangun pengalaman Unity 6 yang stabil dengan performa konsisten.",
+        "Development followed an iterative process to ensure the game matched educational goals while remaining fun and easy to play.": "Pengembangan mengikuti proses iteratif untuk memastikan game sesuai dengan tujuan edukasi sambil tetap menyenangkan dan mudah dimainkan.",
+        "Concept design and educational topic mapping for elementary students": "Desain konsep dan pemetaan topik edukatif untuk siswa SD.",
+        "Level planning with 10 structured stages aligned to child-friendly standards": "Perencanaan level dengan 10 tahap terstruktur sesuai standar ramah anak.",
+        "Unity 6 implementation using C# for gameplay, UI, and interaction logic": "Implementasi Unity 6 menggunakan C# untuk gameplay, UI, dan logika interaksi.",
+        "Story-driven scenarios that introduce key cybersecurity topics": "Skenario beralur cerita yang memperkenalkan topik keamanan siber utama.",
+        "Testing with target users and refining controls for simplicity and clarity": "Pengujian dengan pengguna sasaran dan penyempurnaan kontrol untuk kesederhanaan dan kejelasan.",
+        "Final polish and performance optimization for classroom-friendly use": "Penyelesaian akhir dan optimasi performa untuk penggunaan kelas.",
+        "4 story topics covering Online Predators, Cyberbullying, Digital Footprint, and Pornography Awareness": "4 topik cerita yang mencakup Predator Online, Cyberbullying, Jejak Digital, dan Kesadaran Pornografi.",
+        "10 interactive game levels designed to reinforce learning with clear progression": "10 level game interaktif dirancang untuk memperkuat pembelajaran dengan progresi yang jelas.",
+        "Scenario-based tasks that teach decision-making and safe internet habits": "Tugas berbasis skenario yang mengajarkan pengambilan keputusan dan kebiasaan internet aman.",
+        "Friendly visuals and simple controls suitable for young elementary students": "Visual yang ramah dan kontrol sederhana cocok untuk siswa SD.",
+        "A supportive educational flow that encourages learning through play": "Alur edukasi yang mendukung yang mendorong pembelajaran melalui permainan.",
+        "The game was completed as an educational tool for elementary students and designed to support safe digital habits.": "Game ini diselesaikan sebagai alat edukasi untuk siswa SD dan dirancang untuk mendukung kebiasaan digital yang aman.",
+        "Implemented 10 structured game levels aligned with child-friendly educational standards": "Mengimplementasikan 10 level game terstruktur yang selaras dengan standar pendidikan ramah anak.",
+        "Integrated 4 key cybersecurity topics into a narrative game format": "Mengintegrasikan 4 topik keamanan siber utama ke dalam format game naratif.",
+        "Created interactive experiences that improved comprehension for young learners": "Menciptakan pengalaman interaktif yang meningkatkan pemahaman bagi siswa muda.",
+        "Delivered a user-friendly Unity game with stable performance and clear learning outcomes": "Menyampaikan game Unity yang ramah pengguna dengan performa stabil dan hasil pembelajaran yang jelas.",
+        "NEXT PROJECT : BICIMICI LMS": "PROYEK BERIKUTNYA : LMS BICIMICI",
+        // Overview
+        "Kurnia Interior Studio is an interior design company focused on residential and commercial projects with a minimalist and modern approach. They needed a company profile website to showcase their project portfolio in an elegant and professional manner.": "Kurnia Interior Studio adalah perusahaan desain interior yang fokus pada proyek residensial dan komersial dengan pendekatan minimalis dan modern. Mereka membutuhkan website company profile yang dapat menampilkan portofolio proyek mereka dengan cara yang elegan dan profesional.",
+        "As a frontend web developer, I was responsible for implementing the website design created by the design team, ensuring responsiveness across various devices, and optimizing the website's performance.": "Sebagai frontend web developer, saya bertanggung jawab untuk mengimplementasikan desain website yang telah dibuat oleh tim desain, memastikan responsivitas pada berbagai perangkat, dan mengoptimalkan performa website.",
+        // The Challenge
+        "This project presented several key challenges:": "Proyek ini menghadirkan beberapa tantangan utama:",
+        "Showcasing project portfolios with high-quality images without compromising loading speed": "Menampilkan portofolio proyek dengan gambar berkualitas tinggi tanpa mengorbankan kecepatan loading",
+        "Creating a smooth and intuitive browsing experience for visitors": "Menciptakan pengalaman browsing yang mulus dan intuitif untuk pengunjung",
+        "Ensuring visual consistency with Kurnia Interior Studio’s brand identity": "Memastikan konsistensi visual dengan brand identity Kurnia Interior Studio",
+        "Implementing a user-friendly CMS for content updates": "Mengimplementasikan sistem CMS yang mudah digunakan untuk pembaruan konten",
+        "Optimizing the website for SEO to increase visibility to potential clients": "Mengoptimalkan website untuk SEO agar mudah ditemukan oleh calon klien",
+        "In addition, the client required a gallery feature that could showcase project images in detail, as well as a contact form integrated with their email system.": "Selain itu, klien membutuhkan fitur galeri yang dapat menampilkan gambar proyek dengan detail yang baik, serta formulir kontak yang terintegrasi dengan sistem email mereka.",
+        // Development Process
+        "The development process for Kurnia Interior Studio’s website followed a structured approach:": "Proses pengembangan website Kurnia Interior Studio dilakukan dengan pendekatan yang terstruktur:",
+        "Requirements analysis and client expectation meetings": "Analisis kebutuhan dan ekspektasi klien melalui serangkaian meeting",
+        "Wireframe and prototype creation for concept validation": "Pembuatan wireframe dan prototype untuk validasi konsep",
+        "Frontend development using HTML5, CSS3, and JavaScript": "Pengembangan frontend dengan HTML5, CSS3, dan JavaScript",
+        "CMS implementation using a custom WordPress theme": "Implementasi CMS WordPress dengan custom theme",
+        "Image and asset optimization for better performance": "Optimasi gambar dan aset untuk performa yang lebih baik",
+        "Cross-device and cross-browser testing": "Testing pada berbagai perangkat dan browser",
+        "Deployment and server configuration": "Deployment dan konfigurasi server",
+        // The Solution
+        "The website developed for Kurnia Interior Studio includes several key features:": "Website yang dikembangkan untuk Kurnia Interior Studio memiliki beberapa fitur utama:",
+        "Homepage with a hero section highlighting featured projects": "Homepage dengan hero section yang menampilkan proyek unggulan",
+        "Portfolio gallery with category-based filters": "Galeri portofolio dengan filter berdasarkan kategori proyek",
+        "Project detail pages with image galleries and descriptions": "Halaman detail proyek dengan galeri gambar dan deskripsi",
+        "Services page with detailed service explanations": "Halaman layanan dengan penjelasan detail setiap layanan",
+        "About us page showcasing team profiles and company history": "Halaman tentang kami yang menampilkan profil tim dan sejarah perusahaan",
+        "Contact form with validation and email integration": "Formulir kontak dengan validasi dan integrasi email",
+        "Blog for interior design-related articles": "Blog untuk artikel terkait desain interior",
+        "To enhance performance, I implemented lazy loading for images, minified CSS and JavaScript, and effective caching. The website was also optimized for SEO with a well-structured layout, relevant meta tags, and a sitemap.": "Untuk mengoptimalkan performa, saya mengimplementasikan lazy loading untuk gambar, minifikasi CSS dan JavaScript, serta caching yang efektif. Website juga dioptimalkan untuk SEO dengan struktur yang baik, meta tags yang relevan, dan sitemap.",
+        // Results
+        "After launching the Kurnia Interior Studio website, the client experienced several positive outcomes:": "Setelah peluncuran website Kurnia Interior Studio, klien mendapatkan beberapa hasil positif:",
+        "A 45% increase in website visitors within the first 3 months": "Peningkatan 45% dalam jumlah pengunjung website dalam 3 bulan pertama",
+        "A 60% increase in quotation requests via the contact form": "Peningkatan 60% dalam jumlah permintaan penawaran melalui formulir kontak",
+        "Improved search engine visibility with first-page ranking for several target keywords": "Peningkatan visibilitas di mesin pencari dengan posisi halaman pertama untuk beberapa kata kunci target",
+        "Positive client feedback on the CMS's ease of use for content updates": "Feedback positif dari klien mengenai kemudahan penggunaan CMS untuk pembaruan konten",
+        "A 40% reduction in page loading time compared to the previous website": "Pengurangan waktu loading halaman sebesar 40% dibandingkan website sebelumnya",
+        "The website also became an effective marketing tool for Kurnia Interior Studio, helping them expand market reach and attract new potential clients.": "Website ini juga menjadi alat pemasaran yang efektif bagi Kurnia Interior Studio, membantu mereka memperluas jangkauan pasar dan menarik klien potensial baru.",
+        // Overview
+        "Pertamina Digital HSSE Demo Room is a digital safety training platform developed for PT Pertamina, Indonesia’s national energy company. The platform aims to enhance employee awareness and skills in Health, Safety, Security, and Environment (HSSE) through interactive 3D-based simulations.": "Pertamina Digital HSSE Demo Room adalah platform pelatihan keselamatan digital yang dikembangkan untuk PT Pertamina, perusahaan energi nasional Indonesia. Platform ini bertujuan untuk meningkatkan kesadaran dan keterampilan karyawan dalam aspek Health, Safety, Security, dan Environment (HSSE) melalui simulasi interaktif berbasis 3D.",
+        "As a Unity Game Developer on this project, I was responsible for developing over 10 simulation gameplay features that allow users to practice safety procedures in a safe yet realistic virtual environment.": "Sebagai Unity Game Developer dalam proyek ini, saya bertanggung jawab untuk mengembangkan lebih dari 10 fitur gameplay simulasi 3D yang memungkinkan pengguna untuk berlatih prosedur keselamatan dalam lingkungan virtual yang aman namun realistis.",
+        // The Challenge
+        "Developing 3D safety training simulations for Pertamina posed several challenges:": "Pengembangan simulasi 3D untuk pelatihan keselamatan di Pertamina menghadirkan beberapa tantangan:",
+        "Creating accurate and realistic simulations based on Pertamina’s safety procedures": "Menciptakan simulasi yang akurat dan realistis berdasarkan prosedur keselamatan Pertamina",
+        "Optimizing 3D performance to ensure smooth operation in web browsers": "Mengoptimalkan performa simulasi 3D agar dapat berjalan dengan lancar di browser web",
+        "Integrating the simulations with existing Learning Management Systems (LMS)": "Mengintegrasikan simulasi dengan sistem manajemen pembelajaran (LMS) yang ada",
+        "Ensuring accessibility across devices with varying specifications": "Memastikan simulasi dapat diakses oleh pengguna dengan berbagai spesifikasi perangkat",
+        "Developing an assessment system to measure user comprehension and skills": "Mengembangkan sistem penilaian yang dapat mengukur pemahaman dan keterampilan pengguna",
+        "We also had to ensure the simulations were not only educational but also engaging to motivate users to complete the training and retain critical safety knowledge.": "Selain itu, kami perlu memastikan bahwa simulasi tidak hanya edukatif tetapi juga menarik, sehingga pengguna termotivasi untuk menyelesaikan pelatihan dan menyerap informasi penting tentang keselamatan.",
+        // Development Process
+        "The development process for the Pertamina Digital HSSE Demo Room included several stages:": "Proses pengembangan simulasi 3D untuk Pertamina Digital HSSE Demo Room meliputi beberapa tahap:",
+        "In-depth study of Pertamina’s safety procedures and identification of critical scenarios": "Studi mendalam tentang prosedur keselamatan Pertamina dan identifikasi skenario kritis",
+        "Concept creation and storyboarding for each simulation": "Pembuatan konsep dan storyboard untuk setiap simulasi",
+        "3D modeling of environments and required assets": "Pemodelan 3D lingkungan dan aset yang diperlukan",
+        "Gameplay development and interaction mechanics using Unity and C#": "Pengembangan gameplay dan mekanik interaksi menggunakan Unity dan C#",
+        "Implementation of scoring and feedback systems": "Implementasi sistem penilaian dan feedback",
+        "Performance optimization for web browsers": "Optimasi performa untuk web browser",
+        "Backend and LMS integration": "Integrasi dengan backend sistem dan LMS",
+        "Testing and iteration based on feedback from Pertamina’s safety experts": "Testing dan iterasi berdasarkan feedback dari ahli keselamatan PERTAMINA",
+        // The Solution
+        "For the Pertamina Digital HSSE Demo Room, I developed several interactive simulations including:": "Untuk Pertamina Digital HSSE Demo Room, saya mengembangkan berbagai simulasi interaktif yang mencakup:",
+        "Fire evacuation simulations with various scenarios and difficulty levels": "Simulasi evakuasi kebakaran dengan berbagai skenario dan tingkat kesulitan",
+        "Chemical spill handling simulations following industry-standard procedures": "Simulasi penanganan tumpahan bahan kimia dengan prosedur yang sesuai standar industri",
+        "Safety inspection simulations for equipment and work environments": "Simulasi inspeksi keselamatan peralatan dan lingkungan kerja",
+        "Proper personal protective equipment (PPE) usage simulations": "Simulasi penggunaan alat pelindung diri (APD) yang benar",
+        "Emergency response simulations in production and refinery facilities": "Simulasi penanganan situasi darurat di fasilitas produksi dan kilang",
+        "Hazard identification and risk assessment simulations": "Simulasi identifikasi bahaya dan penilaian risiko",
+        "Each simulation was designed with an intuitive interface and guided steps to help users understand the correct procedures. The automatic scoring system provides instant feedback and highlights areas for improvement.": "Setiap simulasi dirancang dengan antarmuka yang intuitif dan sistem panduan yang membantu pengguna memahami langkah-langkah yang benar. Sistem penilaian otomatis memberikan feedback langsung dan mengidentifikasi area yang perlu ditingkatkan.",
+        // Results
+        "The implementation of the Pertamina Digital HSSE Demo Room delivered several positive outcomes:": "Implementasi Pertamina Digital HSSE Demo Room menghasilkan beberapa dampak positif:",
+        "A 35% increase in safety training completion rates compared to conventional methods": "Peningkatan 35% dalam tingkat kelulusan pelatihan keselamatan dibandingkan metode konvensional",
+        "A 28% reduction in safety incidents at facilities that adopted this training program": "Pengurangan 28% dalam insiden keselamatan di fasilitas yang telah mengadopsi program pelatihan ini",
+        "A 40% improvement in safety procedure knowledge retention": "Peningkatan 40% dalam retensi pengetahuan prosedur keselamatan",
+        "A 50% cost efficiency compared to in-person training": "Efisiensi biaya pelatihan sebesar 50% dibandingkan dengan pelatihan tatap muka",
+        "The ability to train more employees simultaneously without geographical limitations": "Kemampuan untuk melatih lebih banyak karyawan secara bersamaan tanpa batasan geografis",
+        "The platform also received an internal innovation award from Pertamina and became a model for digital training program development in other divisions.": "Platform ini juga menerima penghargaan inovasi internal Pertamina dan menjadi model untuk pengembangan program pelatihan digital di divisi lain.",
+        // DIGINLab Section
+        "DIGINLab is an innovative online learning platform designed for nursing students and healthcare professionals. It offers 3D-based interactive simulations that allow users to practice nursing procedures in a safe and realistic virtual environment.": "DIGINLab adalah platform pembelajaran online inovatif yang dirancang untuk mahasiswa keperawatan dan profesional kesehatan. Platform ini menyediakan simulasi interaktif berbasis 3D yang memungkinkan pengguna untuk mempraktikkan prosedur keperawatan dalam lingkungan virtual yang aman dan realistis.",
+        "As a Unity Game Developer, I was responsible for developing 5 out of 20 interactive simulations covering various nursing procedures, from vital sign measurement to more complex medical procedures.": "Sebagai Unity Game Developer dalam proyek ini, saya bertanggung jawab untuk mengembangkan 5 dari total 20 simulasi interaktif yang mencakup berbagai prosedur keperawatan, dari pengukuran tanda vital hingga prosedur medis yang lebih kompleks.",
+        "Developing interactive nursing simulations for DIGINLab presented several unique challenges:": "Pengembangan simulasi keperawatan interaktif untuk DIGINLab menghadirkan beberapa tantangan unik:",
+        "Creating medically accurate simulations aligned with current nursing standards": "Menciptakan simulasi yang secara medis akurat dan sesuai dengan standar praktik keperawatan terkini",
+        "Designing intuitive interactions for complex multi-step procedures": "Merancang interaksi yang intuitif untuk prosedur kompleks dengan banyak langkah dan detail penting",
+        "Optimizing 3D assets for performance across multiple devices": "Mengoptimalkan aset 3D untuk memastikan performa yang baik di berbagai perangkat",
+        "Developing informative and educational feedback systems": "Mengembangkan sistem feedback yang informatif dan edukatif untuk membantu proses pembelajaran",
+        "Ensuring seamless integration into the broader learning platform": "Memastikan simulasi dapat diintegrasikan dengan baik ke dalam platform pembelajaran yang lebih luas",
+        "The main challenge was balancing medical realism with usability and accessibility to ensure the simulations were not only accurate but also effective as learning tools.": "Tantangan utama adalah menyeimbangkan realisme medis dengan kegunaan dan aksesibilitas, memastikan bahwa simulasi tidak hanya akurat tetapi juga efektif sebagai alat pembelajaran.",
+        "The development process for DIGINLab simulations included several key stages:": "Proses pengembangan simulasi untuk DIGINLab melibatkan beberapa tahap penting:",
+        "Consultation with nursing experts for medical accuracy": "Konsultasi dengan ahli keperawatan untuk memahami prosedur dan memastikan akurasi medis",
+        "Storyboard and flowchart creation for each procedure": "Pembuatan storyboard dan flowchart untuk setiap prosedur keperawatan",
+        "3D modeling of medical equipment, environments, and characters": "Pemodelan 3D peralatan medis, ruangan, dan karakter dengan detail yang akurat",
+        "Interaction and gameplay development using Unity and C#": "Pengembangan sistem interaksi dan gameplay menggunakan Unity dan C#",
+        "Implementation of scoring and feedback systems based on nursing practice standards": "Implementasi sistem penilaian dan feedback berdasarkan standar praktik keperawatan",
+        "Performance optimization for smooth browser simulation": "Optimasi performa untuk memastikan simulasi berjalan lancar di browser",
+        "Testing with nursing students and professionals for feedback": "Testing dengan mahasiswa keperawatan dan profesional untuk mendapatkan feedback",
+        "Iteration and refinement based on feedback received": "Iterasi dan penyempurnaan berdasarkan feedback yang diterima",
+        "For DIGINLab, I developed five interactive simulations covering various aspects of nursing practice:": "Untuk DIGINLab, saya mengembangkan lima simulasi interaktif yang mencakup berbagai aspek praktik keperawatan:",
+        "Vital signs measurement simulation (blood pressure, temperature, pulse, and respiration rate)": "Simulasi pengukuran tanda vital (tekanan darah, suhu, denyut nadi, dan laju pernapasan)",
+        "Medication administration through various routes (oral, intravenous, intramuscular)": "Simulasi pemberian obat melalui berbagai rute (oral, intravena, intramuskular)",
+        "Wound care and dressing change simulation": "Simulasi perawatan luka dan penggantian balutan",
+        "Sterile technique urinary catheterization simulation": "Simulasi kateterisasi urin dengan teknik steril",
+        "Cardiopulmonary resuscitation (CPR) and basic life support simulation": "Simulasi resusitasi kardiopulmoner (CPR) dan bantuan hidup dasar",
+        "Each simulation features a consistent and intuitive interface, with step-by-step guidance and an automated scoring system that gives users direct feedback on their performance and improvement areas.": "Setiap simulasi dirancang dengan antarmuka yang konsisten dan intuitif, dengan sistem panduan step-by-step yang membantu pengguna mempelajari prosedur yang benar. Sistem penilaian otomatis memberikan feedback langsung tentang kinerja pengguna dan area yang perlu ditingkatkan.",
+        "The implementation of DIGINLab simulations into nursing curricula led to several positive impacts:": "Implementasi simulasi DIGINLab dalam kurikulum keperawatan menghasilkan beberapa dampak positif:",
+        "45% increase in practical exam scores among students using simulations compared to traditional learning methods": "Peningkatan 45% dalam skor ujian praktik mahasiswa yang menggunakan simulasi dibandingkan dengan metode pembelajaran tradisional",
+        "60% boost in student confidence when performing real patient procedures": "Peningkatan 60% dalam kepercayaan diri mahasiswa saat melakukan prosedur pada pasien sungguhan",
+        "30% reduction in procedural errors during clinical practice": "Pengurangan 30% dalam kesalahan prosedur selama praktik klinis",
+        "40% cost efficiency in labs due to reduced need for physical tools and materials": "Efisiensi biaya laboratorium sebesar 40% karena berkurangnya kebutuhan untuk peralatan fisik dan bahan habis pakai",
+        "The ability to provide consistent practical experience to all students regardless of location or resource availability": "Kemampuan untuk menyediakan pengalaman praktik yang konsisten kepada semua mahasiswa, terlepas dari lokasi atau ketersediaan sumber daya",
+        "DIGINLab has been adopted by more than 15 nursing institutions in Indonesia and has received recognition for innovation in healthcare education.": "DIGINLab telah diadopsi oleh lebih dari 15 institusi pendidikan keperawatan di Indonesia dan telah menerima penghargaan inovasi pendidikan kesehatan.",
+        // Electric ECM Tractor & Tractor Oil Flow Full Description
+        "Electric ECM Tractor and Tractor Oil Flow are two interactive 3D simulation apps developed for training heavy equipment operators and technicians.": "Electric ECM Tractor dan Tractor Oil Flow adalah dua aplikasi simulasi 3D interaktif yang dikembangkan untuk pelatihan operator dan teknisi alat berat.",
+        "These apps are designed to provide in-depth understanding of modern tractor electrical and hydraulic systems without risking equipment damage or injury.": "Aplikasi ini dirancang untuk memberikan pemahaman mendalam tentang sistem elektrik dan hidrolik traktor modern tanpa risiko kerusakan peralatan atau cedera.",
+        "As an Unreal Engine Developer on this project, I was responsible for developing 4 main modules with over 100 gameplay flows covering operations, maintenance, and troubleshooting.": "Sebagai Unreal Engine Developer dalam proyek ini, saya bertanggung jawab untuk mengembangkan 4 modul utama dengan lebih dari 100 alur gameplay yang mencakup berbagai aspek operasi, pemeliharaan, dan troubleshooting traktor.",
+        "Developing an interactive tractor simulation presented several technical and educational challenges:": "Pengembangan simulasi traktor interaktif menghadirkan beberapa tantangan teknis dan edukatif:",
+        "Creating highly detailed 3D tractor models with thousands of realistically interacting components.": "Menciptakan model 3D traktor yang sangat detail dengan ribuan komponen yang berinteraksi secara realistis.",
+        "Simulating complex hydraulic and electrical systems with high accuracy.": "Menyimulasikan sistem hidrolik dan elektrik yang kompleks dengan akurasi tinggi.",
+        "Developing intuitive interaction systems for complex technical components.": "Mengembangkan sistem interaksi yang intuitif untuk komponen-komponen teknis yang kompleks.",
+        "Ensuring optimal performance despite complex physics and visualizations.": "Memastikan performa yang optimal meskipun dengan visualisasi dan simulasi fisika yang kompleks.",
+        "Designing progressive learning scenarios for users of various skill levels.": "Merancang skenario pembelajaran yang progresif untuk berbagai tingkat keahlian pengguna.",
+        "The main challenge was balancing technical realism with usability and accessibility to ensure the simulation was both accurate and effective as a learning tool.": "Tantangan utama adalah menyeimbangkan realisme teknis dengan kegunaan dan aksesibilitas, memastikan bahwa simulasi tidak hanya akurat tetapi juga efektif sebagai alat pembelajaran.",
+        "The development process involved several stages:": "Proses pengembangan simulasi Electric ECM Tractor dan Tractor Oil Flow melibatkan beberapa tahap:",
+        "In-depth study of technical specifications and operation manuals to ensure accuracy.": "Studi mendalam tentang spesifikasi teknis dan manual operasi traktor untuk memastikan akurasi.",
+        "Creating detailed 3D models based on original blueprints and specs.": "Pembuatan model 3D detail berdasarkan blueprint dan spesifikasi asli.",
+        "Building physics-based simulation systems for hydraulics and mechanics using Unreal Engine.": "Pengembangan sistem simulasi fisika untuk hidrolik dan mekanik menggunakan Unreal Engine.",
+        "Programming interaction and gameplay logic using C++ and Blueprint.": "Pemrograman logika interaksi dan gameplay menggunakan C++ dan Blueprint.",
+        "Implementing tutorial systems and interactive guides.": "Implementasi sistem tutorial dan panduan interaktif.",
+        "Performance optimization to ensure smooth simulation on standard hardware.": "Optimasi performa untuk memastikan simulasi berjalan lancar pada hardware standar.",
+        "Testing with real operators and technicians to gather feedback.": "Testing dengan operator dan teknisi traktor untuk mendapatkan feedback.",
+        "Iterating and refining based on feedback received.": "Iterasi dan penyempurnaan berdasarkan feedback yang diterima.",
+        "The four main modules developed were:": "Untuk Electric ECM Tractor dan Tractor Oil Flow, saya mengembangkan empat modul utama:",
+        "System Overview Module: Provides an overview of key tractor components and their functions.": "Modul Pengenalan Sistem: Memberikan overview tentang komponen utama traktor dan fungsinya.",
+        "Operation Module: Simulates tractor operation steps from startup to shutdown.": "Modul Operasi: Simulasi langkah-langkah operasi traktor dari startup hingga shutdown.",
+        "Maintenance Module: Covers routine maintenance procedures and component replacements.": "Modul Pemeliharaan: Prosedur pemeliharaan rutin dan penggantian komponen.",
+        "Troubleshooting Module: Simulates various fault scenarios and diagnostic steps.": "Modul Troubleshooting: Simulasi berbagai skenario masalah dan langkah-langkah diagnosis.",
+        "Each module includes multiple interactive scenarios with a total of over 100 unique gameplay flows.": "Setiap modul mencakup berbagai skenario interaktif dengan total lebih dari 100 alur gameplay yang berbeda.",
+        "Key features include:": "Fitur utama dari simulasi ini meliputi:",
+        "X-ray visualization to view internal components during operation.": "Visualisasi X-ray untuk melihat komponen internal saat traktor beroperasi.",
+        "Hydraulic flow simulation with color-coded pressure and direction.": "Simulasi aliran hidrolik dengan visualisasi warna untuk tekanan dan arah.",
+        "Interactive diagnostic systems to identify and resolve issues.": "Sistem diagnosis interaktif untuk mengidentifikasi dan memperbaiki masalah.",
+        "Free exploration mode to study components and systems.": "Mode eksplorasi bebas untuk mempelajari komponen dan sistem.",
+        "Test mode to evaluate user understanding.": "Mode tes untuk mengevaluasi pemahaman pengguna.",
+        "The implementation of these simulations in training programs led to positive outcomes:": "Implementasi simulasi Electric ECM Tractor dan Tractor Oil Flow dalam program pelatihan menghasilkan beberapa dampak positif:",
+        "40% reduction in training time needed to achieve basic competency.": "Pengurangan 40% dalam waktu pelatihan yang diperlukan untuk mencapai kompetensi dasar.",
+        "55% improvement in diagnostic abilities among technicians using the simulations.": "Peningkatan 55% dalam kemampuan diagnosis masalah di antara teknisi yang menggunakan simulasi.",
+        "30% reduction in equipment damage due to operator error during training.": "Pengurangan 30% dalam kerusakan peralatan akibat kesalahan operator selama masa pelatihan.",
+        "60% training cost efficiency due to reduced need for real equipment in basic training.": "Efisiensi biaya pelatihan sebesar 60% karena berkurangnya kebutuhan untuk menggunakan traktor sungguhan dalam pelatihan dasar.",
+        "Ability to train operators and technicians in failure scenarios that are too risky to simulate with real machines.": "Kemampuan untuk melatih operator dan teknisi dalam skenario kegagalan yang tidak mungkin disimulasikan dengan peralatan sungguhan karena risiko kerusakan.",
+        "These simulations have been adopted by multiple heavy equipment training centers and are now standard components in operator and technician training curricula.": "Simulasi ini telah diadopsi oleh beberapa pusat pelatihan alat berat dan telah menjadi komponen standar dalam kurikulum pelatihan operator dan teknisi traktor.",
+        "NuFish is a mobile application designed to assist fishermen and fish farmers in managing their fisheries businesses. It provides features such as catch recording, aquaculture condition monitoring, weather and tidal information, and a marketplace to sell fishery products directly to consumers or distributors.": "NuFish adalah aplikasi mobile yang dirancang untuk membantu nelayan dan pembudidaya ikan dalam mengelola usaha perikanan mereka. Aplikasi ini menyediakan berbagai fitur seperti pencatatan hasil tangkapan, pemantauan kondisi budidaya, informasi cuaca dan pasang surut, serta marketplace untuk menjual hasil perikanan langsung ke konsumen atau distributor.",
+        "As a full-stack developer on this project, I was responsible for developing 60% of the core features of the application using Kotlin for the frontend and Firebase for the backend. My main focus was on developing the data recording feature, integrating with weather and tidal APIs, and implementing the marketplace system.": "Sebagai full-stack developer dalam proyek ini, saya bertanggung jawab untuk mengembangkan 60% dari fitur inti aplikasi menggunakan Kotlin untuk frontend dan Firebase untuk backend. Fokus utama saya adalah pada pengembangan fitur pencatatan data, integrasi dengan API cuaca dan pasang surut, serta implementasi sistem marketplace.",
+        "The development of the NuFish application presented several unique challenges:": "Pengembangan aplikasi NuFish menghadirkan beberapa tantangan unik:",
+        "Designing an application that functions well in areas with limited internet connectivity, such as coastal and marine regions.": "Merancang aplikasi yang dapat berfungsi dengan baik dalam kondisi konektivitas internet yang terbatas di daerah pesisir dan perairan.",
+        "Developing an intuitive and easy-to-use interface for users with varying levels of digital literacy.": "Mengembangkan antarmuka yang intuitif dan mudah digunakan oleh pengguna dengan berbagai tingkat literasi digital.",
+        "Integrating data from various sources such as weather APIs, tidal data, and GPS systems.": "Mengintegrasikan data dari berbagai sumber seperti API cuaca, data pasang surut, dan sistem GPS.",
+        "Ensuring the security and privacy of user data, especially for sensitive business information.": "Memastikan keamanan dan privasi data pengguna, terutama untuk informasi bisnis yang sensitif.",
+        "Optimizing application performance across a wide range of Android devices with different specifications.": "Mengoptimalkan performa aplikasi pada berbagai perangkat Android dengan spesifikasi yang beragam.",
+        "The main challenge was to build an application that remains useful even when users are at sea with limited connectivity, while still providing advanced features when an internet connection is available.": "Tantangan utama adalah menciptakan aplikasi yang tetap bermanfaat bahkan ketika pengguna berada di laut dengan konektivitas terbatas, sambil tetap menyediakan fitur-fitur canggih yang membutuhkan koneksi internet ketika tersedia.",
+        "The NuFish application development process involved several stages:": "Proses pengembangan aplikasi NuFish melibatkan beberapa tahap:",
+        "User research through interviews and direct observations with fishermen and fish farmers.": "Riset pengguna dengan melakukan wawancara dan observasi langsung terhadap nelayan dan pembudidaya ikan.",
+        "Creating wireframes and prototypes to validate concepts with potential users.": "Pembuatan wireframe dan prototype untuk validasi konsep dengan pengguna potensial.",
+        "Developing application architecture with an offline-first focus.": "Pengembangan arsitektur aplikasi dengan fokus pada kemampuan offline-first.",
+        "Implementing core features using Kotlin and Android Jetpack.": "Implementasi fitur-fitur inti menggunakan Kotlin dan Android Jetpack.",
+        "Integrating with Firebase for authentication, database, and cloud storage.": "Integrasi dengan Firebase untuk autentikasi, database, dan cloud storage.",
+        "Developing an efficient data synchronization system for limited connectivity conditions.": "Pengembangan sistem sinkronisasi data yang efisien untuk kondisi konektivitas terbatas.",
+        "Testing across various devices and network conditions.": "Testing di berbagai perangkat dan kondisi konektivitas.",
+        "Iterating based on feedback from beta users.": "Iterasi berdasarkan feedback dari pengguna beta.",
+        "User research with fishermen.": "Riset pengguna dengan nelayan.",
+        "Application development process using Kotlin.": "Proses pengembangan aplikasi dengan Kotlin.",
+        "For NuFish, I developed various features tailored to the specific needs of fishermen and fish farmers:": "Untuk NuFish, saya mengembangkan berbagai fitur yang dirancang untuk memenuhi kebutuhan spesifik nelayan dan pembudidaya ikan:",
+        "Offline Logging System:": "Sistem Pencatatan Offline:",
+        "Enables users to log catch or aquaculture data even without an internet connection, with automatic synchronization once connected.": "Memungkinkan pengguna mencatat hasil tangkapan atau data budidaya bahkan tanpa koneksi internet, dengan sinkronisasi otomatis saat koneksi tersedia.",
+        "Weather and Tidal Integration:": "Integrasi Cuaca dan Pasang Surut:",
+        "Provides downloadable weather and tidal information for offline access at sea.": "Menyediakan informasi cuaca dan pasang surut yang dapat diunduh sebelumnya untuk diakses saat di laut.",
+        "Fisheries Marketplace:": "Marketplace Perikanan:",
+        "A platform to sell fishery products directly to consumers or distributors with a bidding and price negotiation system.": "Platform untuk menjual hasil perikanan langsung ke konsumen atau distributor dengan sistem penawaran dan negosiasi harga.",
+        "Business Analytics:": "Analitik Bisnis:",
+        "A dashboard displaying catch or production trends, income analysis, and recommendations to increase productivity.": "Dashboard yang menampilkan tren hasil tangkapan atau produksi, analisis pendapatan, dan rekomendasi untuk meningkatkan produktivitas.",
+        "Fishermen Community:": "Komunitas Nelayan:",
+        "A forum for sharing information about fishing locations, aquaculture techniques, and marketing tips.": "Forum untuk berbagi informasi tentang lokasi penangkapan ikan, teknik budidaya, dan tips pemasaran.",
+        "This application is designed with an offline-first approach, using Room Database for local storage and an efficient synchronization system with Firebase Firestore. The user interface is optimized for ease of use with large buttons, clear navigation, and an optional dark mode for comfortable use at sea.": "Aplikasi ini dirancang dengan pendekatan offline-first, menggunakan Room Database untuk penyimpanan lokal dan sistem sinkronisasi yang efisien dengan Firebase Firestore. Antarmuka pengguna dioptimalkan untuk kemudahan penggunaan dengan tombol-tombol besar, navigasi yang jelas, dan opsi untuk mode gelap yang lebih nyaman digunakan di laut.",
+        // Envisions Project Description
+        "Envisions is a technology company that provides automation and data analytics platforms for building and business management. They needed a professional and informative company profile website to showcase their services, case studies, and build credibility in the industry.": "Envisions adalah perusahaan teknologi yang menyediakan platform automation dan data analytics untuk manajemen gedung dan bisnis. Mereka membutuhkan website company profile yang profesional dan informatif untuk menampilkan layanan mereka, studi kasus, dan membangun kredibilitas di industri.",
+        "As a web developer, I was responsible for developing the Envisions.id company profile website using WordPress. The website was designed to highlight the advanced technologies offered by Envisions while maintaining easy navigation and accessible information for visitors.": "Sebagai web developer, saya bertanggung jawab untuk mengembangkan website company profile Envisions.id menggunakan WordPress. Website ini dirancang untuk menampilkan kecanggihan teknologi yang ditawarkan Envisions sambil tetap menjaga kemudahan navigasi dan aksesibilitas informasi bagi pengunjung.",
+        "Website development challenges included:": "Pengembangan website Envisions.id menghadirkan beberapa tantangan:",
+        "Explaining complex technology concepts (IoT, automation, data analytics) in a way that is easy to understand for a diverse target audience.": "Menjelaskan konsep teknologi yang kompleks (IoT, automation, data analytics) dengan cara yang mudah dipahami oleh target audience yang beragam.",
+        "Creating a design that reflects innovation and professionalism.": "Menciptakan desain yang mencerminkan inovasi teknologi perusahaan namun tetap profesional dan terpercaya.",
+        "Developing a CMS system that allows the Envisions team to update content independently.": "Mengembangkan sistem CMS yang memudahkan tim Envisions untuk memperbarui konten secara mandiri.",
+        "Optimizing website performance despite the use of many visual elements.": "Mengoptimalkan performa website dengan memastikan waktu loading yang cepat meskipun menggunakan banyak elemen visual.",
+        "Implementing effective SEO strategies to improve online visibility.": "Mengimplementasikan strategi SEO yang efektif untuk meningkatkan visibilitas online perusahaan.",
+        "Ensuring website responsiveness across all devices from desktop to mobile.": "Memastikan responsivitas website pada berbagai perangkat, dari desktop hingga mobile.",
+        "Main challenge: balancing attractive visual aesthetics with functionality and clarity of message.": "Tantangan utama adalah menciptakan keseimbangan antara estetika visual yang menarik dan fungsionalitas yang optimal, sambil memastikan bahwa pesan utama perusahaan tersampaikan dengan jelas.",
+        "Website development stages included:": "Proses pengembangan website Envisions.id melibatkan beberapa tahap:",
+        "Discovery and requirements analysis through interviews with the Envisions team.": "Discovery dan analisis kebutuhan melalui wawancara mendalam dengan tim Envisions.",
+        "Creating wireframes and mockups for visual validation.": "Pembuatan wireframe dan mockup desain untuk validasi konsep visual.",
+        "Choosing and customizing a suitable WordPress theme.": "Pemilihan dan kustomisasi tema WordPress yang sesuai dengan kebutuhan.",
+        "Website structure development and design implementation using Elementor Pro.": "Pengembangan struktur website dan implementasi desain dengan Elementor Pro.",
+        "Creating custom post types for services, case studies, and testimonials.": "Pembuatan custom post types untuk menampilkan layanan, studi kasus, dan testimonial.",
+        "Integrating contact form and CRM system.": "Implementasi formulir kontak dan integrasi dengan sistem CRM perusahaan.",
+        "On-page and technical SEO optimization.": "Optimasi SEO on-page dan technical SEO.",
+        "Testing across multiple devices and browsers.": "Testing pada berbagai perangkat dan browser.",
+        "Team training for independent website content management.": "Pelatihan tim Envisions untuk pengelolaan konten website.",
+        "Wireframing and mockup design process.": "Proses wireframing dan desain mockup.",
+        "Website development using WordPress and Elementor.": "Pengembangan website dengan WordPress dan Elementor.",
+        "Main website features included:": "Website Envisions.id yang saya kembangkan memiliki beberapa fitur utama:",
+        "Interactive homepage with scroll animations and value proposition.": "Homepage interaktif dengan animasi scroll dan elemen interaktif yang menampilkan value proposition perusahaan secara jelas.",
+        "Structured service pages with simple explanations and visuals.": "Halaman layanan terstruktur dengan penjelasan yang mudah dipahami dan ilustrasi visual.",
+        "Case study showcases with measurable results.": "Showcase studi kasus yang menampilkan implementasi teknologi Envisions pada berbagai industri dengan hasil yang terukur.",
+        "Blog and resource center for industry knowledge.": "Blog dan resource center untuk berbagi pengetahuan dan membangun otoritas di industri.",
+        "Client testimonial system to build credibility.": "Sistem testimonial yang menampilkan feedback dari klien untuk membangun kredibilitas.",
+        "Integrated contact form with CRM validation.": "Formulir kontak terintegrasi dengan validasi dan integrasi ke sistem CRM perusahaan.",
+        "Interactive dashboard demo to show analytics capability.": "Dashboard demo visualisasi interaktif yang menunjukkan kemampuan platform analytics Envisions.",
+        "Performance optimizations included lazy loading, minified CSS/JS, and caching.": "Website ini dioptimalkan untuk kecepatan loading dengan implementasi lazy loading untuk gambar, minifikasi CSS dan JavaScript, serta caching yang efektif.",
+        "SEO enhancements included good structure, relevant meta tags, and sitemap.": "Selain itu, website juga dioptimalkan untuk SEO dengan struktur yang baik, meta tags yang relevan, dan sitemap.",
+        "Highlighted UI pages:": "Homepage dengan animasi scroll, Halaman layanan dengan ilustrasi visual, Halaman detail studi kasus.",
+        "Results after website launch included:": "Setelah peluncuran website Envisions.id, perusahaan mendapatkan beberapa hasil positif:",
+        "55% increase in website visitors within the first 3 months.": "Peningkatan 55% dalam jumlah pengunjung website dalam 3 bulan pertama.",
+        "70% increase in leads from the contact form.": "Peningkatan 70% dalam jumlah lead yang dihasilkan melalui formulir kontak.",
+        "40% increase in average visitor time spent on the website.": "Peningkatan 40% dalam waktu yang dihabiskan pengunjung di website.",
+        "Improved search engine rankings for keywords related to automation and analytics.": "Peningkatan posisi di mesin pencari untuk kata kunci terkait building automation dan analytics.",
+        "Positive client feedback on navigation and professional appearance.": "Feedback positif dari klien mengenai kemudahan menemukan informasi dan profesionalisme website.",
+        "50% reduction in content update time thanks to a user-friendly CMS.": "Pengurangan 50% dalam waktu yang dibutuhkan untuk memperbarui konten website berkat sistem CMS yang user-friendly.",
+        "The website became a powerful marketing tool for Envisions, increasing brand awareness and generating high-quality leads.": "Website ini telah menjadi alat pemasaran yang efektif bagi Envisions, membantu mereka membangun brand awareness dan menghasilkan leads berkualitas untuk bisnis mereka.",
+        // Houset Project Detail
+        "Houset is an online interior design platform that allows users to create and customize their room designs interactively. It features 2D and 3D canvas tools for drawing room layouts, placing furniture, and viewing the results in realistic 3D visualization.": "Houset adalah platform desain interior online yang memungkinkan pengguna untuk membuat dan menyesuaikan desain ruangan mereka secara interaktif. Platform ini menawarkan fitur canvas 2D dan 3D yang memungkinkan pengguna untuk menggambar denah ruangan, menempatkan furnitur, dan melihat hasilnya dalam visualisasi 3D.",
+        "As a developer, I was responsible for developing the 2D and 3D canvas features that are core to the Houset platform. These features enable users to easily design their rooms and see the results in real-time, realistic 3D visualizations.": "Sebagai developer, saya bertanggung jawab untuk mengembangkan fitur canvas 2D dan 3D yang menjadi inti dari platform Houset. Fitur ini memungkinkan pengguna untuk dengan mudah membuat desain ruangan mereka dan melihat hasilnya secara real-time dalam visualisasi 3D yang realistis.",
+        "Developing the 2D and 3D canvas features for Houset presented several complex technical challenges:": "Pengembangan fitur canvas 2D dan 3D untuk Houset menghadirkan beberapa tantangan teknis yang kompleks:",
+        "Creating an intuitive 2D canvas system for drawing floor plans of various shapes and sizes": "Menciptakan sistem canvas 2D yang intuitif untuk menggambar denah ruangan dengan berbagai bentuk dan ukuran",
+        "Building a real-time and accurate conversion mechanism from 2D designs to 3D visualizations": "Mengembangkan mekanisme konversi dari desain 2D ke visualisasi 3D yang akurat dan real-time",
+        "Ensuring optimal browser performance, especially for heavy 3D rendering": "Memastikan performa yang optimal pada browser web, terutama untuk rendering 3D yang berat",
+        "Implementing a user-friendly drag-and-drop system for furniture placement": "Mengimplementasikan sistem drag-and-drop untuk penempatan furnitur yang mudah digunakan",
+        "Integrating a comprehensive product catalog with detailed 3D models": "Mengintegrasikan katalog produk yang luas dengan model 3D yang detail",
+        "Ensuring cross-browser and device compatibility": "Memastikan kompatibilitas lintas browser dan perangkat",
+        "The main challenge was to create a smooth and intuitive user experience while handling the technical complexity of 3D rendering in browsers and conversion between 2D and 3D representations.": "Tantangan utama adalah menciptakan pengalaman pengguna yang mulus dan intuitif sambil menangani kompleksitas teknis dari rendering 3D di browser dan konversi antara representasi 2D dan 3D.",
+        "The development process involved several phases:": "Proses pengembangan fitur canvas 2D dan 3D untuk Houset melibatkan beberapa tahap:",
+        "Research and selection of the right technologies for 2D (HTML5 Canvas and JavaScript) and 3D (WebGL and Three.js)": "Riset dan pemilihan teknologi yang tepat untuk canvas 2D (HTML5 Canvas dan JavaScript) dan 3D (WebGL dan Three.js)",
+        "Designing a system architecture to enable seamless conversion between 2D and 3D representations": "Perancangan arsitektur sistem yang memungkinkan konversi seamless antara representasi 2D dan 3D",
+        "Developing a 2D editor for drawing walls, doors, windows, and other elements": "Pengembangan editor canvas 2D dengan fitur menggambar dinding, pintu, jendela, dan elemen lainnya",
+        "Implementing algorithms to convert 2D designs into 3D models using extrusion and texturing": "Implementasi algoritma untuk mengkonversi desain 2D menjadi model 3D dengan extrusion dan texturing",
+        "Building the product catalog and drag-and-drop furniture placement system": "Pengembangan sistem katalog produk dan penempatan furnitur dengan fitur drag-and-drop",
+        "Optimizing 3D rendering performance with techniques like level of detail and lazy loading": "Optimasi performa rendering 3D dengan teknik seperti level of detail dan lazy loading",
+        "Conducting extensive testing across browsers and devices": "Testing ekstensif pada berbagai browser dan perangkat",
+        "Iterating based on user feedback to improve usability": "Iterasi berdasarkan feedback pengguna untuk meningkatkan usability",
+        "2D canvas editor for drawing floor plans": "Editor canvas 2D untuk menggambar denah ruangan",
+        "Drag-and-drop furniture placement": "Penempatan furnitur dengan drag-and-drop",
+        "Realistic 3D visualization": "Visualisasi 3D dengan pencahayaan realistis",
+        "The solution I developed for Houset includes several key features:": "Solusi yang saya kembangkan untuk Houset mencakup beberapa fitur utama:",
+        "Interactive 2D Canvas: An intuitive floor plan editor with tools to draw walls, doors, windows, and other elements precisely": "Canvas 2D Interaktif: Editor denah ruangan yang intuitif dengan alat untuk menggambar dinding, pintu, jendela, dan elemen lainnya dengan presisi",
+        "Real-time 2D to 3D Conversion: Algorithms that instantly convert 2D designs into 3D models, allowing users to see their changes in real time": "Konversi 2D ke 3D Real-time: Algoritma yang mengkonversi desain 2D menjadi model 3D secara instan, memungkinkan pengguna untuk melihat perubahan mereka secara real-time",
+        "Integrated Product Catalog: A system that allows users to browse and place furniture directly into their designs": "Katalog Produk Terintegrasi: Sistem yang memungkinkan pengguna untuk mencari dan menempatkan furnitur dari katalog langsung ke dalam desain mereka",
+        "High-Quality 3D Visualization: Realistic 3D rendering with lighting, shadows, and textures": "Visualisasi 3D Realistis: Rendering 3D berkualitas tinggi dengan pencahayaan realistis, bayangan, dan tekstur",
+        "Material Customization: Ability to change materials and colors of walls, floors, and furniture": "Fitur Penyesuaian Material: Kemampuan untuk mengubah material dan warna dinding, lantai, dan furnitur",
+        "Export and Sharing: Options to export designs in various formats and share them with others": "Ekspor dan Berbagi: Opsi untuk mengekspor desain dalam berbagai format dan membagikannya dengan orang lain",
+        "All of these features were implemented with a focus on performance and usability, ensuring the platform runs smoothly even on lower-spec devices.": "Semua fitur ini diimplementasikan dengan fokus pada performa dan usability, memastikan bahwa platform dapat digunakan dengan lancar bahkan pada perangkat dengan spesifikasi lebih rendah.",
+        "The implementation of the 2D and 3D canvas features led to several positive impacts:": "Implementasi fitur canvas 2D dan 3D pada website Houset menghasilkan beberapa dampak positif:",
+        "65% increase in average time users spent on the platform, indicating high engagement": "Peningkatan 65% dalam waktu yang dihabiskan pengguna di platform, menunjukkan tingkat engagement yang tinggi",
+        "40% increase in visitor-to-registered-user conversion": "Peningkatan 40% dalam konversi dari pengunjung ke pengguna terdaftar",
+        "50% increase in number of designs created and saved by users": "Peningkatan 50% dalam jumlah desain yang dibuat dan disimpan oleh pengguna",
+        "Positive feedback from users regarding usability and 3D visualization quality": "Feedback positif dari pengguna mengenai kemudahan penggunaan dan kualitas visualisasi 3D",
+        "30% reduction in time needed by users to create complete room designs": "Pengurangan 30% dalam waktu yang dibutuhkan pengguna untuk membuat desain ruangan lengkap",
+        "45% increase in number of products viewed from the catalog, showing effective integration": "Peningkatan 45% dalam jumlah produk yang dilihat dari katalog, menunjukkan efektivitas integrasi katalog dengan canvas",
+        "This platform has become a valuable tool for users who want to design their own rooms and helped position Houset as a leader in the online interior design industry.": "Platform ini telah menjadi alat yang berharga bagi pengguna yang ingin mendesain ruangan mereka sendiri, dan telah membantu Houset memposisikan diri sebagai pemimpin dalam industri desain interior online.",
+        // AuRRaL Full Description
+        "AuRRaL (Augmented Reality Rangkaian Listrik) is a mobile application that uses Augmented Reality technology to help students and university learners study electrical circuits. It enables users to visualize electronic component values and simulate circuit behavior in the real world.": "AuRRaL (Augmented Reality Rangkaian Listrik) adalah aplikasi mobile yang menggunakan teknologi Augmented Reality untuk membantu siswa dan mahasiswa dalam mempelajari rangkaian listrik. Aplikasi ini memungkinkan pengguna untuk memvisualisasikan nilai komponen elektronik dan mensimulasikan perilaku rangkaian listrik dalam dunia nyata.",
+        "As a developer, I was responsible for developing the AuRRaL app from concept to implementation. This app was designed to address the difficulties students often face in understanding abstract circuit concepts by providing interactive visualizations that simplify the learning process.": "Sebagai developer, saya bertanggung jawab untuk mengembangkan aplikasi AuRRaL dari konsep hingga implementasi. Aplikasi ini dirancang untuk mengatasi kesulitan yang sering dihadapi siswa dalam memahami konsep abstrak dalam rangkaian listrik dengan memberikan visualisasi interaktif yang memudahkan proses pembelajaran.",
+        "Technical and pedagogical challenges faced during the development of AuRRaL included:": "Pengembangan aplikasi AuRRaL menghadirkan beberapa tantangan teknis dan pedagogis:",
+        "Creating an accurate marker recognition system for various electronic components under different lighting conditions": "Menciptakan sistem pengenalan marker yang akurat untuk berbagai komponen elektronik dalam kondisi pencahayaan yang berbeda",
+        "Developing real-time, accurate simulation algorithms for circuit behavior": "Mengembangkan algoritma untuk mensimulasikan perilaku rangkaian listrik secara real-time dan akurat",
+        "Designing AR visualizations that are informative but not overly complex for users": "Merancang visualisasi AR yang informatif namun tidak terlalu kompleks untuk pemahaman pengguna",
+        "Ensuring optimal app performance on diverse mobile devices with varying specifications": "Memastikan performa aplikasi yang optimal pada berbagai perangkat mobile dengan spesifikasi yang beragam",
+        "Integrating educational content aligned with electrical engineering curricula": "Mengintegrasikan konten edukasi yang sesuai dengan kurikulum pendidikan teknik elektro",
+        "Creating an intuitive user interface for students with varying levels of tech familiarity": "Menciptakan antarmuka pengguna yang intuitif untuk siswa dengan berbagai tingkat pemahaman teknologi",
+        "The main challenge was to create an AR app that is not only visually engaging but also educationally valuable and technically accurate in simulating circuit behavior.": "Tantangan utama adalah menciptakan aplikasi AR yang tidak hanya menarik secara visual tetapi juga memiliki nilai edukasi yang tinggi dan akurat secara teknis dalam mensimulasikan perilaku rangkaian listrik.",
+        "Research and consultation with electrical engineering educators": "Riset dan konsultasi dengan pengajar teknik elektro untuk memahami kebutuhan pembelajaran",
+        "Design of the marker system and electronic component database": "Perancangan sistem marker dan database komponen elektronik",
+        "Development of mobile-compatible circuit simulation algorithms": "Pengembangan algoritma simulasi rangkaian listrik yang dapat berjalan pada perangkat mobile",
+        "Implementation of AR technology using Unity and Vuforia": "Implementasi teknologi AR menggunakan Unity dan Vuforia",
+        "Design of a user interface tailored to learning needs": "Perancangan antarmuka pengguna yang intuitif dan sesuai dengan kebutuhan pembelajaran",
+        "Development of educational content and interactive tutorials": "Pengembangan konten edukasi dan tutorial interaktif",
+        "Testing with students and educators for feedback": "Testing dengan siswa dan pengajar untuk mendapatkan feedback",
+        "Iteration and refinement based on feedback": "Iterasi dan penyempurnaan berdasarkan feedback yang diterima",
+        "Performance optimization and multi-device testing": "Optimasi performa dan pengujian pada berbagai perangkat",
+        "Marker system development for electronic components": "Pengembangan sistem marker untuk komponen elektronik",
+        "Circuit simulation algorithm development": "Pengembangan algoritma simulasi rangkaian listrik",
+        "The AuRRaL app includes several key features:": "Aplikasi AuRRaL yang saya kembangkan memiliki beberapa fitur utama:",
+        "Component Recognition": "Pengenalan Komponen",
+        "Ability to recognize various electronic components like resistors, capacitors, inductors, and transistors via special markers": "Kemampuan untuk mengenali berbagai komponen elektronik seperti resistor, kapasitor, induktor, dan transistor melalui marker khusus",
+        "Component Value Visualization": "Visualisasi Nilai Komponen",
+        "Display of component values (resistance, capacitance) in easily readable AR formats": "Menampilkan nilai komponen elektronik (seperti resistansi, kapasitansi) dalam bentuk AR yang mudah dibaca",
+        "Circuit Simulation": "Simulasi Rangkaian",
+        "Ability to simulate simple electrical circuit behavior by connecting components": "Kemampuan untuk mensimulasikan perilaku rangkaian listrik sederhana dengan menghubungkan beberapa komponen",
+        "Current and Voltage Visualization": "Visualisasi Arus dan Tegangan",
+        "Display of current flow and voltage distribution using intuitive AR animations": "Menampilkan aliran arus dan distribusi tegangan dalam rangkaian dengan animasi AR yang intuitif",
+        "Learning Mode": "Mode Pembelajaran",
+        "Interactive tutorials guiding users through basic circuit concepts": "Tutorial interaktif yang memandu pengguna melalui konsep dasar rangkaian listrik",
+        "Practice Mode": "Mode Latihan",
+        "Challenges and exercises to test user understanding": "Tantangan dan soal latihan untuk menguji pemahaman pengguna",
+        "Component Database": "Database Komponen",
+        "Reference information about various electronic components and their usage": "Informasi referensi tentang berbagai komponen elektronik dan penggunaannya",
+        "The app was built using Unity and Vuforia for AR technology, with a custom-developed simulation algorithm optimized for mobile devices.": "Aplikasi ini dikembangkan menggunakan Unity dan Vuforia untuk teknologi AR, dengan algoritma simulasi rangkaian yang dikembangkan khusus untuk berjalan secara efisien pada perangkat mobile.",
+        "Implementation of the AuRRaL app in electrical engineering education showed several positive impacts:": "Implementasi aplikasi AuRRaL dalam pembelajaran teknik elektro menghasilkan beberapa dampak positif:",
+        "40% increase in understanding of circuit concepts compared to traditional methods": "Peningkatan 40% dalam pemahaman konsep rangkaian listrik pada siswa yang menggunakan aplikasi dibandingkan dengan metode pembelajaran tradisional",
+        "35% improvement in practical exam scores": "Peningkatan 35% dalam skor ujian praktikum rangkaian listrik",
+        "50% reduction in learning time for basic circuit concepts": "Pengurangan 50% dalam waktu yang dibutuhkan untuk memahami konsep dasar rangkaian listrik",
+        "60% increase in student interest and engagement in electrical engineering topics": "Peningkatan 60% dalam minat dan engagement siswa terhadap mata pelajaran teknik elektro",
+        "Positive feedback from educators on the app’s effectiveness as a teaching aid": "Feedback positif dari pengajar mengenai efektivitas aplikasi sebagai alat bantu pembelajaran",
+        "Adoption by 12 technical education institutions within the first 6 months of release": "Adopsi aplikasi oleh 12 institusi pendidikan teknik dalam 6 bulan pertama setelah peluncuran",
+        "The AuRRaL app has proven to be an effective learning tool, helping students visualize abstract circuit concepts and improve their understanding of basic electrical engineering principles. It also received an innovation award in technical education from a national education association.": "Aplikasi AuRRaL telah menjadi alat pembelajaran yang efektif, membantu siswa memvisualisasikan konsep abstrak dalam rangkaian listrik dan meningkatkan pemahaman mereka tentang prinsip-prinsip dasar teknik elektro. Aplikasi ini juga telah menerima penghargaan inovasi dalam pendidikan teknik dari asosiasi pendidikan nasional.",
+        // Dewi Nadulang VR Tour Section
+        "Dewi Nadulang is a natural tourist destination located in Indonesia with beautiful views but still relatively unknown to travelers.": "Dewi Nadulang adalah destinasi wisata alam yang terletak di Indonesia dengan pemandangan yang indah namun belum banyak dikenal oleh wisatawan.",
+        "To increase the visibility and appeal of this destination, an innovative way is needed to introduce its beauty to potential visitors.": "Untuk meningkatkan visibilitas dan daya tarik destinasi ini, diperlukan cara inovatif untuk memperkenalkan keindahannya kepada calon pengunjung.",
+        "As a developer, I was responsible for creating a virtual reality tour that allows potential visitors to explore Dewi Nadulang virtually before visiting in person.": "Sebagai developer, saya bertanggung jawab untuk menciptakan virtual reality tour yang memungkinkan calon pengunjung menjelajahi Dewi Nadulang secara virtual sebelum mengunjunginya secara langsung.",
+        "This project uses 360° photography and theasys.io platform to create an engaging immersive experience.": "Proyek ini menggunakan teknologi 360° photography dan platform theasys.io untuk menciptakan pengalaman immersive yang menarik.",
+        "Challenges in developing the virtual reality tour for Dewi Nadulang included:": "Pengembangan virtual reality tour untuk Dewi Nadulang menghadirkan beberapa tantangan:",
+        "Capturing high-quality 360° photos in various locations with varying lighting and weather conditions": "Mengambil foto 360° berkualitas tinggi di berbagai lokasi dengan kondisi pencahayaan dan cuaca yang bervariasi",
+        "Creating intuitive navigation flow between panorama points for a smooth exploration experience": "Menciptakan alur navigasi yang intuitif antara berbagai titik panorama untuk memberikan pengalaman penjelajahan yang mulus",
+        "Integrating contextual information about locations and attractions without disrupting the immersive experience": "Mengintegrasikan informasi kontekstual tentang berbagai lokasi dan atraksi tanpa mengganggu pengalaman immersive",
+        "Ensuring optimal performance across desktop, mobile, and VR headsets": "Memastikan performa yang optimal pada berbagai perangkat, termasuk desktop, mobile, dan headset VR",
+        "Optimizing panorama image file sizes for fast loading without sacrificing visual quality": "Mengoptimalkan ukuran file gambar panorama untuk memastikan waktu loading yang cepat tanpa mengorbankan kualitas visual",
+        "Designing a user-friendly interface for users unfamiliar with VR navigation": "Menciptakan antarmuka yang user-friendly untuk pengguna yang mungkin belum familiar dengan navigasi VR",
+        "The main challenge was to balance high visual quality and optimal performance while ensuring accessibility for various user types.": "Tantangan utama adalah menciptakan keseimbangan antara kualitas visual yang tinggi dan performa yang optimal, sambil memastikan bahwa pengalaman VR dapat diakses oleh berbagai jenis pengguna.",
+        "The development process involved the following stages:": "Proses pengembangan virtual reality tour untuk Dewi Nadulang melibatkan beberapa tahap:",
+        "Location survey and planning of strategic panorama points": "Survei lokasi dan perencanaan titik-titik panorama strategis yang akan diambil",
+        "Capturing 360° photos using HDR technique for lighting variation": "Pengambilan foto 360° menggunakan kamera khusus dengan teknik HDR untuk menangani variasi pencahayaan",
+        "Stitching and post-processing of panorama images": "Stitching dan post-processing foto panorama untuk menghasilkan gambar 360° yang mulus dan berkualitas tinggi",
+        "Developing navigation map and virtual journey flow": "Pengembangan peta navigasi dan perencanaan alur perjalanan virtual",
+        "Implementing the tour using theasys.io with UI and navigation customization": "Implementasi tour menggunakan platform theasys.io dengan kustomisasi antarmuka dan navigasi",
+        "Adding informative hotspots and interactive elements": "Penambahan hotspot informatif dan elemen interaktif pada berbagai titik menarik",
+        "Integrating audio narration and textual information": "Integrasi narasi audio dan informasi tekstual untuk memperkaya pengalaman",
+        "Performance optimization and testing on various devices": "Optimasi performa dan testing pada berbagai perangkat",
+        "Developing a website landing page hosting the VR tour": "Pengembangan website landing page yang menghosting VR tour",
+        // Features Section
+        "Dewi Nadulang Virtual Reality Tour features include:": "Virtual reality tour Dewi Nadulang yang saya kembangkan memiliki beberapa fitur utama:",
+        "15 Strategic Panorama Points": "15 Titik Panorama Strategis",
+        "Covering all major attractions and scenic views in Dewi Nadulang": "Mencakup semua atraksi utama dan pemandangan indah di Dewi Nadulang",
+        "Intuitive Navigation": "Navigasi Intuitif",
+        "With interactive maps and clear directional indicators": "Dengan peta interaktif dan indikator arah yang jelas untuk memudahkan penjelajahan",
+        "Informative Hotspots": "Hotspot Informatif",
+        "Providing contextual information on flora, fauna, history, and local facts": "Memberikan informasi kontekstual tentang flora, fauna, sejarah, dan fakta menarik di berbagai lokasi",
+        "Audio Narration": "Narasi Audio",
+        "Audio guide explaining attractions and enhancing immersion": "Panduan audio yang menjelaskan berbagai atraksi dan memberikan pengalaman yang lebih immersive",
+        "Day and Night Mode": "Mode Siang dan Malam",
+        "Allowing users to see the location under different lighting conditions": "Memungkinkan pengunjung melihat lokasi dalam kondisi pencahayaan yang berbeda",
+        "Multi-platform Compatibility": "Kompatibilitas Multi-platform",
+        "Works well on desktop, mobile, and VR headsets like Google Cardboard": "Berfungsi dengan baik pada desktop, mobile, dan headset VR seperti Google Cardboard",
+        "Social Media Integration": "Integrasi Media Sosial",
+        "Allows users to share their VR experience on social platforms": "Memungkinkan pengunjung berbagi pengalaman VR mereka di platform media sosial",
+        "The tour is hosted on Dewinadulang.com, which also provides additional information about the destination, how to get there, nearby accommodations, and travel tips.": "Tour ini dihosting pada website Dewinadulang.com yang juga menyediakan informasi tambahan tentang destinasi, cara mencapai lokasi, akomodasi terdekat, dan tips perjalanan.",
+        // Visual Sample Labels
+        "Main Waterfall Panorama": "Tampilan panorama air terjun Utama",
+        "Interactive Navigation Map": "Peta interaktif untuk navigasi",
+        "Local Flora Information Hotspot": "Hotspot informatif tentang flora lokal",
+        // Results
+        "After the launch of the Dewi Nadulang VR tour, several positive results were achieved:": "Setelah peluncuran virtual reality tour Dewi Nadulang, beberapa hasil positif telah dicapai:",
+        "120% increase in website visitors in the first 6 months": "Peningkatan 120% dalam jumlah pengunjung website dalam 6 bulan pertama",
+        "85% increase in physical visits to Dewi Nadulang": "Peningkatan 85% dalam jumlah pengunjung fisik ke destinasi Dewi Nadulang",
+        "Average VR tour duration reached 8 minutes, showing high engagement": "Rata-rata waktu yang dihabiskan di VR tour mencapai 8 menit, menunjukkan tingkat engagement yang tinggi",
+        "150% increase in social media mentions of Dewi Nadulang": "Peningkatan 150% dalam mentions di media sosial tentang Dewi Nadulang",
+        "Positive visitor feedback stating the VR tour helped them plan their trip better": "Feedback positif dari pengunjung yang menyatakan bahwa VR tour membantu mereka merencanakan kunjungan dengan lebih baik",
+        "Won 'Digital Innovation in Tourism' award from local tourism association": "Penghargaan 'Inovasi Digital dalam Pariwisata' dari asosiasi pariwisata lokal",
+        "This virtual reality tour became an effective marketing tool for Dewi Nadulang, improving destination visibility and attracting more visitors. It also serves as an educational tool to help visitors understand the ecological and cultural value of the site.": "Virtual reality tour ini telah menjadi alat pemasaran yang efektif untuk Dewi Nadulang, membantu meningkatkan visibilitas destinasi dan menarik lebih banyak pengunjung. Selain itu, tour ini juga berfungsi sebagai alat edukasi yang membantu pengunjung memahami nilai ekologis dan budaya dari destinasi ini.",
+        // Home Page Case Study Short Descriptions
+        "A web-based Learning Management System designed for cybersecurity education. Integrated with interactive Unity WebGL games to enhance engagement and learning experience.": "Sebuah Learning Management System berbasis web yang dirancang untuk pendidikan keamanan siber. Terintegrasi dengan game Unity WebGL interaktif untuk meningkatkan engagement dan pengalaman belajar.",
+        "An interactive 2D educational game focused on cybersecurity awareness for children. Covers real-life digital risks through engaging storytelling and scenario-based gameplay.": "Sebuah game edukasi 2D interaktif yang fokus pada kesadaran keamanan siber untuk anak-anak. Mencakup risiko digital dunia nyata melalui penceritaan yang menarik dan gameplay berbasis skenario.",
+        "Development of a responsive website with integrated AI chat assistant to enhance user interaction and provide instant support. Designed with a focus on sustainability and smart communication.": "Pengembangan website responsif dengan asisten chat AI terintegrasi untuk meningkatkan interaksi pengguna dan memberikan dukungan instan. Dirancang dengan fokus pada keberlanjutan dan komunikasi pintar.",
+        "A web-based dashboard designed to monitor and analyze parking issues across multiple locations. The system provides real-time reporting, automatic notifications, and performance insights for each site.": "Sebuah dashboard berbasis web yang dirancang untuk memantau dan menganalisis masalah parkir di berbagai lokasi. Sistem ini menyediakan pelaporan real-time, notifikasi otomatis, dan wawasan performa untuk setiap lokasi.",
+        // Additional missing translations
+        "Fullstack Developer": "Pengembang Fullstack",
+        "Learning Management System": "Sistem Manajemen Pembelajaran",
+        "Tech Stack:": "Tech Stack:",
+        "Laravel, React, PostgreSQL, JWT, Unity WebGL": "Laravel, React, PostgreSQL, JWT, Unity WebGL",
+        "2D Educational Game": "Game Edukasi 2D",
+        "Game Developer": "Pengembang Game",
+        "Unity, C#, WebGL": "Unity, C#, WebGL",
+        "AI Chat Website": "Website Chat AI",
+        "Fullstack Web Developer": "Pengembang Web Fullstack",
+        "Technology Convai, Chat AI, Unity": "Teknologi Convai, Chat AI, Unity",
+        "Data Analytics Dashboard": "Dashboard Analytics Data",
+        "Frontend Developer": "Pengembang Frontend",
+        "Smart Parking, IoT": "Smart Parking, IoT",
+        "Platform Demo": "Demo Platform",
+        "Watch a demonstration of the Bicimici LMS platform in action. This video showcases the platform features and user interface.": "Tonton demonstrasi platform Bicimici LMS dalam aksi. Video ini menampilkan fitur-fitur platform dan antarmuka pengguna.",
+        "Your browser does not support the video tag.": "Browser Anda tidak mendukung tag video.",
+        "Try the Game": "Coba Game",
+        "Experience the Bicimici Game directly in your browser. Click the button to start the game in fullscreen mode.": "Alami permainan Bicimici langsung di browser Anda. Klik tombol untuk memulai game dalam mode fullscreen.",
+        "Mari Bermain": "Mari Bermain",
+        "Play Game": "Mainkan Game",
+        "AI Chat": "Chat AI",
+        "Web Development": "Pengembangan Web",
+        "Sustainability": "Keberlanjutan",
+        "Data Analytics": "Analitik Data",
+        "Web Dashboard": "Dashboard Web",
+        "IoT System": "Sistem IoT",
+        "Ecochat Website": "Website Ecochat",
+        "Soul Parking Problem Report Dashboard": "Dashboard Laporan Masalah Soul Parking"
+    }
+};
+}),
+"[externals]/next/dist/server/app-render/work-unit-async-storage.external.js [external] (next/dist/server/app-render/work-unit-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async-storage.external.js", () => require("next/dist/server/app-render/work-unit-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/action-async-storage.external.js [external] (next/dist/server/app-render/action-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/action-async-storage.external.js", () => require("next/dist/server/app-render/action-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/after-task-async-storage.external.js [external] (next/dist/server/app-render/after-task-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/after-task-async-storage.external.js", () => require("next/dist/server/app-render/after-task-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/dynamic-access-async-storage.external.js [external] (next/dist/server/app-render/dynamic-access-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/dynamic-access-async-storage.external.js", () => require("next/dist/server/app-render/dynamic-access-async-storage.external.js"));
+
+module.exports = mod;
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0euzpny._.js.map
