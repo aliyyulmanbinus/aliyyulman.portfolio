@@ -91,6 +91,7 @@ export default function BicimiciGameCaseStudy() {
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Game Dev</span>
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Cybersecurity</span>
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Education</span>
+              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">2026</span>
             </motion.div>
           </motion.div>
         </div>

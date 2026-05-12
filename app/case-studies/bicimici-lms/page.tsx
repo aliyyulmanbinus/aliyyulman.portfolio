@@ -68,7 +68,7 @@ export default function BicimiciLmsCaseStudy() {
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">React</span>
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Unity WebGL</span>
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">EdTech</span>
-              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">2024</span>
+              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">2026</span>
             </motion.div>
           </motion.div>
         </div>
