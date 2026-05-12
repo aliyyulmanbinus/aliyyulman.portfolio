@@ -145,6 +145,68 @@ export default function BicimiciGameCaseStudy() {
         </div>
       </section>
 
+      <section className="px-6 md:px-12 lg:px-24 mb-24">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: {
+                  staggerChildren: 0.2,
+                },
+              },
+            }}
+          >
+            <motion.h2 className="text-3xl md:text-4xl font-bold mb-8 text-custom-dark" variants={fadeIn}>
+              {t("Latar Belakang Pembuatan Game Bicimici")}
+            </motion.h2>
+
+            <motion.div className="mb-8" variants={fadeIn}>
+              <p className="text-lg text-custom-dark mb-8">
+                {t("Pelajari konsep awal, visi, dan proses ideasi di balik pengembangan Game Bicimici. Presentasi ini menjelaskan motivasi kami untuk menciptakan pengalaman belajar cybersecurity yang menyenangkan dan aman bagi siswa sekolah dasar.")}
+              </p>
+            </motion.div>
+
+            <motion.div className="custom-card p-8 rounded-xl" variants={fadeIn}>
+              <div style={{
+                position: "relative",
+                width: "100%",
+                height: "0",
+                paddingTop: "56.2500%",
+                paddingBottom: "0",
+                boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
+                marginTop: "0",
+                marginBottom: "0",
+                overflow: "hidden",
+                borderRadius: "8px",
+                willChange: "transform",
+              }}>
+                <iframe
+                  loading="lazy"
+                  style={{
+                    position: "absolute",
+                    width: "100%",
+                    height: "100%",
+                    top: "0",
+                    left: "0",
+                    border: "none",
+                    padding: "0",
+                    margin: "0",
+                  }}
+                  src="https://www.canva.com/design/DAHGIwLs0qM/Go9JF3VKY5EL5BrMg1LnAQ/view?embed"
+                  allowFullScreen
+                  title="Latar Belakang Pembuatan Game Bicimici"
+                />
+              </div>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
       <section className="px-6 md:px-12 lg:px-24 mb-24 bg-custom-dark py-16">
         <div className="max-w-5xl mx-auto">
           <motion.div
