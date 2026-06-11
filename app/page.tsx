@@ -934,10 +934,10 @@ export default function Home() {
 
               <div className="mt-12">
                 <a
-                  href={"https://drive.google.com/file/d/1IVrQRlD59KQ6XVpNi3l6plGDRsHMgzmV/view?usp=sharing"}
+                  href={`mailto:aliyyulmanj@gmail.com?subject=${encodeURIComponent("Permintaan Resume Lengkap - Portfolio Website")}&body=${encodeURIComponent("Halo Aliyyulman,\n\nSaya tertarik untuk melihat resume lengkap Anda. Mohon dapat dikirimkan informasinya.\n\nTerima kasih.")}`}
                   className="inline-block custom-button-light px-8 py-3 text-lg font-medium text-custom-dark"
                 >
-                  {t("Download Full Resume")}
+                  {t("Request Full Resume")}
                 </a>
               </div>
             </motion.div>

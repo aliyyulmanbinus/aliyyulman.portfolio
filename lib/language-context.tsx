@@ -149,7 +149,7 @@ const translations = {
     "Telkom University • Aug 2018 - Aug 2021": "Telkom University • Aug 2018 - Aug 2021",
     "Received GenBI Scholarship and became finalist in national technology competitions.":
       "Received GenBI Scholarship and became finalist in national technology competitions.",
-    "Download Full Resume": "Download Full Resume",
+    "Request Full Resume": "Request Full Resume",
 
 
     // Contact Section
@@ -323,7 +323,7 @@ const translations = {
     "Telkom University • Aug 2018 - Aug 2021": "Universitas Telkom • Agu 2018 - Agu 2021",
     "Received GenBI Scholarship and became finalist in national technology competitions.":
       "Menerima Beasiswa GenBI dan menjadi finalis kompetisi teknologi nasional.",
-    "Download Full Resume": "Unduh CV Lengkap",
+    "Request Full Resume": "Minta Resume Lengkap",
 
     // Contact Section
     "Let's Connect": "Mari Terhubung",
