@@ -163,7 +163,7 @@ export default function Home() {
                 </p>
                 <p className="text-sm">
                   <span className="font-bold">{t("Tech Stack:")}</span>{" "}
-                  {t("Laravel, React, PostgreSQL, JWT, Unity WebGL")}
+                  {t("Laravel, MySQL, Filament, PHP 8.5, Unity WebGL")}
                 </p>
               </div>
 

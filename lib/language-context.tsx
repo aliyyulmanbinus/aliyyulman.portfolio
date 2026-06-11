@@ -188,7 +188,7 @@ const translations = {
     "Fullstack Developer": "Fullstack Developer",
     "Learning Management System": "Learning Management System",
     "Tech Stack:": "Tech Stack:",
-    "Laravel, React, PostgreSQL, JWT, Unity WebGL": "Laravel, React, PostgreSQL, JWT, Unity WebGL",
+    "Laravel, MySQL, Filament, PHP 8.5, Unity WebGL": "Laravel, MySQL, Filament, PHP 8.5, Unity WebGL",
     "2D Educational Game": "2D Educational Game",
     "Game Developer": "Game Developer",
     "Unity, C#, WebGL": "Unity, C#, WebGL",
@@ -348,44 +348,56 @@ const translations = {
     Conclusion: "Kesimpulan",
 
     // Bicimici LMS
-    "Built a web-based Learning Management System with Laravel backend and React frontend, complete with authentication, role-based access control, JWT security, and Unity WebGL integration for a more engaging learning experience.":
-      "Membangun Learning Management System berbasis web dengan backend Laravel dan frontend React, lengkap dengan otentikasi, kontrol akses berbasis peran, keamanan JWT, dan integrasi Unity WebGL untuk pengalaman belajar yang lebih menarik.",
+    "Originally prototyped as a Next.js 16 and Supabase web app shown in the demo video, then rebuilt with Laravel, MySQL, and Filament for production to comply with national cyber security data-residency policies and improve performance.":
+      "Awalnya dibuat sebagai prototipe web menggunakan Next.js 16 dan Supabase seperti yang ditampilkan pada video demo, kemudian dibangun ulang menggunakan Laravel, MySQL, dan Filament untuk versi produksi agar memenuhi kebijakan keamanan data dari badan siber nasional dan meningkatkan performa.",
     "LMS Bicimici is designed as a digital learning platform for students and teachers, combining course content, quizzes, and an educational game experience in one system.":
       "LMS Bicimici dirancang sebagai platform pembelajaran digital untuk siswa dan guru, menggabungkan materi ajar, kuis, dan pengalaman game edukatif dalam satu sistem.",
-    "Its architecture combines a Laravel backend with PostgreSQL, a React frontend, and secure JWT APIs so users can access content by role.":
-      "Arsitekturnya menggabungkan backend Laravel dengan PostgreSQL, frontend React, dan API yang aman menggunakan JWT agar pengguna dapat mengakses konten sesuai peran masing-masing.",
+    "The initial prototype shown in the demo video was built with Next.js 16, React 19, and TypeScript, styled with Tailwind CSS v4 and Radix UI/shadcn components, with Supabase for authentication and data storage, a Python service powering the Sheby AI assistant, and Unity WebGL for the educational game.":
+      "Prototipe awal yang ditampilkan pada video demo dibangun menggunakan Next.js 16, React 19, dan TypeScript, dengan styling Tailwind CSS v4 dan komponen Radix UI/shadcn, Supabase untuk autentikasi dan penyimpanan data, layanan Python untuk asisten AI Sheby, serta Unity WebGL untuk game edukatif.",
+    "For the production release, the backend was rebuilt using Laravel, MySQL, and PHP 8.5, managed through a Filament admin panel, so that all student and school data is stored on infrastructure that complies with national cyber security regulations while delivering better performance than the original Next.js version.":
+      "Untuk versi produksi, backend dibangun ulang menggunakan Laravel, MySQL, dan PHP 8.5, dikelola melalui panel admin Filament, sehingga seluruh data siswa dan sekolah disimpan pada infrastruktur yang sesuai dengan regulasi keamanan siber nasional sekaligus memberikan performa yang lebih baik dibandingkan versi Next.js sebelumnya.",
     "The main challenge in this project included:":
       "Tantangan utama dalam proyek ini meliputi:",
-    "Building reliable and secure RESTful APIs using Laravel and PostgreSQL.":
-      "Membangun API RESTful yang aman dan andal menggunakan Laravel dan PostgreSQL.",
-    "Implementing JWT authentication and role-based access control for admin, teachers, and students.":
-      "Mengimplementasikan otentikasi JWT dan kontrol akses berbasis peran untuk admin, guru, dan siswa.",
-    "Keeping the frontend data flow efficient with Context API to manage user sessions and navigation.":
-      "Menjaga alur data frontend dengan Context API agar sesi pengguna dan navigasi tetap efisien.",
-    "Integrating Unity WebGL content into the LMS without disrupting the user experience.":
-      "Mengintegrasikan konten Unity WebGL ke dalam platform LMS tanpa mengganggu pengalaman pengguna.",
+    "Complying with national cyber security agency regulations that prohibit storing student and school data on third-party cloud platforms such as Supabase.":
+      "Memenuhi regulasi badan siber nasional yang melarang penyimpanan data siswa dan sekolah pada platform cloud pihak ketiga seperti Supabase.",
+    "Migrating the platform from a Next.js and Supabase prototype to a Laravel and MySQL production stack without losing existing features or data.":
+      "Memigrasikan platform dari prototipe Next.js dan Supabase ke stack produksi Laravel dan MySQL tanpa kehilangan fitur atau data yang sudah ada.",
+    "Resolving the slow performance experienced in the original Next.js version to deliver a faster and more responsive LMS.":
+      "Mengatasi performa yang lambat pada versi Next.js sebelumnya agar LMS menjadi lebih cepat dan responsif.",
+    "Rebuilding authentication and role-based access control for admin, teachers, and students using Laravel and Filament.":
+      "Membangun ulang sistem autentikasi dan kontrol akses berbasis peran untuk admin, guru, dan siswa menggunakan Laravel dan Filament.",
+    "Keeping the Unity WebGL educational game fully integrated throughout the migration process.":
+      "Menjaga integrasi game edukatif Unity WebGL tetap berjalan dengan baik selama proses migrasi.",
     "Meeting functional requirements and a 6-month timeline aligned with user needs.":
       "Memenuhi persyaratan fungsional dan timeline 6 bulan dengan pengembangan yang selaras dengan kebutuhan pengguna.",
     "The solution included:":
       "Solusi yang diterapkan meliputi:",
-    "Laravel backend with PostgreSQL, RESTful APIs, and JWT authentication for data security.":
-      "Backend Laravel dengan PostgreSQL, RESTful API, dan otentikasi JWT untuk keamanan data.",
-    "React frontend using Context API for efficient user state and session management.":
-      "Frontend React menggunakan Context API untuk manajemen state pengguna dan sesi secara efisien.",
-    "Role-based access control to separate admin, teacher, and student functionality.":
-      "Kontrol akses berbasis peran untuk memisahkan fungsi admin, guru, dan siswa.",
-    "Unity WebGL integration into the LMS with API communication between frontend and backend.":
-      "Integrasi Unity WebGL ke dalam LMS dengan komunikasi API antara frontend dan backend.",
-    "Using Git for version control, Postman for API testing, Docker for dev environments, and Agile practices for team collaboration.":
-      "Penggunaan Git untuk version control, Postman untuk pengujian API, Docker untuk lingkungan pengembangan, serta metode Agile untuk kolaborasi tim.",
+    "Migrated the backend from Supabase to a self-hosted Laravel and MySQL stack running on PHP 8.5, ensuring full compliance with national cyber security data-residency requirements.":
+      "Memigrasikan backend dari Supabase ke stack Laravel dan MySQL yang dihosting sendiri dengan PHP 8.5, memastikan kepatuhan penuh terhadap persyaratan keamanan data dari badan siber nasional.",
+    "Built an admin dashboard with Filament to manage users, courses, and content, with role-based access control for admin, teacher, and student roles.":
+      "Membangun dashboard admin menggunakan Filament untuk mengelola pengguna, materi, dan konten, dengan kontrol akses berbasis peran untuk admin, guru, dan siswa.",
+    "Re-implemented authentication and authorization using Laravel's built-in security features to replace the previous Supabase auth system.":
+      "Mengimplementasikan ulang sistem autentikasi dan otorisasi menggunakan fitur keamanan bawaan Laravel untuk menggantikan sistem autentikasi Supabase sebelumnya.",
+    "Re-integrated the Unity WebGL educational game with the new Laravel backend through REST APIs.":
+      "Mengintegrasikan ulang game edukatif Unity WebGL dengan backend Laravel yang baru melalui REST API.",
+    "Optimized database queries and server-side rendering to resolve the performance issues from the previous Next.js version.":
+      "Mengoptimalkan query database dan server-side rendering untuk mengatasi masalah performa dari versi Next.js sebelumnya.",
+    "Used Git for version control, Postman for API testing, and Agile practices for team collaboration during the migration.":
+      "Menggunakan Git untuk version control, Postman untuk pengujian API, serta praktik Agile untuk kolaborasi tim selama proses migrasi.",
+    "Successfully migrated the LMS from Next.js and Supabase to Laravel, MySQL, and Filament, meeting national cyber security data-residency requirements.":
+      "Berhasil memigrasikan LMS dari Next.js dan Supabase ke Laravel, MySQL, dan Filament, memenuhi persyaratan keamanan data dari badan siber nasional.",
+    "Significant improvement in page load speed and overall responsiveness compared to the original Next.js version.":
+      "Peningkatan signifikan pada kecepatan loading halaman dan responsivitas secara keseluruhan dibandingkan versi Next.js sebelumnya.",
+    "The Filament admin panel streamlined content and user management for admins and teachers.":
+      "Panel admin Filament mempermudah pengelolaan konten dan pengguna bagi admin dan guru.",
+    "The Unity WebGL game integration remained fully functional after migration, preserving the interactive learning experience.":
+      "Integrasi game Unity WebGL tetap berfungsi penuh setelah migrasi, menjaga pengalaman belajar yang interaktif.",
     "80% of system development completed within 6 months aligned with user requirements and functional specifications.":
       "80% pengembangan sistem selesai dalam 6 bulan sesuai dengan kebutuhan pengguna dan spesifikasi fungsional.",
-    "The platform provides clear role access, content management, and a secure learning experience.":
-      "Platform menyediakan akses peran yang jelas, manajemen materi, dan sesi belajar yang aman.",
-    "Unity WebGL integration improved user engagement and made learning more interactive.":
-      "Integrasi Unity WebGL berhasil meningkatkan keterlibatan pengguna dan membuat proses belajar lebih interaktif.",
-    "Docker setup and Postman API testing ensured more stable deployment.":
-      "Pengaturan lingkungan dengan Docker dan pengujian API Postman memastikan deployment yang lebih stabil.",
+    "Note: this demo video shows the earlier Next.js and Supabase prototype version of the platform. The production version has since been migrated to Laravel, MySQL, and Filament.":
+      "Catatan: video demo ini menampilkan versi prototipe awal platform yang menggunakan Next.js dan Supabase. Versi produksi telah dimigrasikan ke Laravel, MySQL, dan Filament.",
+    "Laravel, MySQL, Filament, PHP 8.5, Unity WebGL":
+      "Laravel, MySQL, Filament, PHP 8.5, Unity WebGL",
     "NEXT PROJECT : GAME BICIMICI >>": "PROYEK BERIKUTNYA : GAME BICIMICI >>",
     "NEXT PROJECT : BICIMICI LMS >>": "PROYEK BERIKUTNYA : LMS BICIMICI >>",
 
@@ -1441,7 +1453,6 @@ const translations = {
     "Fullstack Developer": "Pengembang Fullstack",
     "Learning Management System": "Sistem Manajemen Pembelajaran",
     "Tech Stack:": "Tech Stack:",
-    "Laravel, React, PostgreSQL, JWT, Unity WebGL": "Laravel, React, PostgreSQL, JWT, Unity WebGL",
     "2D Educational Game": "Game Edukasi 2D",
     "Game Developer": "Pengembang Game",
     "Unity, C#, WebGL": "Unity, C#, WebGL",

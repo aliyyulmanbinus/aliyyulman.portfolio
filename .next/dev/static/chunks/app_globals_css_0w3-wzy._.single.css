@@ -1543,10 +1543,6 @@ img, video {
   width: 1px;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
 .min-w-0 {
   min-width: 0;
 }
@@ -1623,7 +1619,7 @@ img, video {
   flex: 1;
 }
 
-.flex-shrink-0, .shrink-0 {
+.shrink-0 {
   flex-shrink: 0;
 }
 
@@ -2138,10 +2134,6 @@ img, video {
   background-color: #fffc;
 }
 
-.bg-custom-dark\/10 {
-  background-color: #0000001a;
-}
-
 .fill-current {
   fill: currentColor;
 }
@@ -2427,6 +2419,10 @@ img, video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .tabular-nums {
@@ -2759,6 +2755,10 @@ img, video {
   animation-timing-function: cubic-bezier(0, 0, .2, 1);
 }
 
+.running {
+  animation-play-state: running;
+}
+
 :root {
   --font-sans: var(--font-sans);
 }
@@ -3025,10 +3025,6 @@ body {
   background-color: hsl(var(--secondary) / .8);
 }
 
-.hover\:bg-custom-dark\/20:hover {
-  background-color: #0003;
-}
-
 .hover\:text-accent-foreground:hover {
   color: hsl(var(--accent-foreground));
 }
@@ -3160,11 +3156,6 @@ body {
 .group:hover .group-hover\:bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
-}
-
-.group:hover .group-hover\:text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .group\/menu-item:hover .group-hover\/menu-item\:opacity-100, .group:hover .group-hover\:opacity-100 {

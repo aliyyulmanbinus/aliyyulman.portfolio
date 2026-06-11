@@ -342,6 +342,14 @@ function BicimiciGameCaseStudy() {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
                                         lineNumber: 93,
                                         columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm",
+                                        children: "2026"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
+                                        lineNumber: 94,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -389,17 +397,17 @@ function BicimiciGameCaseStudy() {
                         className: "w-full h-auto object-cover custom-card"
                     }, void 0, false, {
                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                        lineNumber: 106,
+                        lineNumber: 107,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                    lineNumber: 100,
+                    lineNumber: 101,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                lineNumber: 99,
+                lineNumber: 100,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -431,7 +439,7 @@ function BicimiciGameCaseStudy() {
                                 children: t("Overview")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 132,
+                                lineNumber: 133,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -443,7 +451,7 @@ function BicimiciGameCaseStudy() {
                                         children: t("Bicimici Game is a 2D educational experience designed for elementary students to explore cybersecurity through interactive story-based gameplay.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 138,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -451,29 +459,29 @@ function BicimiciGameCaseStudy() {
                                         children: t("The project was developed using Unity 6 and C# to deliver a friendly and accessible learning journey that supports young learners in understanding online safety topics.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 140,
+                                        lineNumber: 141,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 136,
+                                lineNumber: 137,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                        lineNumber: 118,
+                        lineNumber: 119,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                    lineNumber: 117,
+                    lineNumber: 118,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                lineNumber: 116,
+                lineNumber: 117,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -505,7 +513,7 @@ function BicimiciGameCaseStudy() {
                                 children: t("Latar Belakang Pembuatan Game Bicimici")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 164,
+                                lineNumber: 165,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -516,12 +524,12 @@ function BicimiciGameCaseStudy() {
                                     children: t("Pelajari konsep awal, visi, dan proses ideasi di balik pengembangan Game Bicimici. Presentasi ini menjelaskan motivasi kami untuk menciptakan pengalaman belajar cybersecurity yang menyenangkan dan aman bagi siswa sekolah dasar.")
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 170,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 168,
+                                lineNumber: 169,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -558,33 +566,33 @@ function BicimiciGameCaseStudy() {
                                         title: "Latar Belakang Pembuatan Game Bicimici"
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 188,
+                                        lineNumber: 189,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                    lineNumber: 175,
+                                    lineNumber: 176,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 174,
+                                lineNumber: 175,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                        lineNumber: 150,
+                        lineNumber: 151,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                    lineNumber: 149,
+                    lineNumber: 150,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                lineNumber: 148,
+                lineNumber: 149,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -616,7 +624,7 @@ function BicimiciGameCaseStudy() {
                                 children: t("The Challenge")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 226,
+                                lineNumber: 227,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -628,7 +636,7 @@ function BicimiciGameCaseStudy() {
                                         children: t("The main challenge was creating an engaging learning experience that is appropriate for elementary students while maintaining clear cybersecurity lessons.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 231,
+                                        lineNumber: 232,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -638,56 +646,56 @@ function BicimiciGameCaseStudy() {
                                                 children: t("Designing scenario-based gameplay that simplifies complex digital safety topics")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 233,
+                                                lineNumber: 234,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Balancing educational content with fun, age-appropriate mechanics")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 234,
+                                                lineNumber: 235,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Ensuring usability and comprehension for young learners across all levels")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 235,
+                                                lineNumber: 236,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Building a stable Unity 6 experience with consistent performance")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 236,
+                                                lineNumber: 237,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 232,
+                                        lineNumber: 233,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 230,
+                                lineNumber: 231,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                        lineNumber: 212,
+                        lineNumber: 213,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                    lineNumber: 211,
+                    lineNumber: 212,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                lineNumber: 210,
+                lineNumber: 211,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -719,7 +727,7 @@ function BicimiciGameCaseStudy() {
                                 children: t("Development Process")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 259,
+                                lineNumber: 260,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -731,7 +739,7 @@ function BicimiciGameCaseStudy() {
                                         children: t("Development followed an iterative process to ensure the game matched educational goals while remaining fun and easy to play.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 264,
+                                        lineNumber: 265,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -741,70 +749,70 @@ function BicimiciGameCaseStudy() {
                                                 children: t("Concept design and educational topic mapping for elementary students")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 266,
+                                                lineNumber: 267,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Level planning with 10 structured stages aligned to child-friendly standards")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 267,
+                                                lineNumber: 268,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Unity 6 implementation using C# for gameplay, UI, and interaction logic")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 268,
+                                                lineNumber: 269,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Story-driven scenarios that introduce key cybersecurity topics")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 269,
+                                                lineNumber: 270,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Testing with target users and refining controls for simplicity and clarity")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 270,
+                                                lineNumber: 271,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Final polish and performance optimization for classroom-friendly use")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 271,
+                                                lineNumber: 272,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 265,
+                                        lineNumber: 266,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 263,
+                                lineNumber: 264,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                        lineNumber: 245,
+                        lineNumber: 246,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                    lineNumber: 244,
+                    lineNumber: 245,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                lineNumber: 243,
+                lineNumber: 244,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -836,7 +844,7 @@ function BicimiciGameCaseStudy() {
                                 children: t("Key Features")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 294,
+                                lineNumber: 295,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -849,62 +857,62 @@ function BicimiciGameCaseStudy() {
                                             children: t("4 story topics covering Online Predators, Cyberbullying, Digital Footprint, and Pornography Awareness")
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                            lineNumber: 300,
+                                            lineNumber: 301,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: t("10 interactive game levels designed to reinforce learning with clear progression")
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                            lineNumber: 301,
+                                            lineNumber: 302,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: t("Scenario-based tasks that teach decision-making and safe internet habits")
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                            lineNumber: 302,
+                                            lineNumber: 303,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: t("Friendly visuals and simple controls suitable for young elementary students")
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                            lineNumber: 303,
+                                            lineNumber: 304,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: t("A supportive educational flow that encourages learning through play")
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                            lineNumber: 304,
+                                            lineNumber: 305,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                    lineNumber: 299,
+                                    lineNumber: 300,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 298,
+                                lineNumber: 299,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                        lineNumber: 280,
+                        lineNumber: 281,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                    lineNumber: 279,
+                    lineNumber: 280,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                lineNumber: 278,
+                lineNumber: 279,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -936,7 +944,7 @@ function BicimiciGameCaseStudy() {
                                 children: t("Try the Game")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 327,
+                                lineNumber: 328,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -948,7 +956,7 @@ function BicimiciGameCaseStudy() {
                                         children: t("Experience the Bicimici Game directly in your browser. Click the button to start the game in fullscreen mode.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 332,
+                                        lineNumber: 333,
                                         columnNumber: 15
                                     }, this),
                                     !showGame ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -962,7 +970,7 @@ function BicimiciGameCaseStudy() {
                                                 className: "w-full h-full object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 337,
+                                                lineNumber: 338,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -981,18 +989,18 @@ function BicimiciGameCaseStudy() {
                                                     children: t("Mari Bermain")
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                    lineNumber: 356,
+                                                    lineNumber: 357,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 344,
+                                                lineNumber: 345,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 336,
+                                        lineNumber: 337,
                                         columnNumber: 17
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         ref: gameContainerRef,
@@ -1007,7 +1015,7 @@ function BicimiciGameCaseStudy() {
                                                 title: "Bicimici Game WebGL"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 363,
+                                                lineNumber: 364,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1017,35 +1025,35 @@ function BicimiciGameCaseStudy() {
                                                 children: isFullscreen ? "✕" : "⛶"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 371,
+                                                lineNumber: 372,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 362,
+                                        lineNumber: 363,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 331,
+                                lineNumber: 332,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                        lineNumber: 313,
+                        lineNumber: 314,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                    lineNumber: 312,
+                    lineNumber: 313,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                lineNumber: 311,
+                lineNumber: 312,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1077,7 +1085,7 @@ function BicimiciGameCaseStudy() {
                                 children: t("Results")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 401,
+                                lineNumber: 402,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1089,7 +1097,7 @@ function BicimiciGameCaseStudy() {
                                         children: t("The game was completed as an educational tool for elementary students and designed to support safe digital habits.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 406,
+                                        lineNumber: 407,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1099,56 +1107,56 @@ function BicimiciGameCaseStudy() {
                                                 children: t("Implemented 10 structured game levels aligned with child-friendly educational standards")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 408,
+                                                lineNumber: 409,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Integrated 4 key cybersecurity topics into a narrative game format")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 409,
+                                                lineNumber: 410,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Created interactive experiences that improved comprehension for young learners")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 410,
+                                                lineNumber: 411,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Delivered a user-friendly Unity game with stable performance and clear learning outcomes")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                                lineNumber: 411,
+                                                lineNumber: 412,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                        lineNumber: 407,
+                                        lineNumber: 408,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                                lineNumber: 405,
+                                lineNumber: 406,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                        lineNumber: 387,
+                        lineNumber: 388,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                    lineNumber: 386,
+                    lineNumber: 387,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                lineNumber: 385,
+                lineNumber: 386,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1159,12 +1167,12 @@ function BicimiciGameCaseStudy() {
                     children: t("NEXT PROJECT : ECOCHAT.ID")
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                    lineNumber: 419,
+                    lineNumber: 420,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-game/page.tsx",
-                lineNumber: 418,
+                lineNumber: 419,
                 columnNumber: 7
             }, this)
         ]

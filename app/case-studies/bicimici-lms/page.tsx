@@ -59,13 +59,15 @@ export default function BicimiciLmsCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              {t("Built a web-based Learning Management System with Laravel backend and React frontend, complete with authentication, role-based access control, JWT security, and Unity WebGL integration for a more engaging learning experience.")}
+              {t("Originally prototyped as a Next.js 16 and Supabase web app shown in the demo video, then rebuilt with Laravel, MySQL, and Filament for production to comply with national cyber security data-residency policies and improve performance.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">LMS</span>
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Laravel</span>
-              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">React</span>
+              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">PHP 8.5</span>
+              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">MySQL</span>
+              <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Filament</span>
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">Unity WebGL</span>
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">EdTech</span>
               <span className="bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm">2026</span>
@@ -116,7 +118,10 @@ export default function BicimiciLmsCaseStudy() {
                 {t("LMS Bicimici is designed as a digital learning platform for students and teachers, combining course content, quizzes, and an educational game experience in one system.")}
               </p>
               <p className="text-custom-dark">
-                {t("Its architecture combines a Laravel backend with PostgreSQL, a React frontend, and secure JWT APIs so users can access content by role.")}
+                {t("The initial prototype shown in the demo video was built with Next.js 16, React 19, and TypeScript, styled with Tailwind CSS v4 and Radix UI/shadcn components, with Supabase for authentication and data storage, a Python service powering the Sheby AI assistant, and Unity WebGL for the educational game.")}
+              </p>
+              <p className="text-custom-dark">
+                {t("For the production release, the backend was rebuilt using Laravel, MySQL, and PHP 8.5, managed through a Filament admin panel, so that all student and school data is stored on infrastructure that complies with national cyber security regulations while delivering better performance than the original Next.js version.")}
               </p>
             </motion.div>
           </motion.div>
@@ -146,10 +151,11 @@ export default function BicimiciLmsCaseStudy() {
             <motion.div className="prose prose-lg max-w-none custom-card-dark p-8 text-white" variants={fadeIn}>
               <p className="text-white">{t("The main challenge in this project included:")}</p>
               <ul className="text-white">
-                <li>{t("Building reliable and secure RESTful APIs using Laravel and PostgreSQL.")}</li>
-                <li>{t("Implementing JWT authentication and role-based access control for admin, teachers, and students.")}</li>
-                <li>{t("Keeping the frontend data flow efficient with Context API to manage user sessions and navigation.")}</li>
-                <li>{t("Integrating Unity WebGL content into the LMS without disrupting the user experience.")}</li>
+                <li>{t("Complying with national cyber security agency regulations that prohibit storing student and school data on third-party cloud platforms such as Supabase.")}</li>
+                <li>{t("Migrating the platform from a Next.js and Supabase prototype to a Laravel and MySQL production stack without losing existing features or data.")}</li>
+                <li>{t("Resolving the slow performance experienced in the original Next.js version to deliver a faster and more responsive LMS.")}</li>
+                <li>{t("Rebuilding authentication and role-based access control for admin, teachers, and students using Laravel and Filament.")}</li>
+                <li>{t("Keeping the Unity WebGL educational game fully integrated throughout the migration process.")}</li>
                 <li>{t("Meeting functional requirements and a 6-month timeline aligned with user needs.")}</li>
               </ul>
             </motion.div>
@@ -180,11 +186,12 @@ export default function BicimiciLmsCaseStudy() {
             <motion.div className="prose prose-lg max-w-none mb-12 custom-card p-8" variants={fadeIn}>
               <p className="text-custom-dark">{t("The solution included:")}</p>
               <ul className="text-custom-dark">
-                <li>{t("Laravel backend with PostgreSQL, RESTful APIs, and JWT authentication for data security.")}</li>
-                <li>{t("React frontend using Context API for efficient user state and session management.")}</li>
-                <li>{t("Role-based access control to separate admin, teacher, and student functionality.")}</li>
-                <li>{t("Unity WebGL integration into the LMS with API communication between frontend and backend.")}</li>
-                <li>{t("Using Git for version control, Postman for API testing, Docker for dev environments, and Agile practices for team collaboration.")}</li>
+                <li>{t("Migrated the backend from Supabase to a self-hosted Laravel and MySQL stack running on PHP 8.5, ensuring full compliance with national cyber security data-residency requirements.")}</li>
+                <li>{t("Built an admin dashboard with Filament to manage users, courses, and content, with role-based access control for admin, teacher, and student roles.")}</li>
+                <li>{t("Re-implemented authentication and authorization using Laravel's built-in security features to replace the previous Supabase auth system.")}</li>
+                <li>{t("Re-integrated the Unity WebGL educational game with the new Laravel backend through REST APIs.")}</li>
+                <li>{t("Optimized database queries and server-side rendering to resolve the performance issues from the previous Next.js version.")}</li>
+                <li>{t("Used Git for version control, Postman for API testing, and Agile practices for team collaboration during the migration.")}</li>
               </ul>
             </motion.div>
           </motion.div>
@@ -213,10 +220,11 @@ export default function BicimiciLmsCaseStudy() {
 
             <motion.div className="prose prose-lg max-w-none custom-card-dark p-8 text-white" variants={fadeIn}>
               <ul className="text-white">
+                <li>{t("Successfully migrated the LMS from Next.js and Supabase to Laravel, MySQL, and Filament, meeting national cyber security data-residency requirements.")}</li>
+                <li>{t("Significant improvement in page load speed and overall responsiveness compared to the original Next.js version.")}</li>
+                <li>{t("The Filament admin panel streamlined content and user management for admins and teachers.")}</li>
+                <li>{t("The Unity WebGL game integration remained fully functional after migration, preserving the interactive learning experience.")}</li>
                 <li>{t("80% of system development completed within 6 months aligned with user requirements and functional specifications.")}</li>
-                <li>{t("The platform provides clear role access, content management, and a secure learning experience.")}</li>
-                <li>{t("Unity WebGL integration improved user engagement and made learning more interactive.")}</li>
-                <li>{t("Docker setup and Postman API testing ensured more stable deployment.")}</li>
               </ul>
             </motion.div>
           </motion.div>
@@ -246,6 +254,9 @@ export default function BicimiciLmsCaseStudy() {
             <motion.div className="custom-card p-8" variants={fadeIn}>
               <p className="text-custom-dark mb-4">
                 {t("Watch a demonstration of the Bicimici LMS platform in action. This video showcases the platform features and user interface.")}
+              </p>
+              <p className="text-custom-dark mb-4 text-sm italic">
+                {t("Note: this demo video shows the earlier Next.js and Supabase prototype version of the platform. The production version has since been migrated to Laravel, MySQL, and Filament.")}
               </p>
               <div className="relative w-full aspect-video border rounded-lg overflow-hidden bg-gray-900">
                 <video

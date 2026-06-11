@@ -552,7 +552,7 @@ function Home() {
                                                             columnNumber: 19
                                                         }, this),
                                                         " ",
-                                                        t("Laravel, React, PostgreSQL, JWT, Unity WebGL")
+                                                        t("Laravel, MySQL, Filament, PHP 8.5, Unity WebGL")
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/page.tsx",

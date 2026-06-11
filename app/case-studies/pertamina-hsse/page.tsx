@@ -317,7 +317,7 @@ export default function PertaminaHsseCaseStudy() {
             className="mb-16 custom-card p-4"
           >
             <Image
-              src="/placeholder.svg?height=900&width=1600"
+              src="/assets/pertamina/Ruangan-a.png"
               alt="Pertamina HSSE Simulation Screens"
               width={1600}
               height={900}

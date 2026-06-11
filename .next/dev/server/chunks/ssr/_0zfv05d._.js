@@ -281,7 +281,7 @@ function BicimiciLmsCaseStudy() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
                                 className: "text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark",
                                 variants: fadeIn,
-                                children: t("Built a web-based Learning Management System with Laravel backend and React frontend, complete with authentication, role-based access control, JWT security, and Unity WebGL integration for a more engaging learning experience.")
+                                children: t("Originally prototyped as a Next.js 16 and Supabase web app shown in the demo video, then rebuilt with Laravel, MySQL, and Filament for production to comply with national cyber security data-residency policies and improve performance.")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
                                 lineNumber: 61,
@@ -309,7 +309,7 @@ function BicimiciLmsCaseStudy() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm",
-                                        children: "React"
+                                        children: "PHP 8.5"
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
                                         lineNumber: 68,
@@ -317,7 +317,7 @@ function BicimiciLmsCaseStudy() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm",
-                                        children: "Unity WebGL"
+                                        children: "MySQL"
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
                                         lineNumber: 69,
@@ -325,7 +325,7 @@ function BicimiciLmsCaseStudy() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm",
-                                        children: "EdTech"
+                                        children: "Filament"
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
                                         lineNumber: 70,
@@ -333,10 +333,26 @@ function BicimiciLmsCaseStudy() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm",
-                                        children: "2024"
+                                        children: "Unity WebGL"
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
                                         lineNumber: 71,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm",
+                                        children: "EdTech"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                        lineNumber: 72,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "bg-black/10 text-custom-dark px-4 py-1 rounded-full text-sm",
+                                        children: "2026"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -385,17 +401,17 @@ function BicimiciLmsCaseStudy() {
                         className: "w-full h-auto object-cover custom-card"
                     }, void 0, false, {
                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                        lineNumber: 84,
+                        lineNumber: 86,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                    lineNumber: 78,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                lineNumber: 77,
+                lineNumber: 79,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -427,7 +443,7 @@ function BicimiciLmsCaseStudy() {
                                 children: t("Overview")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 110,
+                                lineNumber: 112,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -439,37 +455,45 @@ function BicimiciLmsCaseStudy() {
                                         children: t("LMS Bicimici is designed as a digital learning platform for students and teachers, combining course content, quizzes, and an educational game experience in one system.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                        lineNumber: 115,
+                                        lineNumber: 117,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-custom-dark",
-                                        children: t("Its architecture combines a Laravel backend with PostgreSQL, a React frontend, and secure JWT APIs so users can access content by role.")
+                                        children: t("The initial prototype shown in the demo video was built with Next.js 16, React 19, and TypeScript, styled with Tailwind CSS v4 and Radix UI/shadcn components, with Supabase for authentication and data storage, a Python service powering the Sheby AI assistant, and Unity WebGL for the educational game.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 120,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-custom-dark",
+                                        children: t("For the production release, the backend was rebuilt using Laravel, MySQL, and PHP 8.5, managed through a Filament admin panel, so that all student and school data is stored on infrastructure that complies with national cyber security regulations while delivering better performance than the original Next.js version.")
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                        lineNumber: 123,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 114,
+                                lineNumber: 116,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                        lineNumber: 96,
+                        lineNumber: 98,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                    lineNumber: 95,
+                    lineNumber: 97,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                lineNumber: 94,
+                lineNumber: 96,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -501,7 +525,7 @@ function BicimiciLmsCaseStudy() {
                                 children: t("The Challenge")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 142,
+                                lineNumber: 147,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -513,73 +537,80 @@ function BicimiciLmsCaseStudy() {
                                         children: t("The main challenge in this project included:")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 152,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                         className: "text-white",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: t("Building reliable and secure RESTful APIs using Laravel and PostgreSQL.")
+                                                children: t("Complying with national cyber security agency regulations that prohibit storing student and school data on third-party cloud platforms such as Supabase.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 149,
+                                                lineNumber: 154,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: t("Implementing JWT authentication and role-based access control for admin, teachers, and students.")
+                                                children: t("Migrating the platform from a Next.js and Supabase prototype to a Laravel and MySQL production stack without losing existing features or data.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 150,
+                                                lineNumber: 155,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: t("Keeping the frontend data flow efficient with Context API to manage user sessions and navigation.")
+                                                children: t("Resolving the slow performance experienced in the original Next.js version to deliver a faster and more responsive LMS.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 156,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: t("Integrating Unity WebGL content into the LMS without disrupting the user experience.")
+                                                children: t("Rebuilding authentication and role-based access control for admin, teachers, and students using Laravel and Filament.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 157,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: t("Keeping the Unity WebGL educational game fully integrated throughout the migration process.")
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                                lineNumber: 158,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: t("Meeting functional requirements and a 6-month timeline aligned with user needs.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 153,
+                                                lineNumber: 159,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 153,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 146,
+                                lineNumber: 151,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                        lineNumber: 128,
+                        lineNumber: 133,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                    lineNumber: 127,
+                    lineNumber: 132,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                lineNumber: 126,
+                lineNumber: 131,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -611,7 +642,7 @@ function BicimiciLmsCaseStudy() {
                                 children: t("The Solution")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 176,
+                                lineNumber: 182,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -623,73 +654,80 @@ function BicimiciLmsCaseStudy() {
                                         children: t("The solution included:")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                        lineNumber: 181,
+                                        lineNumber: 187,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                         className: "text-custom-dark",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: t("Laravel backend with PostgreSQL, RESTful APIs, and JWT authentication for data security.")
+                                                children: t("Migrated the backend from Supabase to a self-hosted Laravel and MySQL stack running on PHP 8.5, ensuring full compliance with national cyber security data-residency requirements.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 183,
+                                                lineNumber: 189,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: t("React frontend using Context API for efficient user state and session management.")
+                                                children: t("Built an admin dashboard with Filament to manage users, courses, and content, with role-based access control for admin, teacher, and student roles.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 184,
+                                                lineNumber: 190,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: t("Role-based access control to separate admin, teacher, and student functionality.")
+                                                children: t("Re-implemented authentication and authorization using Laravel's built-in security features to replace the previous Supabase auth system.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 185,
+                                                lineNumber: 191,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: t("Unity WebGL integration into the LMS with API communication between frontend and backend.")
+                                                children: t("Re-integrated the Unity WebGL educational game with the new Laravel backend through REST APIs.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 186,
+                                                lineNumber: 192,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: t("Using Git for version control, Postman for API testing, Docker for dev environments, and Agile practices for team collaboration.")
+                                                children: t("Optimized database queries and server-side rendering to resolve the performance issues from the previous Next.js version.")
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                lineNumber: 187,
+                                                lineNumber: 193,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: t("Used Git for version control, Postman for API testing, and Agile practices for team collaboration during the migration.")
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                                lineNumber: 194,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                        lineNumber: 182,
+                                        lineNumber: 188,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 180,
+                                lineNumber: 186,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                        lineNumber: 162,
+                        lineNumber: 168,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                    lineNumber: 161,
+                    lineNumber: 167,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                lineNumber: 160,
+                lineNumber: 166,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -721,7 +759,7 @@ function BicimiciLmsCaseStudy() {
                                 children: t("Results")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 210,
+                                lineNumber: 217,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -731,58 +769,65 @@ function BicimiciLmsCaseStudy() {
                                     className: "text-white",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: t("Successfully migrated the LMS from Next.js and Supabase to Laravel, MySQL, and Filament, meeting national cyber security data-residency requirements.")
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                            lineNumber: 223,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: t("Significant improvement in page load speed and overall responsiveness compared to the original Next.js version.")
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                            lineNumber: 224,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: t("The Filament admin panel streamlined content and user management for admins and teachers.")
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                            lineNumber: 225,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: t("The Unity WebGL game integration remained fully functional after migration, preserving the interactive learning experience.")
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                            lineNumber: 226,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: t("80% of system development completed within 6 months aligned with user requirements and functional specifications.")
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                            lineNumber: 216,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: t("The platform provides clear role access, content management, and a secure learning experience.")
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                            lineNumber: 217,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: t("Unity WebGL integration improved user engagement and made learning more interactive.")
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                            lineNumber: 218,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: t("Docker setup and Postman API testing ensured more stable deployment.")
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                            lineNumber: 219,
+                                            lineNumber: 227,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 222,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 214,
+                                lineNumber: 221,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                        lineNumber: 196,
+                        lineNumber: 203,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                    lineNumber: 195,
+                    lineNumber: 202,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                lineNumber: 194,
+                lineNumber: 201,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -814,7 +859,7 @@ function BicimiciLmsCaseStudy() {
                                 children: t("Platform Demo")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 242,
+                                lineNumber: 250,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -826,7 +871,15 @@ function BicimiciLmsCaseStudy() {
                                         children: t("Watch a demonstration of the Bicimici LMS platform in action. This video showcases the platform features and user interface.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                        lineNumber: 247,
+                                        lineNumber: 255,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-custom-dark mb-4 text-sm italic",
+                                        children: t("Note: this demo video shows the earlier Next.js and Supabase prototype version of the platform. The production version has since been migrated to Laravel, MySQL, and Filament.")
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
+                                        lineNumber: 258,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -844,41 +897,41 @@ function BicimiciLmsCaseStudy() {
                                                     type: "video/mp4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                                    lineNumber: 259,
+                                                    lineNumber: 270,
                                                     columnNumber: 19
                                                 }, this),
                                                 t("Your browser does not support the video tag.")
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                            lineNumber: 251,
+                                            lineNumber: 262,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                        lineNumber: 250,
+                                        lineNumber: 261,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                                lineNumber: 246,
+                                lineNumber: 254,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                        lineNumber: 228,
+                        lineNumber: 236,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                    lineNumber: 227,
+                    lineNumber: 235,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                lineNumber: 226,
+                lineNumber: 234,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -889,12 +942,12 @@ function BicimiciLmsCaseStudy() {
                     children: t("NEXT PROJECT : GAME BICIMICI")
                 }, void 0, false, {
                     fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                    lineNumber: 269,
+                    lineNumber: 280,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-studies/bicimici-lms/page.tsx",
-                lineNumber: 268,
+                lineNumber: 279,
                 columnNumber: 7
             }, this)
         ]
