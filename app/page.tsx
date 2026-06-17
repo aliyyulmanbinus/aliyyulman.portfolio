@@ -190,7 +190,7 @@ export default function Home() {
             <div className="relative">
               <div className="absolute -top-8 -left-8 w-48 h-48 bg-black/10 -z-10 transform rotate-12 rounded-lg"></div>
               <Image
-                src="/assets/bicimici/lms-bicimici.png"
+                src="/assets/digital-twin/digitaltwin.png"
                 alt="LMS Bicimici"
                 width={800}
                 height={600}

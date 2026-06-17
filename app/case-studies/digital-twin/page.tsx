@@ -105,7 +105,7 @@ export default function DigitalTwinCaseStudy() {
           className="w-full"
         >
           <Image
-            src="/assets/placeholder.jpg"
+            src="/assets/digital-twin/1.png"
             alt="Digital Twin Komatsu PC-200 Hero"
             width={1600}
             height={800}
