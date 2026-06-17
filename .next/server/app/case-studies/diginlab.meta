@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/case-studies/layout,_N_T_/case-studies/diginlab/layout,_N_T_/case-studies/diginlab/page,_N_T_/case-studies/diginlab"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/case-studies/diginlab/__PAGE__",
+    "/case-studies/diginlab",
+    "/case-studies",
+    "/_index",
+    "/_head"
+  ]
+}
