@@ -68,7 +68,7 @@ export default function CiptaMandiriCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              {t("Sistem administrasi terpusat berbasis web untuk PT Cipta Mandiri Perencana — mengelola ratusan tenaga ahli, tender, dan penugasan, sekaligus mengotomasi pembuatan dokumen CV dan surat resmi.")}
+              {t("Sistem administrasi terpusat berbasis web untuk PT Cipta Mandiri Perencana mengelola ratusan tenaga ahli, tender, dan penugasan, sekaligus mengotomasi pembuatan dokumen CV dan surat resmi.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-3 mb-12" variants={fadeIn}>
@@ -116,7 +116,7 @@ export default function CiptaMandiriCaseStudy() {
 
             <motion.div className="prose prose-lg max-w-none custom-card p-8" variants={fadeIn}>
               <p className="text-custom-dark">
-                {t("PT Cipta Mandiri Perencana adalah perusahaan konsultan perencanaan yang mengelola ratusan tenaga ahli dan tender proyek secara bersamaan. Sebelumnya, seluruh proses pencatatan dilakukan secara manual menggunakan spreadsheet dan dokumen terpisah — rentan terhadap kesalahan, duplikasi data, dan keterlambatan penyiapan dokumen.")}
+                {t("PT Cipta Mandiri Perencana adalah perusahaan konsultan perencanaan yang mengelola ratusan tenaga ahli dan tender proyek secara bersamaan. Sebelumnya, seluruh proses pencatatan dilakukan secara manual menggunakan spreadsheet dan dokumen terpisah rentan terhadap kesalahan, duplikasi data, dan keterlambatan penyiapan dokumen.")}
               </p>
               <p className="text-custom-dark">
                 {t("Sistem ini dibangun sebagai sumber kebenaran tunggal (single source of truth) yang mengintegrasikan manajemen tenaga ahli, tender, penugasan, dan otomasi dokumen dalam satu platform web yang dapat diakses oleh seluruh tim kapan saja dan di mana saja.")}
@@ -189,7 +189,7 @@ export default function CiptaMandiriCaseStudy() {
                 {
                   icon: "📄",
                   title: t("Cetak Dokumen Otomatis"),
-                  desc: t("Generate CV, Surat Pernyataan, dan Surat Keterangan dalam hitungan detik — bukan jam — menggunakan dompdf dan LibreOffice headless."),
+                  desc: t("Generate CV, Surat Pernyataan, dan Surat Keterangan dalam hitungan detik bukan jam menggunakan dompdf dan LibreOffice headless."),
                 },
                 {
                   icon: "🔗",
@@ -285,7 +285,7 @@ export default function CiptaMandiriCaseStudy() {
                 {t("Tonton rekaman demo aplikasi Expert & Tender Administration System berikut.")}
               </p>
 
-              {/* Placeholder — ganti FILE_ID dengan ID Google Drive video demo */}
+              {/* Placeholder - ganti FILE_ID dengan ID Google Drive video demo */}
               <div className="relative w-full aspect-video border rounded-lg overflow-hidden bg-gray-100 flex items-center justify-center">
                 <p className="text-gray-400 text-sm text-center px-8">
                   {t("Video demo belum tersedia. Ganti FILE_ID pada src iframe dengan ID Google Drive video Anda.")}

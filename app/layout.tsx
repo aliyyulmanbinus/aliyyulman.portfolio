@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aliyyulman Jihan | Software Engineer & Game Developer",
     description:
-      "Explore portfolio, projects, and achievements of Aliyyulman Jihan — Software Engineer & Game Developer from Indonesia.",
+      "Explore portfolio, projects, and achievements of Aliyyulman Jihan - Software Engineer & Game Developer from Indonesia.",
     url: "https://aliyyulworks.vercel.app/",
     siteName: "Aliyyulworks Portfolio",
     images: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Aliyyulman Jihan | Software Engineer & Game Developer",
     description:
-      "Explore projects and works of Aliyyulman Jihan — Software Engineer & Game Developer.",
+      "Explore projects and works of Aliyyulman Jihan - Software Engineer & Game Developer.",
     images: ["/assets/profilme-it.png"],
   },
   icons: {

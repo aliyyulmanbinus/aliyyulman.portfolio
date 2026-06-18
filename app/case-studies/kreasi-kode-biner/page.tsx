@@ -57,7 +57,7 @@ export default function KreasiKodeBinerCaseStudy() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark" variants={fadeIn}>
-              {t("Membangun website company profile modern untuk PT Kreasi Kode Biner — sebuah perusahaan teknologi yang bergerak di bidang pengembangan software, IoT, dan solusi digital inovatif.")}
+              {t("Membangun website company profile modern untuk PT Kreasi Kode Biner sebuah perusahaan teknologi yang bergerak di bidang pengembangan software, IoT, dan solusi digital inovatif.")}
             </motion.p>
 
             <motion.div className="flex flex-wrap gap-4 mb-12" variants={fadeIn}>
@@ -248,7 +248,7 @@ export default function KreasiKodeBinerCaseStudy() {
             <motion.div className="prose prose-lg max-w-none custom-card p-8" variants={fadeIn}>
               <ul className="text-custom-dark">
                 <li>{t("Landing page dinamis dengan animasi scroll yang halus menggunakan Framer Motion untuk kesan profesional.")}</li>
-                <li>{t("Halaman layanan yang terstruktur — menampilkan bidang keahlian seperti software development, IoT, dan solusi digital.")}</li>
+                <li>{t("Halaman layanan yang terstruktur menampilkan bidang keahlian seperti software development, IoT, dan solusi digital.")}</li>
                 <li>{t("Portofolio proyek interaktif yang menampilkan case study unggulan perusahaan.")}</li>
                 <li>{t("Profil tim yang memperkenalkan SDM dan keahlian masing-masing anggota.")}</li>
                 <li>{t("Formulir kontak terintegrasi untuk memudahkan calon klien menghubungi perusahaan.")}</li>
