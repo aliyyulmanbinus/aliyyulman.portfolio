@@ -124,7 +124,7 @@ export default function Home() {
 
         {/*Project  Baru*/}
         {/* Project LMS Bicimici */}
-        {/* <motion.div
+        <motion.div
           className="w-full bg-custom-dark py-16 md:py-24 px-6 md:px-12 mb-8 custom-card-dark"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -175,11 +175,134 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </motion.div> */}
+        </motion.div> 
+
+        {/* PT Kreasi Kode Biner Company Profile */}
+        <motion.div
+          className="w-full bg-white py-16 md:py-24 px-6 md:px-12 mb-8 custom-card"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
+
+            <div className="order-2 md:order-1">
+              <h3 className="text-4xl md:text-5xl font-bold text-custom-dark mb-4">
+                Website Company Profile PT Kreasi Kode Biner
+              </h3>
+
+              <p className="text-lg mb-6 text-custom-dark">
+                {t("Merancang dan mengembangkan website company profile PT Kreasi Kode Biner untuk menampilkan layanan, portofolio, dan informasi perusahaan melalui tampilan yang modern, responsif, dan mudah diakses.")}
+              </p>
+
+              <div className="space-y-2 mb-8 text-custom-dark">
+                <p className="text-sm">
+                  <span className="font-bold">{t("Jenis Proyek:")}</span>{" "}
+                  {t("Website Company Profile")}
+                </p>
+
+                <p className="text-sm">
+                  <span className="font-bold">{t("Peran:")}</span>{" "}
+                  {t("Full Stack Web Developer")}
+                </p>
+
+                <p className="text-sm">
+                  <span className="font-bold">{t("Teknologi:")}</span>{" "}
+                  {t("PHP, MySQL, JavaScript, Bootstrap")}
+                </p>
+              </div>
+
+              <Link
+                href="/case-studies/kreasi-kode-biner"
+                className="inline-block custom-button px-6 py-3 text-white font-medium"
+              >
+                {t("Lihat Studi Kasus")}
+              </Link>
+            </div>
+
+            <div className="relative order-1 md:order-2">
+              <div className="absolute -top-8 -right-8 w-48 h-48 bg-black/10 -z-10 rounded-full"></div>
+
+              <div className="relative z-10 flex justify-center">
+                <Image
+                  src="/assets/kkb/kreasikodebiner.png"
+                  alt="PT Kreasi Kode Biner"
+                  width={600}
+                  height={400}
+                  className="w-full max-w-[500px] custom-card-dark p-2"
+                />
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Expert & Tender Administration System */}
+        {/* Expert & Tender Administration System */}
+        <motion.div
+          className="w-full bg-custom-dark py-16 md:py-24 px-6 md:px-12 mb-8 custom-card-dark"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
+
+            <div className="relative">
+              <div className="absolute -top-8 -left-8 w-48 h-48 bg-black/10 -z-10 transform rotate-12 rounded-lg"></div>
+
+              <Image
+                src="/assets/etas/etas-dashboard.png"
+                alt="Expert & Tender Administration System"
+                width={800}
+                height={600}
+                className="w-full max-w-[500px] mx-auto md:mx-0 relative z-10 custom-card p-2"
+              />
+
+              <div className="absolute -top-4 right-4 md:-top-8 md:right-8">
+                <div className="w-0 h-0 border-l-[15px] border-l-transparent border-b-[15px] border-b-custom-dark border-r-[15px] border-r-transparent transform rotate-45"></div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                Expert & Tender Administration System
+              </h3>
+
+              <p className="text-lg mb-6 text-white">
+                {t("Sistem administrasi terpusat untuk mengelola data tenaga ahli, tender, penugasan, serta otomatisasi pembuatan CV dan surat resmi. Sistem ini mempercepat proses administrasi yang sebelumnya dilakukan secara manual menjadi lebih efisien dan terintegrasi.")}
+              </p>
+
+              <div className="space-y-2 mb-8 text-white">
+                <p className="text-sm">
+                  <span className="font-bold">{t("Jenis Proyek:")}</span>{" "}
+                  {t("Sistem Administrasi Tender")}
+                </p>
+
+                <p className="text-sm">
+                  <span className="font-bold">{t("Peran:")}</span>{" "}
+                  {t("Full Stack Web Developer")}
+                </p>
+
+                <p className="text-sm">
+                  <span className="font-bold">{t("Teknologi:")}</span>{" "}
+                  {t("Laravel 11, Filament 3, MySQL, DomPDF, LibreOffice, PyMuPDF, Ubuntu, Nginx")}
+                </p>
+              </div>
+
+              <Link
+                href="/case-studies/cipta-mandiri"
+                className="inline-block custom-button-light px-6 py-3 text-custom-dark font-medium"
+              >
+                {t("Lihat Studi Kasus")}
+              </Link>
+            </div>
+          </div>
+        </motion.div>
 
         {/*Project  Baru*/}
         {/* Project LMS Bicimici */}
-        <motion.div
+        {/* <motion.div
           className="w-full bg-custom-dark py-16 md:py-24 px-6 md:px-12 mb-8 custom-card-dark"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -230,7 +353,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Contoh untuk Project 2 */}
         {/* Project Game Bicimici */}
