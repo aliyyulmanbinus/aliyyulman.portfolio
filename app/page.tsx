@@ -226,7 +226,7 @@ export default function Home() {
 
               <div className="relative z-10 flex justify-center">
                 <Image
-                  src="/assets/kkb/kreasikodebiner.png"
+                  src="/assets/kkb/kkb.png"
                   alt="PT Kreasi Kode Biner"
                   width={600}
                   height={400}
@@ -252,7 +252,7 @@ export default function Home() {
               <div className="absolute -top-8 -left-8 w-48 h-48 bg-black/10 -z-10 transform rotate-12 rounded-lg"></div>
 
               <Image
-                src="/assets/etas/etas-dashboard.png"
+                src="/assets/cipta/cipta.png"
                 alt="Expert & Tender Administration System"
                 width={800}
                 height={600}
