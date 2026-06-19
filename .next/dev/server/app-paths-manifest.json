@@ -1,5 +1,6 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/case-studies/digital-twin/page": "app/case-studies/digital-twin/page.js",
-  "/case-studies/ecm-tractor/page": "app/case-studies/ecm-tractor/page.js",
+  "/case-studies/envisions/page": "app/case-studies/envisions/page.js",
   "/page": "app/page.js"
 }

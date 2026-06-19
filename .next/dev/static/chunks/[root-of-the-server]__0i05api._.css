@@ -1879,6 +1879,10 @@ img, video {
   overflow: hidden;
 }
 
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
 .overflow-y-auto {
   overflow-y: auto;
 }
@@ -2000,6 +2004,10 @@ img, video {
 
 .border-\[--color-border\] {
   border-color: var(--color-border);
+}
+
+.border-black\/10 {
+  border-color: #0000001a;
 }
 
 .border-border\/50 {
