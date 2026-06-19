@@ -1,6 +1,5 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/case-studies/cipta-mandiri/page": "app/case-studies/cipta-mandiri/page.js",
-  "/case-studies/kreasi-kode-biner/page": "app/case-studies/kreasi-kode-biner/page.js",
+  "/case-studies/digital-twin/page": "app/case-studies/digital-twin/page.js",
+  "/case-studies/ecm-tractor/page": "app/case-studies/ecm-tractor/page.js",
   "/page": "app/page.js"
 }

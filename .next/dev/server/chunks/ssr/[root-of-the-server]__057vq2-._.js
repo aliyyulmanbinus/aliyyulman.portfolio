@@ -148,7 +148,7 @@ const metadata = {
     ],
     openGraph: {
         title: "Aliyyulman Jihan | Software Engineer & Game Developer",
-        description: "Explore portfolio, projects, and achievements of Aliyyulman Jihan — Software Engineer & Game Developer from Indonesia.",
+        description: "Explore portfolio, projects, and achievements of Aliyyulman Jihan - Software Engineer & Game Developer from Indonesia.",
         url: "https://aliyyulworks.vercel.app/",
         siteName: "Aliyyulworks Portfolio",
         images: [
@@ -164,7 +164,7 @@ const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Aliyyulman Jihan | Software Engineer & Game Developer",
-        description: "Explore projects and works of Aliyyulman Jihan — Software Engineer & Game Developer.",
+        description: "Explore projects and works of Aliyyulman Jihan - Software Engineer & Game Developer.",
         images: [
             "/assets/profilme-it.png"
         ]

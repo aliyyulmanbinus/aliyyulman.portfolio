@@ -1,12 +1,9 @@
 {
   "app": {
-    "[project]/app/_not-found/page": [
+    "[project]/app/case-studies/digital-twin/page": [
       "static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2"
     ],
-    "[project]/app/case-studies/cipta-mandiri/page": [
-      "static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2"
-    ],
-    "[project]/app/case-studies/kreasi-kode-biner/page": [
+    "[project]/app/case-studies/ecm-tractor/page": [
       "static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2"
     ],
     "[project]/app/page": [

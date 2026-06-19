@@ -300,61 +300,6 @@ export default function Home() {
           </div>
         </motion.div>
 
-        {/*Project  Baru*/}
-        {/* Project LMS Bicimici */}
-        {/* <motion.div
-          className="w-full bg-custom-dark py-16 md:py-24 px-6 md:px-12 mb-8 custom-card-dark"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
-          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
-            <div className="relative">
-              <div className="absolute -top-8 -left-8 w-48 h-48 bg-black/10 -z-10 transform rotate-12 rounded-lg"></div>
-              <Image
-                src="/assets/digital-twin/digitaltwin.png"
-                alt="LMS Bicimici"
-                width={800}
-                height={600}
-                className="w-full max-w-[500px] mx-auto md:mx-0 relative z-10 custom-card p-2"
-              />
-            </div>
-
-            <div>
-              <h3 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                DIGITAL TWIN KOMATSU PC-200
-              </h3>
-
-              <p className="text-lg mb-6 text-white">
-                {t("Aplikasi Digital Twin ini dirancang untuk mendigitalisasi unit alat berat Komatsu PC-200 ke dalam bentuk virtual 3D yang interaktif.")}
-              </p>
-
-              <div className="space-y-2 mb-8 text-white">
-                <p className="text-sm">
-                  <span className="font-bold">{t("Project type:")}</span>{" "}
-                  {t("Digital Twin")}
-                </p>
-                <p className="text-sm">
-                  <span className="font-bold">{t("Role:")}</span>{" "}
-                  {t("Unity Developer")}
-                </p>
-                <p className="text-sm">
-                  <span className="font-bold">{t("Tech Stack:")}</span>{" "}
-                  {t("Unity 3D, C#, Firebase, IoT")}
-                </p>
-              </div>
-
-              <Link
-                href="/case-studies/digital-twin"
-                className="inline-block custom-button-light px-6 py-3 text-custom-dark font-medium"
-              >
-                {t("View case study")}
-              </Link>
-            </div>
-          </div>
-        </motion.div> */}
-
         {/* Contoh untuk Project 2 */}
         {/* Project Game Bicimici */}
         <motion.div
@@ -729,6 +674,60 @@ export default function Home() {
               <div className="absolute -top-4 left-4 md:-top-8 md:left-8">
                 <div className="w-0 h-0 border-l-[15px] border-l-transparent border-b-[15px] border-b-custom-dark border-r-[15px] border-r-transparent transform rotate-45"></div>
               </div>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Project Digital twin */}
+        <motion.div
+          className="w-full bg-custom-dark py-16 md:py-24 px-6 md:px-12 mb-8 custom-card-dark"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
+            <div className="relative">
+              <div className="absolute -top-8 -left-8 w-48 h-48 bg-black/10 -z-10 transform rotate-12 rounded-lg"></div>
+              <Image
+                src="/assets/digital-twin/digitaltwin.png"
+                alt="LMS Bicimici"
+                width={800}
+                height={600}
+                className="w-full max-w-[500px] mx-auto md:mx-0 relative z-10 custom-card p-2"
+              />
+            </div>
+
+            <div>
+              <h3 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                DIGITAL TWIN KOMATSU PC-200
+              </h3>
+
+              <p className="text-lg mb-6 text-white">
+                {t("Aplikasi Digital Twin ini dirancang untuk mendigitalisasi unit alat berat Komatsu PC-200 ke dalam bentuk virtual 3D yang interaktif.")}
+              </p>
+
+              <div className="space-y-2 mb-8 text-white">
+                <p className="text-sm">
+                  <span className="font-bold">{t("Project type:")}</span>{" "}
+                  {t("Digital Twin")}
+                </p>
+                <p className="text-sm">
+                  <span className="font-bold">{t("Role:")}</span>{" "}
+                  {t("Unity Developer")}
+                </p>
+                <p className="text-sm">
+                  <span className="font-bold">{t("Tech Stack:")}</span>{" "}
+                  {t("Unity 3D, C#, Firebase, IoT")}
+                </p>
+              </div>
+
+              <Link
+                href="/case-studies/digital-twin"
+                className="inline-block custom-button-light px-6 py-3 text-custom-dark font-medium"
+              >
+                {t("View case study")}
+              </Link>
             </div>
           </div>
         </motion.div>

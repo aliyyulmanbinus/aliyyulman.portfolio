@@ -362,7 +362,7 @@ function CiptaMandiriCaseStudy() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
                                 className: "text-xl md:text-2xl mb-8 max-w-3xl text-custom-dark",
                                 variants: fadeIn,
-                                children: t("Sistem administrasi terpusat berbasis web untuk PT Cipta Mandiri Perencana — mengelola ratusan tenaga ahli, tender, dan penugasan, sekaligus mengotomasi pembuatan dokumen CV dan surat resmi.")
+                                children: t("Sistem administrasi terpusat berbasis web untuk PT Cipta Mandiri Perencana mengelola ratusan tenaga ahli, tender, dan penugasan, sekaligus mengotomasi pembuatan dokumen CV dan surat resmi.")
                             }, void 0, false, {
                                 fileName: "[project]/app/case-studies/cipta-mandiri/page.tsx",
                                 lineNumber: 70,
@@ -484,7 +484,7 @@ function CiptaMandiriCaseStudy() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-custom-dark",
-                                        children: t("PT Cipta Mandiri Perencana adalah perusahaan konsultan perencanaan yang mengelola ratusan tenaga ahli dan tender proyek secara bersamaan. Sebelumnya, seluruh proses pencatatan dilakukan secara manual menggunakan spreadsheet dan dokumen terpisah — rentan terhadap kesalahan, duplikasi data, dan keterlambatan penyiapan dokumen.")
+                                        children: t("PT Cipta Mandiri Perencana adalah perusahaan konsultan perencanaan yang mengelola ratusan tenaga ahli dan tender proyek secara bersamaan. Sebelumnya, seluruh proses pencatatan dilakukan secara manual menggunakan spreadsheet dan dokumen terpisah rentan terhadap kesalahan, duplikasi data, dan keterlambatan penyiapan dokumen.")
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-studies/cipta-mandiri/page.tsx",
                                         lineNumber: 118,
@@ -679,7 +679,7 @@ function CiptaMandiriCaseStudy() {
                                     {
                                         icon: "📄",
                                         title: t("Cetak Dokumen Otomatis"),
-                                        desc: t("Generate CV, Surat Pernyataan, dan Surat Keterangan dalam hitungan detik — bukan jam — menggunakan dompdf dan LibreOffice headless.")
+                                        desc: t("Generate CV, Surat Pernyataan, dan Surat Keterangan dalam hitungan detik bukan jam menggunakan dompdf dan LibreOffice headless.")
                                     },
                                     {
                                         icon: "🔗",
